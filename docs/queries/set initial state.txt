@@ -1,0 +1,57 @@
+
+
+Declare @ProNumbers as varchar(100) = '514983,514983,515166,515166,515166,515166,560177,560177,588971,588971,588971';
+--Declare @ProNumbers as varchar(100) = '588951,589022,95';
+--Declare @ProNumbers as varchar(100) = '588969,588969,588969,588967,588967,588968,588968,588968,588966,588966,588965,588965';
+  
+SELECT * FROM STRING_SPLIT(@ProNumbers,',')   
+
+DELETE FROM APP.Driver_Move WHERE ProNumber IN (SELECT * FROM STRING_SPLIT(@ProNumbers,','));
+DELETE FROM APP.Driver_Documents WHERE ProNumber  IN (SELECT * FROM STRING_SPLIT(@ProNumbers,','));
+--DELETE FROM OrderLogDoc WHERE Pro  IN (SELECT * FROM STRING_SPLIT(@ProNumbers,',')) AND DocId IN (8,6);
+
+UPDATE OrderLog SET PickedUpDate = NULL, ReturnDate = NULL
+				WHERE Pro  IN (SELECT * FROM STRING_SPLIT(@ProNumbers,','));
+
+UPDATE OrderLog SET DeliveryDate = NULL
+			WHERE Pro  IN (SELECT * FROM STRING_SPLIT(@ProNumbers,','));
+UPDATE OrderLog SET ActualMtDate = NULL
+			WHERE Pro  IN (SELECT * FROM STRING_SPLIT(@ProNumbers,',')); 
+
+UPDATE OrderLogPickupMT SET PayDueScaleMT = 1, PWorkMtDate = NULL
+			WHERE Pro IN (SELECT * FROM STRING_SPLIT(@ProNumbers,',')); 
+
+
+
+
+
+
+
+
+
+----Declare @ProNumber as int = 588971;
+--Declare @ProNumber as int = 588789;
+----Declare @ProNumber as int = 588971;
+----Declare @ProNumber as int = 588971;
+
+--DELETE FROM APP.Driver_Move WHERE ProNumber = @ProNumber;
+--DELETE FROM APP.Driver_Documents WHERE ProNumber = @ProNumber;
+
+----PICKUP
+--UPDATE OrderLog SET PickedUpDate = NULL, ReturnDate = NULL
+--				WHERE Pro = @ProNumber;
+----DELIVERY
+--UPDATE OrderLog SET DeliveryDate = NULL
+--			WHERE Pro = @ProNumber; 
+
+----PICKUP MT
+--UPDATE OrderLog SET ActualMtDate = NULL
+--			WHERE Pro = @ProNumber; 
+--UPDATE OrderLogPickupMT SET PayDueScaleMT = 1, PWorkMtDate = NULL
+--			WHERE Pro = @ProNumber;
+
+
+
+
+
+

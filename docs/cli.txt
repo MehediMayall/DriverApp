@@ -1,0 +1,195 @@
+dotnet new sln --name DriverApp
+dotnet new list
+
+dotnet build
+dotnet build --property WarningLevel=0
+dotnet watch run --port 3300
+
+dotnet list package
+dotnet list reference
+
+
+
+--------------------------------------------------------------------------------
+------ PROJECTS
+--------------------------------------------------------------------------------
+
+
+-- API
+dotnet new webapi -n DriverApp.Api 
+    dotnet sln DriverApp.sln add ./src/API/API.csproj
+
+    dotnet add reference ../UseCases/UseCases.csproj
+    dotnet add reference ../Infrastructure/Persistance.Query.Dapper/Persistance.Query.Dapper.csproj
+    dotnet add reference ../Infrastructure/Infrastructure/Infrastructure.csproj
+    dotnet add reference ../Infrastructure/Persistance.Command/Persistance.Command.csproj
+
+    dotnet add package MediatR
+    dotnet add package Serilog
+    dotnet add package Serilog.AspNetCore
+    dotnet add package Serilog.Extensions.Hosting
+
+-- Domain
+dotnet new classlib -n Domain
+    dotnet sln DriverApp.sln add ./src/Domain/Domain.csproj
+
+    dotnet add package Microsoft.EntityFrameworkCore
+
+-- UseCases
+dotnet new classlib -n UseCases
+    dotnet sln DriverApp.sln add ./src/UserCases/UseCases.csproj
+
+
+    dotnet add package AutoMapper
+    dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
+    dotnet add package FluentValidation
+    dotnet add package FluentValidation.DependencyInjectionExtensions
+    dotnet add package MediatR
+    dotnet add package Newtonsoft.Json
+
+
+-- Infrastructue
+
+-- Infrastructue
+dotnet new classlib -n Infrastructure
+    dotnet sln DriverApp.sln add ./src/Infrastructure/Infrastructure/Infrastructure.csproj
+
+    dotnet add reference ../../UseCases/UseCases.csproj
+
+    dotnet add package DinkToPdf
+    dotnet add package System.Drawing.Common
+    dotnet add package StackExchange.Redis
+    dotnet add package Microsoft.Extensions.Caching.StackExchangeRedis
+    
+    -- For MacOS
+    dotnet add package runtime.osx.10.10-x64.CoreCompat.System.Drawing --version 6.0.5.128
+
+
+-- Persistance.Command
+dotnet new classlib -n Persistance.Command
+    dotnet sln DriverApp.sln add ./src/Infrastructure/Persistance.Command/Persistance.Command.csproj
+
+    dotnet add reference ../../Domain/Domain.csproj
+
+    dotnet add package Microsoft.EntityFrameworkCore
+    dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+    dotnet add package Microsoft.EntityFrameworkCore.Design
+
+
+-- Persistance.Query.Dapper
+dotnet new classlib -n Persistance.Query.Dapper
+    dotnet sln DriverApp.sln add ./src/Infrastructure/Persistance.Query.Dapper/Persistance.Query.Dapper.csproj
+    
+    dotnet add reference ../../Domain/Domain.csproj
+    dotnet add reference ../../UseCases/UseCases.csproj
+
+    dotnet add package Dapper
+    dotnet add package StackExchange.Redis
+    dotnet add package Microsoft.Extensions.Caching.StackExchangeRedis
+    dotnet add package System.Data.SqlClient
+
+
+
+--------------------------------------------------------------------------------
+------ UNIT TEST
+--------------------------------------------------------------------------------
+
+-- API Test
+dotnet new xunit -n API.Tests
+    dotnet sln DriverApp.sln add ./tests/API.Tests/API.Tests.csproj
+    dotnet add reference ../../src/UseCases/UseCases.csproj
+
+    dotnet add package NSubstitute
+    dotnet add package ReportGenerator
+    dotnet add package ReportGenerator.Core
+    dotnet add package FluentAssertions
+    dotnet add package coverlet.msbuild
+
+    -- Reference
+    dotnet add reference ../../src/API/DriverApp.Api.csproj
+    
+
+-- UseCases Test
+dotnet new xunit -n UseCases.Tests
+    dotnet sln DriverApp.sln add ./tests/UseCases.Tests/UseCases.Tests.csproj
+    
+    dotnet add reference ../../src/UseCases/DriverApp.UseCases.csproj
+    dotnet add reference ../../src/Domain/DriverApp.Domain.csproj
+
+    dotnet add package NSubstitute
+    dotnet add package coverlet.msbuild
+    dotnet add package ReportGenerator
+    dotnet add package ReportGenerator.Core
+    dotnet add package Microsoft.AspNetCore.TestHost
+
+
+-- Persistance.QueryDapper.Test
+dotnet new xunit -n Persistance.QueryDapper.Test
+    dotnet sln DriverApp.sln add ./tests/Persistance.QueryDapper.Test/Persistance.QueryDapper.Test.csproj
+
+    dotnet add reference ../../src/Domain/Domain.csproj
+    dotnet add reference ../../src/Infrastructure/Persistance.Query.Dapper/Persistance.Query.Dapper.csproj
+
+    dotnet add package coverlet.msbuild
+    dotnet add package ReportGenerator
+    dotnet add package ReportGenerator.Core
+    dotnet add package Microsoft.AspNetCore.TestHost
+
+
+dotnet test
+
+
+
+
+------ TEST COVERAGE
+--------------------------------------------------------------------------------
+dotnet test --collect "Code Coverage"
+dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=./lcov.info
+dotnet test --collect:"XPlat Code Coverage"
+
+dotnet test /p:CollectCoverage=true /p:Threshold=100
+
+
+-- Coverlet Console
+dotnet tool install -g coverlet.console
+coverlet ./bin/Debug/net9.0/UseCases.Tests.dll --target "dotnet" --targetargs "test --no-build"
+
+-- ReportGenerator
+reportgenerator -reports:"./TestResults/4294f168-4ec9-40b3-a437-97c273f5839c/coverage.cobertura.xml" -targetdir:"coverageresult" -reporttypes:Html
+
+------ GIT
+--------------------------------------------------------------------------------
+git ls-files --cached
+git rm --cached tests/UseCases.Tests/lcov.info
+
+
+
+--------------------------------------------------------------------------------
+------ INTEGRATION TEST
+--------------------------------------------------------------------------------
+
+-- API.IntegrationTests
+dotnet new xunit -n API.IntegrationTests
+    dotnet sln DriverApp.sln add ./tests/API.IntegrationTests/API.IntegrationTests.csproj
+    dotnet add reference ../../src/API/API.csproj
+
+    dotnet add package Microsoft.AspNetCore.Mvc.Testing
+    dotnet add package FluentAssertions
+
+
+
+--------------------------------------------------------------------------------
+------ Compiler Errors and Solutions
+--------------------------------------------------------------------------------
+
+=>   Specified output format 'lcov.info' is not supported
+    RUN /p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=./lcov.info
+
+
+
+
+-- Mac Command
+----------------------------------
+
+CMD    realpath
+        /Users/mehedimayall/PROJECTS/IMF/Document_Storage

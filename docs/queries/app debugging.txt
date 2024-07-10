@@ -1,0 +1,89 @@
+SELECT * FROM PurchaseOrder
+
+SELECT * FROM PurchaseOrder WHERE OrderLogId=207305;
+SELECT TOP(15) * FROM OrderLogDoc ORDER BY CreationDateTime DESC;
+SELECT TOP(15) * FROM app.Driver_Documents ORDER BY CreatedOn DESC;
+
+SELECT * FROM GlobalSetup
+
+
+SELECT * FROM APP.Driver_Documents WHERE ProNumber = 588949 AND LegType = 'RETURN MT' AND DocumentId = 10;
+
+SELECT * FROM APP.Driver_Document_Notifications WHERE ID = 1269
+UPDATE APP.Driver_Document_Notifications SET SeenOn = NULL WHERE ID = 1269;
+
+
+--DELETE FROM APP.Driver_Move WHERE ProNumber = 27047;
+SELECT * FROM APP.Driver_Move WHERE ProNumber = 27047;
+SELECT * FROM WP.Email_LoginToken
+--DELETE WP.Email_LoginToken
+exec app.getDriverContainers @DriverID =  1689
+
+SELECT CompanyID, DriverId, UserId, Password2, Password FROM Driver WHERE UserId IS NOT NULL AND Password2 IS NOT NULL AND Password IS NOT NULL
+
+INSERT INTO APP.Driver_Document_Notifications (CompanyID, DriverID, ProNumber, Title, Details, NotificationTypeID)
+VALUES(16,322,588967,'Document Received', 'This is a test notification for a driver to test the notification system 2A0EBCE1-4607-4201-9C36-0FABBE414036',1)
+
+
+
+SELECT l.ConsigneeId, C.EmailPod, OD.DeliveryDriverId  
+FROM OrderLog L
+	INNER JOIN Consignee C ON L.ConsigneeId = C.ConsigneeId
+	LEFT JOIN OrderLogDelivery OD ON L.OrderLogId = OD.OrderLogId
+WHERE L.OrderLogId = 27047;
+
+SELECT * FROM Consignee WHERE EmailPod IS NOT NULL;
+SELECT * FROM Warehouse WHERE EmailPod IS NOT NULL;
+
+
+--exec APP.updateContainerStatus @ProNumber = 27047,  @LegType = 'PICKUP', @IsResubmit = 0
+SELECT   PickedUpDate, ReturnDate, DeliveryDate, ActualMtDate FROM OrderLog WHERE OrderLogId =  27047;
+SELECT   PWorkMtDate FROM OrderLogPickupMT WHERE OrderLogId =  27047;
+SELECT   ScheduledPickUpDate FROM OrderLogPickUp WHERE OrderLogId =  27047;
+SELECT * FROM OrderLogReturnMt  WHERE OrderLogId =  27047;
+SELECT PRO, OrderLogID FROM OrderLog WHERE Pro= 25371 AND CompanyId =19;
+
+
+SELECT O.OrderLogId, OD.* FROM OrderLogDoc OD
+	INNER JOIN OrderLog O ON OD.OrderLogId = O.OrderLogId 
+	WHERE O.Pro= 27047 AND O.CompanyId =19;
+
+SELECT * FROM OrderLogDoc WHERE OrderLogId =462451;
+
+SELECT * FROM APP.Driver_Move WHERE ProNumber = 27047;
+SELECT * FROM APP.Driver_Documents WHERE ProNumber = 27047;
+SELECT * FROM APP.Driver_Document_Notifications WHERE ProNumber = 27047;
+
+--UPDATE APP.Driver_Documents SET RejectedReason = 'TEST', IsRejected = 1 WHERE ProNumber= 560177 AND LegType='RETURN MT';
+--INSERT INTO APP.Driver_Document_Notifications (CompanyID, DriverID, ProNumber, Title, Details) VALUES(18,202,560177, 'Document Rejected', 'Please uploaded the document again.');
+
+
+-- CHASSIS
+SELECT CH.ChassisCode, CH.* FROM OrderLogPickUp O
+LEFT JOIN Chassis CH ON O.ChassisId = CH.ChassisId
+WHERE O.OrderLogId = 27047 AND O.CompanyId =19;
+
+
+-- Email
+SELECT C.EmailPod FROM Consignee c
+LEFT JOIN OrderLog O ON C.ConsigneeId = O.ConsigneeId
+WHERE O.Pro = 27047 AND O.CompanyId =19;
+
+SELECT W.EmailPod FROM Warehouse W
+LEFT JOIN OrderLog O ON W.WarehouseId = O.WarehouseId
+WHERE O.Pro = 27047 AND O.CompanyId =19;
+
+ 
+-- 
+SELECT OC.* FROM OrderLog O
+LEFT JOIN OceanCarrier OC ON O.CarrierId = OC.OceanCarrierId
+WHERE O.OrderLogId = 27047;
+
+
+-- DRIVER DOCUMENT PDF [ 5 = BOL, 6 = POD, 8 = OUTBOUND, 10 = INBOUND,  ]
+SELECT  O.Pro AS ProNumber, OD.OrderLogId, OD.CompanyId, OD.DocId, OD.DocNamePro, OD.SubFolder 
+FROM OrderLogDoc OD
+LEFT JOIN OrderLog O ON OD.OrderLogId = O.OrderLogId 
+WHERE  OD.CompanyId = 19 
+	AND O.Pro = 27172 
+	AND DocID IN(5,6,8,10);

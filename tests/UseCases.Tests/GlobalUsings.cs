@@ -1,0 +1,26 @@
+﻿global using UseCases.Features;
+global using FluentAssertions;
+global using NSubstitute;
+global using UseCases.Dtos;
+global using Domain.Constants;
+global using API.Tests.MockData;
+global using UseCases.SharedServices;
+global using UseCases.Extensions;
+global using AutoMapper;
+global using Domain.Entities;
+
+global using Microsoft.AspNetCore.Builder;
+global using Microsoft.AspNetCore.Hosting;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using UseCases.Contracts.Persistance.Query;
+global using Domain.ModelsCustom;
+global using System.Text.Json;
+global using UseCases.Contracts.Persistance.Command;
+global using UseCases.UseCases.SharedServices;
+global using Domain.Shared;
+global using Domain.ValueObjects;
+global using UseCases.Contracts.Infrastructure;
+global using Domain.Exceptions;
+global using UseCases.Responses;
+global using Microsoft.Extensions.Options;

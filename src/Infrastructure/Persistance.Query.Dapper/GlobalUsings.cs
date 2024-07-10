@@ -1,0 +1,14 @@
+﻿global using Domain.Entities;
+global using Domain.ModelsCustom;
+global using UseCases.Contracts.Persistance.Query;
+global using Microsoft.Extensions.Configuration;
+global using System.Data;
+global using Dapper;
+global using System.Data.SqlClient;
+global using StackExchange.Redis;
+global using Domain.Shared;
+global using Domain.Exceptions;
+global using UseCases.Dtos;
+global using Persistance.Exceptions;
+global using Domain.ValueObjects;
+global using UseCases.Extensions;

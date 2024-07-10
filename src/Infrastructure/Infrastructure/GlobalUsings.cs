@@ -1,0 +1,12 @@
+﻿global using UseCases.Contracts.Infrastructure;
+global using Domain.Entities;
+global using DinkToPdf;
+global using DinkToPdf.Contracts;
+global using System.Drawing;
+global using System.Drawing.Imaging;
+global using UseCases.Dtos;
+global using System.Text.Json;
+global using Domain.ModelsCustom;
+global using UseCases.SharedServices;
+// global using Infrastructure.Extensions;
+global using UseCases.Extensions;

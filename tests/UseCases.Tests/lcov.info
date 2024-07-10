@@ -1,0 +1,4483 @@
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Shared/AuditableEntity.cs
+FN:4,System.String DriverApp.Domain.Common.AuditableEntity::get_CreatedBy()
+FNDA:0,System.String DriverApp.Domain.Common.AuditableEntity::get_CreatedBy()
+DA:5,0
+FN:5,System.DateTime DriverApp.Domain.Common.AuditableEntity::get_CreatedDate()
+FNDA:0,System.DateTime DriverApp.Domain.Common.AuditableEntity::get_CreatedDate()
+DA:6,0
+FN:6,System.String DriverApp.Domain.Common.AuditableEntity::get_LastModifiedBy()
+FNDA:0,System.String DriverApp.Domain.Common.AuditableEntity::get_LastModifiedBy()
+DA:7,0
+FN:7,System.Nullable`1<System.DateTime> DriverApp.Domain.Common.AuditableEntity::get_LastModifiedDate()
+FNDA:0,System.Nullable`1<System.DateTime> DriverApp.Domain.Common.AuditableEntity::get_LastModifiedDate()
+DA:8,0
+LF:4
+LH:0
+BRF:0
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/ValueObjects/CompanyID.cs
+FN:2,System.Int32 Domain.ValueObjects.CompanyID::get_Value()
+FNDA:115,System.Int32 Domain.ValueObjects.CompanyID::get_Value()
+DA:3,115
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/ValueObjects/DocumentID.cs
+FN:2,System.Int32 Domain.ValueObjects.DocumentID::get_Value()
+FNDA:145,System.Int32 Domain.ValueObjects.DocumentID::get_Value()
+DA:3,145
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/ValueObjects/DriverID.cs
+FN:2,System.Int32 Domain.ValueObjects.DriverID::get_Value()
+FNDA:135,System.Int32 Domain.ValueObjects.DriverID::get_Value()
+DA:3,135
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/ValueObjects/LegType.cs
+FN:2,System.String Domain.ValueObjects.LegType::get_Value()
+FNDA:74,System.String Domain.ValueObjects.LegType::get_Value()
+DA:3,74
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/ValueObjects/LoadType.cs
+FN:2,System.String Domain.ValueObjects.LoadType::get_Value()
+FNDA:16,System.String Domain.ValueObjects.LoadType::get_Value()
+DA:3,16
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/ValueObjects/MoveStatusID.cs
+FN:2,System.Int32 Domain.ValueObjects.MoveStatusID::get_Value()
+FNDA:20,System.Int32 Domain.ValueObjects.MoveStatusID::get_Value()
+DA:3,20
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/ValueObjects/OrderLogID.cs
+FN:2,System.Int32 Domain.ValueObjects.OrderLogID::get_Value()
+FNDA:262,System.Int32 Domain.ValueObjects.OrderLogID::get_Value()
+DA:3,262
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/ValueObjects/UserID.cs
+FN:2,System.String Domain.ValueObjects.UserID::get_Value()
+FNDA:92,System.String Domain.ValueObjects.UserID::get_Value()
+DA:3,92
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Shared/Result.cs
+FN:19,System.Boolean Domain.Shared.Result`1::get_IsSuccess()
+FNDA:90,System.Boolean Domain.Shared.Result`1::get_IsSuccess()
+DA:20,90
+FN:20,System.Boolean Domain.Shared.Result`1::get_IsFailure()
+FNDA:86,System.Boolean Domain.Shared.Result`1::get_IsFailure()
+DA:21,86
+FN:21,Domain.Exceptions.Error`1<T> Domain.Shared.Result`1::get_Error()
+FNDA:19,Domain.Exceptions.Error`1<T> Domain.Shared.Result`1::get_Error()
+DA:22,19
+FN:22,T Domain.Shared.Result`1::get_Value()
+FNDA:204,T Domain.Shared.Result`1::get_Value()
+DA:23,204
+FN:24,Domain.Shared.Result`1<T> Domain.Shared.Result`1::Success(T)
+FNDA:169,Domain.Shared.Result`1<T> Domain.Shared.Result`1::Success(T)
+DA:25,169
+FN:25,Domain.Shared.Result`1<T> Domain.Shared.Result`1::Failure(Domain.Exceptions.Error`1<T>)
+FNDA:21,Domain.Shared.Result`1<T> Domain.Shared.Result`1::Failure(Domain.Exceptions.Error`1<T>)
+DA:26,21
+FN:6,System.Void Domain.Shared.Result`1::.ctor(System.Boolean,Domain.Exceptions.Error`1<T>,T)
+FNDA:190,System.Void Domain.Shared.Result`1::.ctor(System.Boolean,Domain.Exceptions.Error`1<T>,T)
+DA:7,190
+DA:8,190
+DA:9,190
+DA:10,190
+DA:11,0
+DA:12,0
+DA:15,190
+DA:16,190
+DA:17,190
+DA:18,190
+BRDA:9,9,0,169
+BRDA:9,9,1,190
+BRDA:9,22,0,190
+BRDA:9,25,0,21
+BRDA:9,25,1,169
+BRDA:9,22,1,0
+BRDA:9,46,0,0
+BRDA:9,46,1,190
+LF:16
+LH:14
+BRF:8
+BRH:6
+FNF:7
+FNH:7
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/ModelsCustom/CustomerDto.cs
+FN:5,System.String Domain.ModelsCustom.CustomerDto::get_CustomerID()
+FNDA:0,System.String Domain.ModelsCustom.CustomerDto::get_CustomerID()
+DA:6,0
+FN:6,System.String Domain.ModelsCustom.CustomerDto::get_CustomerName()
+FNDA:0,System.String Domain.ModelsCustom.CustomerDto::get_CustomerName()
+DA:7,0
+FN:7,System.String Domain.ModelsCustom.CustomerDto::get_Address1()
+FNDA:0,System.String Domain.ModelsCustom.CustomerDto::get_Address1()
+DA:8,0
+FN:8,System.String Domain.ModelsCustom.CustomerDto::get_Address2()
+FNDA:0,System.String Domain.ModelsCustom.CustomerDto::get_Address2()
+DA:9,0
+FN:9,System.String Domain.ModelsCustom.CustomerDto::get_City()
+FNDA:0,System.String Domain.ModelsCustom.CustomerDto::get_City()
+DA:10,0
+FN:10,System.String Domain.ModelsCustom.CustomerDto::get_State()
+FNDA:0,System.String Domain.ModelsCustom.CustomerDto::get_State()
+DA:11,0
+FN:11,System.String Domain.ModelsCustom.CustomerDto::get_Zip()
+FNDA:0,System.String Domain.ModelsCustom.CustomerDto::get_Zip()
+DA:12,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:7
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/ModelsCustom/DriverContainerModel.cs
+FN:4,System.Nullable`1<System.Int32> Domain.ModelsCustom.DriverContainerModel::get_ContainerID()
+FNDA:32,System.Nullable`1<System.Int32> Domain.ModelsCustom.DriverContainerModel::get_ContainerID()
+DA:5,32
+FN:6,System.Nullable`1<System.Int32> Domain.ModelsCustom.DriverContainerModel::get_Pro()
+FNDA:48,System.Nullable`1<System.Int32> Domain.ModelsCustom.DriverContainerModel::get_Pro()
+DA:7,48
+FN:7,System.String Domain.ModelsCustom.DriverContainerModel::get_AppointmentTime()
+FNDA:31,System.String Domain.ModelsCustom.DriverContainerModel::get_AppointmentTime()
+DA:8,31
+FN:8,System.String Domain.ModelsCustom.DriverContainerModel::get_MTPickupDate()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_MTPickupDate()
+DA:9,30
+FN:9,System.String Domain.ModelsCustom.DriverContainerModel::get_DestinationCity()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_DestinationCity()
+DA:10,30
+FN:10,System.String Domain.ModelsCustom.DriverContainerModel::get_DestinationState()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_DestinationState()
+DA:11,30
+FN:12,System.String Domain.ModelsCustom.DriverContainerModel::get_LoadType()
+FNDA:49,System.String Domain.ModelsCustom.DriverContainerModel::get_LoadType()
+DA:13,49
+FN:13,System.String Domain.ModelsCustom.DriverContainerModel::get_Container()
+FNDA:35,System.String Domain.ModelsCustom.DriverContainerModel::get_Container()
+DA:14,35
+FN:14,System.String Domain.ModelsCustom.DriverContainerModel::get_PO()
+FNDA:32,System.String Domain.ModelsCustom.DriverContainerModel::get_PO()
+DA:15,32
+FN:15,System.Nullable`1<System.Double> Domain.ModelsCustom.DriverContainerModel::get_Quantity()
+FNDA:32,System.Nullable`1<System.Double> Domain.ModelsCustom.DriverContainerModel::get_Quantity()
+DA:16,32
+FN:16,System.String Domain.ModelsCustom.DriverContainerModel::get_PDiemDate()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_PDiemDate()
+DA:17,30
+FN:18,System.String Domain.ModelsCustom.DriverContainerModel::get_ScheduledDeliveryDate()
+FNDA:31,System.String Domain.ModelsCustom.DriverContainerModel::get_ScheduledDeliveryDate()
+DA:19,31
+FN:19,System.String Domain.ModelsCustom.DriverContainerModel::get_ContainerSize()
+FNDA:31,System.String Domain.ModelsCustom.DriverContainerModel::get_ContainerSize()
+DA:20,31
+FN:20,System.String Domain.ModelsCustom.DriverContainerModel::get_FreeTime()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_FreeTime()
+DA:21,30
+FN:21,System.String Domain.ModelsCustom.DriverContainerModel::get_PickupDate()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_PickupDate()
+DA:22,30
+FN:22,System.String Domain.ModelsCustom.DriverContainerModel::get_DeliveryDate()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_DeliveryDate()
+DA:23,30
+FN:24,System.String Domain.ModelsCustom.DriverContainerModel::get_ReturnDate()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_ReturnDate()
+DA:25,30
+FN:25,System.Nullable`1<System.Int32> Domain.ModelsCustom.DriverContainerModel::get_PAccount()
+FNDA:30,System.Nullable`1<System.Int32> Domain.ModelsCustom.DriverContainerModel::get_PAccount()
+DA:26,30
+FN:26,System.String Domain.ModelsCustom.DriverContainerModel::get_ETA()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_ETA()
+DA:27,30
+FN:27,System.String Domain.ModelsCustom.DriverContainerModel::get_PConsignee()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_PConsignee()
+DA:28,30
+FN:28,System.String Domain.ModelsCustom.DriverContainerModel::get_Consignee()
+FNDA:31,System.String Domain.ModelsCustom.DriverContainerModel::get_Consignee()
+DA:29,31
+FN:30,System.String Domain.ModelsCustom.DriverContainerModel::get_Terminal()
+FNDA:31,System.String Domain.ModelsCustom.DriverContainerModel::get_Terminal()
+DA:31,31
+FN:31,System.String Domain.ModelsCustom.DriverContainerModel::get_WorkDate()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_WorkDate()
+DA:32,30
+FN:32,System.String Domain.ModelsCustom.DriverContainerModel::get_AvailableDate()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_AvailableDate()
+DA:33,30
+FN:33,System.String Domain.ModelsCustom.DriverContainerModel::get_DateMT()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_DateMT()
+DA:34,30
+FN:34,System.String Domain.ModelsCustom.DriverContainerModel::get_ArrivedOn()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_ArrivedOn()
+DA:35,30
+FN:36,System.String Domain.ModelsCustom.DriverContainerModel::get_OrderStatus()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_OrderStatus()
+DA:37,30
+FN:37,System.Nullable`1<System.Double> Domain.ModelsCustom.DriverContainerModel::get_Weight()
+FNDA:32,System.Nullable`1<System.Double> Domain.ModelsCustom.DriverContainerModel::get_Weight()
+DA:38,32
+FN:38,System.String Domain.ModelsCustom.DriverContainerModel::get_WeightUnit()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_WeightUnit()
+DA:39,30
+FN:39,System.String Domain.ModelsCustom.DriverContainerModel::get_WorkDateDelivery()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_WorkDateDelivery()
+DA:40,30
+FN:40,System.Nullable`1<System.DateTime> Domain.ModelsCustom.DriverContainerModel::get_OrderEntryDate()
+FNDA:32,System.Nullable`1<System.DateTime> Domain.ModelsCustom.DriverContainerModel::get_OrderEntryDate()
+DA:41,32
+FN:42,System.String Domain.ModelsCustom.DriverContainerModel::get_LegType()
+FNDA:66,System.String Domain.ModelsCustom.DriverContainerModel::get_LegType()
+DA:43,66
+FN:43,System.String Domain.ModelsCustom.DriverContainerModel::get_ViewMovedOn()
+FNDA:38,System.String Domain.ModelsCustom.DriverContainerModel::get_ViewMovedOn()
+DA:44,38
+FN:44,System.String Domain.ModelsCustom.DriverContainerModel::get_BeginMovedOn()
+FNDA:38,System.String Domain.ModelsCustom.DriverContainerModel::get_BeginMovedOn()
+DA:45,38
+FN:45,System.Nullable`1<System.Int32> Domain.ModelsCustom.DriverContainerModel::get_MoveStatusID()
+FNDA:33,System.Nullable`1<System.Int32> Domain.ModelsCustom.DriverContainerModel::get_MoveStatusID()
+DA:46,33
+FN:46,System.String Domain.ModelsCustom.DriverContainerModel::get_SpecialInstructions()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_SpecialInstructions()
+DA:47,30
+FN:48,System.String Domain.ModelsCustom.DriverContainerModel::get_ConsigneeCity()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_ConsigneeCity()
+DA:49,30
+FN:49,System.String Domain.ModelsCustom.DriverContainerModel::get_ConsigneeAddress()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_ConsigneeAddress()
+DA:50,30
+FN:50,System.String Domain.ModelsCustom.DriverContainerModel::get_ConsigneeState()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_ConsigneeState()
+DA:51,30
+FN:51,System.String Domain.ModelsCustom.DriverContainerModel::get_ConsigneeZip()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_ConsigneeZip()
+DA:52,30
+FN:52,System.String Domain.ModelsCustom.DriverContainerModel::get_TerminalCity()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_TerminalCity()
+DA:53,30
+FN:54,System.String Domain.ModelsCustom.DriverContainerModel::get_TerminalAddress()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_TerminalAddress()
+DA:55,30
+FN:55,System.String Domain.ModelsCustom.DriverContainerModel::get_TermianalState()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_TermianalState()
+DA:56,30
+FN:56,System.String Domain.ModelsCustom.DriverContainerModel::get_TerminalZip()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_TerminalZip()
+DA:57,30
+FN:57,System.String Domain.ModelsCustom.DriverContainerModel::get_WarehouseCity()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_WarehouseCity()
+DA:58,30
+FN:58,System.String Domain.ModelsCustom.DriverContainerModel::get_WarehouseAddress()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_WarehouseAddress()
+DA:59,30
+FN:60,System.String Domain.ModelsCustom.DriverContainerModel::get_WarehouseState()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_WarehouseState()
+DA:61,30
+FN:61,System.String Domain.ModelsCustom.DriverContainerModel::get_WarehouseZip()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_WarehouseZip()
+DA:62,30
+FN:62,System.String Domain.ModelsCustom.DriverContainerModel::get_Warehouse()
+FNDA:31,System.String Domain.ModelsCustom.DriverContainerModel::get_Warehouse()
+DA:63,31
+FN:63,System.String Domain.ModelsCustom.DriverContainerModel::get_DropOnDelivery()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_DropOnDelivery()
+DA:64,30
+FN:64,System.String Domain.ModelsCustom.DriverContainerModel::get_DropOnReturn()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_DropOnReturn()
+DA:65,30
+FN:66,System.String Domain.ModelsCustom.DriverContainerModel::get_DropOnPickup()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_DropOnPickup()
+DA:67,30
+FN:67,System.String Domain.ModelsCustom.DriverContainerModel::get_ChassisNumber()
+FNDA:31,System.String Domain.ModelsCustom.DriverContainerModel::get_ChassisNumber()
+DA:68,31
+FN:68,System.String Domain.ModelsCustom.DriverContainerModel::get_LineChassis()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_LineChassis()
+DA:69,30
+FN:69,System.String Domain.ModelsCustom.DriverContainerModel::get_Commodity()
+FNDA:31,System.String Domain.ModelsCustom.DriverContainerModel::get_Commodity()
+DA:70,31
+FN:70,System.String Domain.ModelsCustom.DriverContainerModel::get_Seal()
+FNDA:31,System.String Domain.ModelsCustom.DriverContainerModel::get_Seal()
+DA:71,31
+FN:72,System.String Domain.ModelsCustom.DriverContainerModel::get_OtherRef()
+FNDA:31,System.String Domain.ModelsCustom.DriverContainerModel::get_OtherRef()
+DA:73,31
+FN:73,System.String Domain.ModelsCustom.DriverContainerModel::get_PickupTerminal()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_PickupTerminal()
+DA:74,30
+FN:74,System.String Domain.ModelsCustom.DriverContainerModel::get_ReturnTerminal()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_ReturnTerminal()
+DA:75,30
+FN:75,System.String Domain.ModelsCustom.DriverContainerModel::get_VesselName()
+FNDA:31,System.String Domain.ModelsCustom.DriverContainerModel::get_VesselName()
+DA:76,31
+FN:76,System.String Domain.ModelsCustom.DriverContainerModel::get_BillOrBooking()
+FNDA:31,System.String Domain.ModelsCustom.DriverContainerModel::get_BillOrBooking()
+DA:77,31
+FN:78,System.String Domain.ModelsCustom.DriverContainerModel::get_PinOut()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_PinOut()
+DA:79,30
+FN:79,System.String Domain.ModelsCustom.DriverContainerModel::get_PinIn()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_PinIn()
+DA:80,30
+FN:80,System.String Domain.ModelsCustom.DriverContainerModel::get_WarehousePhone()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_WarehousePhone()
+DA:81,30
+FN:81,System.String Domain.ModelsCustom.DriverContainerModel::get_ConsigneePhone()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_ConsigneePhone()
+DA:82,30
+FN:82,System.String Domain.ModelsCustom.DriverContainerModel::get_ConsigneeContact()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_ConsigneeContact()
+DA:83,30
+FN:84,System.String Domain.ModelsCustom.DriverContainerModel::get_Imcha()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_Imcha()
+DA:85,30
+FN:85,System.String Domain.ModelsCustom.DriverContainerModel::get_OceanCarrier()
+FNDA:31,System.String Domain.ModelsCustom.DriverContainerModel::get_OceanCarrier()
+DA:86,31
+FN:86,System.Nullable`1<System.Int32> Domain.ModelsCustom.DriverContainerModel::get_PickupNumber()
+FNDA:30,System.Nullable`1<System.Int32> Domain.ModelsCustom.DriverContainerModel::get_PickupNumber()
+DA:87,30
+FN:87,System.Nullable`1<System.Int32> Domain.ModelsCustom.DriverContainerModel::get_Returnmtnum()
+FNDA:30,System.Nullable`1<System.Int32> Domain.ModelsCustom.DriverContainerModel::get_Returnmtnum()
+DA:88,30
+FN:88,System.Nullable`1<System.DateTime> Domain.ModelsCustom.DriverContainerModel::get_VesselCutOffDate()
+FNDA:30,System.Nullable`1<System.DateTime> Domain.ModelsCustom.DriverContainerModel::get_VesselCutOffDate()
+DA:89,30
+FN:89,System.String Domain.ModelsCustom.DriverContainerModel::get_ContainerType()
+FNDA:31,System.String Domain.ModelsCustom.DriverContainerModel::get_ContainerType()
+DA:90,31
+FN:90,System.Nullable`1<System.Boolean> Domain.ModelsCustom.DriverContainerModel::get_IsBannered()
+FNDA:30,System.Nullable`1<System.Boolean> Domain.ModelsCustom.DriverContainerModel::get_IsBannered()
+DA:91,30
+FN:91,System.String Domain.ModelsCustom.DriverContainerModel::get_ApptDate()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_ApptDate()
+DA:92,30
+FN:92,System.String Domain.ModelsCustom.DriverContainerModel::get_PURailOrWarehouse()
+FNDA:31,System.String Domain.ModelsCustom.DriverContainerModel::get_PURailOrWarehouse()
+DA:93,31
+FN:93,System.String Domain.ModelsCustom.DriverContainerModel::get_DriverPickup()
+FNDA:31,System.String Domain.ModelsCustom.DriverContainerModel::get_DriverPickup()
+DA:94,31
+FN:94,System.String Domain.ModelsCustom.DriverContainerModel::get_DriverDelivery()
+FNDA:31,System.String Domain.ModelsCustom.DriverContainerModel::get_DriverDelivery()
+DA:95,31
+FN:95,System.String Domain.ModelsCustom.DriverContainerModel::get_COMPANYNAME()
+FNDA:31,System.String Domain.ModelsCustom.DriverContainerModel::get_COMPANYNAME()
+DA:96,31
+FN:96,System.Nullable`1<System.Boolean> Domain.ModelsCustom.DriverContainerModel::get_IsPaperLess()
+FNDA:37,System.Nullable`1<System.Boolean> Domain.ModelsCustom.DriverContainerModel::get_IsPaperLess()
+DA:97,37
+FN:97,System.String Domain.ModelsCustom.DriverContainerModel::get_ConsigneePODEmail()
+FNDA:31,System.String Domain.ModelsCustom.DriverContainerModel::get_ConsigneePODEmail()
+DA:98,31
+FN:98,System.String Domain.ModelsCustom.DriverContainerModel::get_WarehousePODEmail()
+FNDA:31,System.String Domain.ModelsCustom.DriverContainerModel::get_WarehousePODEmail()
+DA:99,31
+FN:99,System.String Domain.ModelsCustom.DriverContainerModel::get_PickupApt()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_PickupApt()
+DA:100,30
+FN:100,System.String Domain.ModelsCustom.DriverContainerModel::get_ReturnApt()
+FNDA:30,System.String Domain.ModelsCustom.DriverContainerModel::get_ReturnApt()
+DA:101,30
+FN:101,System.String Domain.ModelsCustom.DriverContainerModel::get_EntryNo()
+FNDA:31,System.String Domain.ModelsCustom.DriverContainerModel::get_EntryNo()
+DA:102,31
+FN:103,System.Nullable`1<System.Int32> Domain.ModelsCustom.DriverContainerModel::get_IsDriverInBeginMove()
+FNDA:30,System.Nullable`1<System.Int32> Domain.ModelsCustom.DriverContainerModel::get_IsDriverInBeginMove()
+DA:104,30
+LF:85
+LH:85
+BRF:0
+BRH:0
+FNF:85
+FNH:85
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/ModelsCustom/DriverUserInfoDto.cs
+FN:4,System.String Domain.ModelsCustom.DriverUserInfoDto::get_UserId()
+FNDA:0,System.String Domain.ModelsCustom.DriverUserInfoDto::get_UserId()
+DA:5,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/ModelsCustom/EmailLoginToken.cs
+FN:5,System.Int32 Domain.ModelsCustom.EmailLoginToken::get_Id()
+FNDA:0,System.Int32 Domain.ModelsCustom.EmailLoginToken::get_Id()
+DA:6,0
+FN:6,System.String Domain.ModelsCustom.EmailLoginToken::get_ContainerCode()
+FNDA:1,System.String Domain.ModelsCustom.EmailLoginToken::get_ContainerCode()
+DA:7,1
+FN:7,System.Nullable`1<System.DateTime> Domain.ModelsCustom.EmailLoginToken::get_ValidTill()
+FNDA:1,System.Nullable`1<System.DateTime> Domain.ModelsCustom.EmailLoginToken::get_ValidTill()
+DA:8,1
+FN:8,System.Nullable`1<System.Boolean> Domain.ModelsCustom.EmailLoginToken::get_IsUserLoggedOn()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.ModelsCustom.EmailLoginToken::get_IsUserLoggedOn()
+DA:9,0
+FN:9,System.Nullable`1<System.Int32> Domain.ModelsCustom.EmailLoginToken::get_DriverId()
+FNDA:1,System.Nullable`1<System.Int32> Domain.ModelsCustom.EmailLoginToken::get_DriverId()
+DA:10,1
+FN:10,System.Nullable`1<System.DateTime> Domain.ModelsCustom.EmailLoginToken::get_CreatedOn()
+FNDA:1,System.Nullable`1<System.DateTime> Domain.ModelsCustom.EmailLoginToken::get_CreatedOn()
+DA:11,1
+LF:6
+LH:4
+BRF:0
+BRH:0
+FNF:6
+FNH:4
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/ModelsCustom/EmailLoginTokenModel.cs
+FN:4,System.String Domain.ModelsCustom.EmailLoginTokenModel::get_UserId()
+FNDA:0,System.String Domain.ModelsCustom.EmailLoginTokenModel::get_UserId()
+DA:5,0
+FN:5,System.String Domain.ModelsCustom.EmailLoginTokenModel::get_Password()
+FNDA:0,System.String Domain.ModelsCustom.EmailLoginTokenModel::get_Password()
+DA:6,0
+LF:2
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/ModelsCustom/LoggedUserDetails.cs
+FN:2,System.Int32 Domain.ModelsCustom.LoggedUserDetails::get_DriverID()
+FNDA:1,System.Int32 Domain.ModelsCustom.LoggedUserDetails::get_DriverID()
+DA:3,1
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/ModelsCustom/WorkQueueModel.cs
+FN:7,System.Nullable`1<System.Int32> Domain.ModelsCustom.WorkQueueModel::get_ContainerID()
+FNDA:182,System.Nullable`1<System.Int32> Domain.ModelsCustom.WorkQueueModel::get_ContainerID()
+DA:8,182
+FN:8,System.Nullable`1<System.Int32> Domain.ModelsCustom.WorkQueueModel::get_Pro()
+FNDA:186,System.Nullable`1<System.Int32> Domain.ModelsCustom.WorkQueueModel::get_Pro()
+DA:9,186
+FN:10,System.Nullable`1<System.DateTime> Domain.ModelsCustom.WorkQueueModel::get_WorkDatePickup()
+FNDA:182,System.Nullable`1<System.DateTime> Domain.ModelsCustom.WorkQueueModel::get_WorkDatePickup()
+DA:11,182
+FN:11,System.Nullable`1<System.DateTime> Domain.ModelsCustom.WorkQueueModel::get_PickupDate()
+FNDA:182,System.Nullable`1<System.DateTime> Domain.ModelsCustom.WorkQueueModel::get_PickupDate()
+DA:12,182
+FN:12,System.Nullable`1<System.DateTime> Domain.ModelsCustom.WorkQueueModel::get_DeliveryDate()
+FNDA:182,System.Nullable`1<System.DateTime> Domain.ModelsCustom.WorkQueueModel::get_DeliveryDate()
+DA:13,182
+FN:13,System.Nullable`1<System.DateTime> Domain.ModelsCustom.WorkQueueModel::get_ReturnDate()
+FNDA:182,System.Nullable`1<System.DateTime> Domain.ModelsCustom.WorkQueueModel::get_ReturnDate()
+DA:14,182
+FN:15,System.Nullable`1<System.DateTime> Domain.ModelsCustom.WorkQueueModel::get_WorkDateDelivery()
+FNDA:182,System.Nullable`1<System.DateTime> Domain.ModelsCustom.WorkQueueModel::get_WorkDateDelivery()
+DA:16,182
+FN:16,System.Nullable`1<System.DateTime> Domain.ModelsCustom.WorkQueueModel::get_OrderEntryDate()
+FNDA:182,System.Nullable`1<System.DateTime> Domain.ModelsCustom.WorkQueueModel::get_OrderEntryDate()
+DA:17,182
+FN:17,System.String Domain.ModelsCustom.WorkQueueModel::get_LegType()
+FNDA:182,System.String Domain.ModelsCustom.WorkQueueModel::get_LegType()
+DA:18,182
+FN:18,System.Nullable`1<System.DateTime> Domain.ModelsCustom.WorkQueueModel::get_ViewMovedOn()
+FNDA:182,System.Nullable`1<System.DateTime> Domain.ModelsCustom.WorkQueueModel::get_ViewMovedOn()
+DA:19,182
+FN:19,System.Nullable`1<System.DateTime> Domain.ModelsCustom.WorkQueueModel::get_BeginMovedOn()
+FNDA:182,System.Nullable`1<System.DateTime> Domain.ModelsCustom.WorkQueueModel::get_BeginMovedOn()
+DA:20,182
+FN:21,System.Nullable`1<System.Int32> Domain.ModelsCustom.WorkQueueModel::get_MoveStatusID()
+FNDA:185,System.Nullable`1<System.Int32> Domain.ModelsCustom.WorkQueueModel::get_MoveStatusID()
+DA:22,185
+FN:22,System.Nullable`1<System.Int32> Domain.ModelsCustom.WorkQueueModel::get_IsRejected()
+FNDA:217,System.Nullable`1<System.Int32> Domain.ModelsCustom.WorkQueueModel::get_IsRejected()
+DA:23,217
+FN:23,System.String Domain.ModelsCustom.WorkQueueModel::get_RejectedReason()
+FNDA:182,System.String Domain.ModelsCustom.WorkQueueModel::get_RejectedReason()
+DA:24,182
+FN:24,System.Nullable`1<System.Int32> Domain.ModelsCustom.WorkQueueModel::get_DocumentID()
+FNDA:198,System.Nullable`1<System.Int32> Domain.ModelsCustom.WorkQueueModel::get_DocumentID()
+DA:25,198
+FN:25,System.Nullable`1<System.Boolean> Domain.ModelsCustom.WorkQueueModel::get_IsPaperLess()
+FNDA:182,System.Nullable`1<System.Boolean> Domain.ModelsCustom.WorkQueueModel::get_IsPaperLess()
+DA:26,182
+FN:27,System.Nullable`1<System.DateTime> Domain.ModelsCustom.WorkQueueModel::get_WORKDATE()
+FNDA:182,System.Nullable`1<System.DateTime> Domain.ModelsCustom.WorkQueueModel::get_WORKDATE()
+DA:28,182
+FN:28,System.Nullable`1<System.Int32> Domain.ModelsCustom.WorkQueueModel::get_OrderNo()
+FNDA:184,System.Nullable`1<System.Int32> Domain.ModelsCustom.WorkQueueModel::get_OrderNo()
+DA:29,184
+LF:18
+LH:18
+BRF:0
+BRH:0
+FNF:18
+FNH:18
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Exceptions/DriverContainerModelError.cs
+FN:4,Domain.Exceptions.Error`1<DriverContainerModel> Domain.Exceptions.DriverContainerModelError`1::NoContainerFound()
+FNDA:5,Domain.Exceptions.Error`1<DriverContainerModel> Domain.Exceptions.DriverContainerModelError`1::NoContainerFound()
+DA:5,5
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Exceptions/DriverDocumentError.cs
+FN:6,Domain.Exceptions.Error`1<DriverDocuments> Domain.Exceptions.DriverDocumentError`1::DriverDocumentNotFound(Domain.ValueObjects.OrderLogID)
+FNDA:0,Domain.Exceptions.Error`1<DriverDocuments> Domain.Exceptions.DriverDocumentError`1::DriverDocumentNotFound(Domain.ValueObjects.OrderLogID)
+DA:7,0
+DA:8,0
+DA:9,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Exceptions/DriverMovesError.cs
+FN:6,Domain.Exceptions.Error`1<DriverMoves> Domain.Exceptions.DriverMovesError`1::DriverMovesNotFound(Domain.ValueObjects.OrderLogID)
+FNDA:0,Domain.Exceptions.Error`1<DriverMoves> Domain.Exceptions.DriverMovesError`1::DriverMovesNotFound(Domain.ValueObjects.OrderLogID)
+DA:7,0
+DA:8,0
+DA:9,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Exceptions/Error.cs
+FN:4,System.String Domain.Exceptions.Error`1::get_Message()
+FNDA:84,System.String Domain.Exceptions.Error`1::get_Message()
+DA:5,84
+FN:7,Domain.Exceptions.Error`1<T> Domain.Exceptions.Error`1::Set(System.String,System.String)
+FNDA:6,Domain.Exceptions.Error`1<T> Domain.Exceptions.Error`1::Set(System.String,System.String)
+DA:8,6
+FN:9,Domain.Shared.Result`1<T> Domain.Exceptions.Error`1::op_Implicit(Domain.Exceptions.Error`1<T>)
+FNDA:15,Domain.Shared.Result`1<T> Domain.Exceptions.Error`1::op_Implicit(Domain.Exceptions.Error`1<T>)
+DA:10,15
+FN:6,System.Void Domain.Exceptions.Error`1::.cctor()
+FNDA:20,System.Void Domain.Exceptions.Error`1::.cctor()
+DA:7,20
+LF:4
+LH:4
+BRF:0
+BRH:0
+FNF:4
+FNH:4
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Exceptions/FileInfoError.cs
+FN:6,Domain.Exceptions.Error`1<FileInfoDto> Domain.Exceptions.FileInfoError`1::GetDivisionFolderNameIsNull(Domain.ValueObjects.CompanyID)
+FNDA:8,Domain.Exceptions.Error`1<FileInfoDto> Domain.Exceptions.FileInfoError`1::GetDivisionFolderNameIsNull(Domain.ValueObjects.CompanyID)
+DA:7,8
+DA:8,8
+DA:9,8
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Exceptions/GlobalSetupError.cs
+FN:5,Domain.Exceptions.Error`1<GlobalSetup> Domain.Exceptions.GlobalSetupError`1::GlobalSetupNotFound(Domain.ValueObjects.CompanyID)
+FNDA:0,Domain.Exceptions.Error`1<GlobalSetup> Domain.Exceptions.GlobalSetupError`1::GlobalSetupNotFound(Domain.ValueObjects.CompanyID)
+DA:6,0
+DA:7,0
+DA:8,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Exceptions/LegTypeError.cs
+FN:5,Domain.Exceptions.Error`1<LegType> Domain.Exceptions.LegTypeError`1::InvalidLegType(System.String)
+FNDA:0,Domain.Exceptions.Error`1<LegType> Domain.Exceptions.LegTypeError`1::InvalidLegType(System.String)
+DA:6,0
+DA:7,0
+DA:8,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Exceptions/NotificationError.cs
+FN:5,Domain.Exceptions.Error`1<DocumentNotifications> Domain.Exceptions.NotificationError`1::UnseenNotificationNotFound(Domain.ValueObjects.DriverID)
+FNDA:1,Domain.Exceptions.Error`1<DocumentNotifications> Domain.Exceptions.NotificationError`1::UnseenNotificationNotFound(Domain.ValueObjects.DriverID)
+DA:6,1
+DA:7,1
+DA:8,1
+FN:9,Domain.Exceptions.Error`1<DocumentNotifications> Domain.Exceptions.NotificationError`1::NotificationNotFound(Domain.ValueObjects.DriverID)
+FNDA:2,Domain.Exceptions.Error`1<DocumentNotifications> Domain.Exceptions.NotificationError`1::NotificationNotFound(Domain.ValueObjects.DriverID)
+DA:10,2
+DA:11,2
+DA:12,2
+FN:13,Domain.Exceptions.Error`1<DocumentNotifications> Domain.Exceptions.NotificationError`1::NotificationNotFound(System.Int32)
+FNDA:1,Domain.Exceptions.Error`1<DocumentNotifications> Domain.Exceptions.NotificationError`1::NotificationNotFound(System.Int32)
+DA:14,1
+DA:15,1
+DA:16,1
+FN:17,Domain.Exceptions.Error`1<DocumentNotifications> Domain.Exceptions.NotificationError`1::NotificationSeenStatusNotFound(System.Int32)
+FNDA:0,Domain.Exceptions.Error`1<DocumentNotifications> Domain.Exceptions.NotificationError`1::NotificationSeenStatusNotFound(System.Int32)
+DA:18,0
+DA:19,0
+DA:20,0
+LF:12
+LH:9
+BRF:0
+BRH:0
+FNF:4
+FNH:3
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Exceptions/OrderLogDocError.cs
+FN:5,Domain.Exceptions.Error`1<OrderLogDoc> Domain.Exceptions.OrderLogDocError`1::OrderLogDocNotFound(Domain.ValueObjects.OrderLogID)
+FNDA:0,Domain.Exceptions.Error`1<OrderLogDoc> Domain.Exceptions.OrderLogDocError`1::OrderLogDocNotFound(Domain.ValueObjects.OrderLogID)
+DA:6,0
+DA:7,0
+DA:8,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Exceptions/PODTemplatePathError.cs
+FN:6,System.String Domain.Exceptions.PODTemplatePathError::TemplateFileNotFound(System.String)
+FNDA:0,System.String Domain.Exceptions.PODTemplatePathError::TemplateFileNotFound(System.String)
+DA:7,0
+DA:8,0
+DA:9,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Exceptions/PreviewInstructionErrors.cs
+FN:4,Domain.Exceptions.Error`1<T> Domain.Exceptions.PreviewInstructionErrors`1::ContainerRequestIsNull()
+FNDA:0,Domain.Exceptions.Error`1<T> Domain.Exceptions.PreviewInstructionErrors`1::ContainerRequestIsNull()
+DA:5,0
+FN:5,Domain.Exceptions.Error`1<T> Domain.Exceptions.PreviewInstructionErrors`1::NoContainerFound()
+FNDA:0,Domain.Exceptions.Error`1<T> Domain.Exceptions.PreviewInstructionErrors`1::NoContainerFound()
+DA:6,0
+LF:2
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Exceptions/PurchaseOrderError.cs
+FN:5,Domain.Exceptions.Error`1<PurchaseOrder> Domain.Exceptions.PurchaseOrderError`1::PurchaseOrderNotFound(System.Int32)
+FNDA:1,Domain.Exceptions.Error`1<PurchaseOrder> Domain.Exceptions.PurchaseOrderError`1::PurchaseOrderNotFound(System.Int32)
+DA:6,1
+DA:7,1
+DA:8,1
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Exceptions/SerializeError.cs
+FN:4,Domain.Exceptions.Error`1<T> Domain.Exceptions.SerializeError`1::ContainerRequestIsNull()
+FNDA:0,Domain.Exceptions.Error`1<T> Domain.Exceptions.SerializeError`1::ContainerRequestIsNull()
+DA:5,0
+FN:5,Domain.Exceptions.Error`1<T> Domain.Exceptions.SerializeError`1::RequestedParameterIsNull()
+FNDA:2,Domain.Exceptions.Error`1<T> Domain.Exceptions.SerializeError`1::RequestedParameterIsNull()
+DA:6,2
+FN:6,Domain.Exceptions.Error`1<T> Domain.Exceptions.SerializeError`1::FailedToDeserializeObject()
+FNDA:1,Domain.Exceptions.Error`1<T> Domain.Exceptions.SerializeError`1::FailedToDeserializeObject()
+DA:7,1
+LF:3
+LH:2
+BRF:0
+BRH:0
+FNF:3
+FNH:2
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Exceptions/SessionError.cs
+FN:6,Domain.Exceptions.Error`1<SessionUserDto> Domain.Exceptions.SessionError`1::SessionUserNotFound()
+FNDA:0,Domain.Exceptions.Error`1<SessionUserDto> Domain.Exceptions.SessionError`1::SessionUserNotFound()
+DA:7,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Exceptions/UserError.cs
+FN:4,Domain.Exceptions.Error`1<T> Domain.Exceptions.UserError`1::NoUserDataFound(Domain.ValueObjects.UserID)
+FNDA:1,Domain.Exceptions.Error`1<T> Domain.Exceptions.UserError`1::NoUserDataFound(Domain.ValueObjects.UserID)
+DA:5,1
+FN:5,Domain.Exceptions.Error`1<T> Domain.Exceptions.UserError`1::NoUserDataFoundByUserName(Domain.ValueObjects.UserID)
+FNDA:0,Domain.Exceptions.Error`1<T> Domain.Exceptions.UserError`1::NoUserDataFoundByUserName(Domain.ValueObjects.UserID)
+DA:6,0
+LF:2
+LH:1
+BRF:0
+BRH:0
+FNF:2
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Entities/BillToCustomer.cs
+FN:6,System.Nullable`1<System.Int32> Domain.Entities.BillToCustomer::get_BillToCustomerId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.BillToCustomer::get_BillToCustomerId()
+DA:7,0
+FN:8,System.String Domain.Entities.BillToCustomer::get_CustomerId()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_CustomerId()
+DA:9,0
+FN:9,System.Nullable`1<System.DateTime> Domain.Entities.BillToCustomer::get_CreationDateTime()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.BillToCustomer::get_CreationDateTime()
+DA:10,0
+FN:10,System.String Domain.Entities.BillToCustomer::get_CreationUserId()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_CreationUserId()
+DA:11,0
+FN:11,System.Nullable`1<System.DateTime> Domain.Entities.BillToCustomer::get_LastUpdateDatetime()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.BillToCustomer::get_LastUpdateDatetime()
+DA:12,0
+FN:12,System.String Domain.Entities.BillToCustomer::get_LastUpdateUserId()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_LastUpdateUserId()
+DA:13,0
+FN:14,System.String Domain.Entities.BillToCustomer::get_CompanyId()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_CompanyId()
+DA:15,0
+FN:15,System.String Domain.Entities.BillToCustomer::get_CustomerName()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_CustomerName()
+DA:16,0
+FN:16,System.String Domain.Entities.BillToCustomer::get_Contact()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_Contact()
+DA:17,0
+FN:17,System.String Domain.Entities.BillToCustomer::get_SalesTaxCode()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_SalesTaxCode()
+DA:18,0
+FN:18,System.String Domain.Entities.BillToCustomer::get_CustomerType()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_CustomerType()
+DA:19,0
+FN:20,System.String Domain.Entities.BillToCustomer::get_DueDays()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_DueDays()
+DA:21,0
+FN:21,System.Nullable`1<System.DateTime> Domain.Entities.BillToCustomer::get_CustomerSinceDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.BillToCustomer::get_CustomerSinceDate()
+DA:22,0
+FN:22,System.String Domain.Entities.BillToCustomer::get_WebSite()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_WebSite()
+DA:23,0
+FN:23,System.Nullable`1<System.Boolean> Domain.Entities.BillToCustomer::get_StorageCharge()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.BillToCustomer::get_StorageCharge()
+DA:24,0
+FN:24,System.String Domain.Entities.BillToCustomer::get_FuelCharge()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_FuelCharge()
+DA:25,0
+FN:26,System.String Domain.Entities.BillToCustomer::get_FuelChargePercent()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_FuelChargePercent()
+DA:27,0
+FN:27,System.String Domain.Entities.BillToCustomer::get_CreateFrom()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_CreateFrom()
+DA:28,0
+FN:28,System.Nullable`1<System.Boolean> Domain.Entities.BillToCustomer::get_Permit()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.BillToCustomer::get_Permit()
+DA:29,0
+FN:29,System.Nullable`1<System.Boolean> Domain.Entities.BillToCustomer::get_CreditHold()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.BillToCustomer::get_CreditHold()
+DA:30,0
+FN:30,System.Nullable`1<System.Boolean> Domain.Entities.BillToCustomer::get_VariableFuel()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.BillToCustomer::get_VariableFuel()
+DA:31,0
+FN:32,System.Nullable`1<System.Boolean> Domain.Entities.BillToCustomer::get_DriverSheet()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.BillToCustomer::get_DriverSheet()
+DA:33,0
+FN:33,System.String Domain.Entities.BillToCustomer::get_CreditBalance()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_CreditBalance()
+DA:34,0
+FN:34,System.String Domain.Entities.BillToCustomer::get_CreditLimit()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_CreditLimit()
+DA:35,0
+FN:35,System.Nullable`1<System.Boolean> Domain.Entities.BillToCustomer::get_RateOnly()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.BillToCustomer::get_RateOnly()
+DA:36,0
+FN:36,System.Nullable`1<System.Int32> Domain.Entities.BillToCustomer::get_AgentID()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.BillToCustomer::get_AgentID()
+DA:37,0
+FN:38,System.String Domain.Entities.BillToCustomer::get_Comm()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_Comm()
+DA:39,0
+FN:39,System.String Domain.Entities.BillToCustomer::get_UserId()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_UserId()
+DA:40,0
+FN:40,System.String Domain.Entities.BillToCustomer::get_Password()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_Password()
+DA:41,0
+FN:41,System.String Domain.Entities.BillToCustomer::get_PeakVolumeCharge()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_PeakVolumeCharge()
+DA:42,0
+FN:42,System.String Domain.Entities.BillToCustomer::get_Password2()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_Password2()
+DA:43,0
+FN:44,System.String Domain.Entities.BillToCustomer::get_WeeklyFuel()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_WeeklyFuel()
+DA:45,0
+FN:45,System.String Domain.Entities.BillToCustomer::get_RateContact()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_RateContact()
+DA:46,0
+FN:46,System.String Domain.Entities.BillToCustomer::get_RateContactEmail()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_RateContactEmail()
+DA:47,0
+FN:47,System.String Domain.Entities.BillToCustomer::get_APContact()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_APContact()
+DA:48,0
+FN:48,System.Nullable`1<System.Int32> Domain.Entities.BillToCustomer::get_AddressId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.BillToCustomer::get_AddressId()
+DA:49,0
+FN:50,System.String Domain.Entities.BillToCustomer::get_STATUS()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_STATUS()
+DA:51,0
+FN:51,System.String Domain.Entities.BillToCustomer::get_DetFax()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_DetFax()
+DA:52,0
+FN:52,System.String Domain.Entities.BillToCustomer::get_DetentionAmt()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_DetentionAmt()
+DA:53,0
+FN:53,System.String Domain.Entities.BillToCustomer::get_DetDel()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_DetDel()
+DA:54,0
+FN:54,System.String Domain.Entities.BillToCustomer::get_DetPUMT()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_DetPUMT()
+DA:55,0
+FN:56,System.String Domain.Entities.BillToCustomer::get_DetREMT()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_DetREMT()
+DA:57,0
+FN:57,System.Nullable`1<System.Int32> Domain.Entities.BillToCustomer::get_DetCreditHr()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.BillToCustomer::get_DetCreditHr()
+DA:58,0
+FN:58,System.Nullable`1<System.Int32> Domain.Entities.BillToCustomer::get_DetCreditHrDel()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.BillToCustomer::get_DetCreditHrDel()
+DA:59,0
+FN:59,System.Nullable`1<System.Int32> Domain.Entities.BillToCustomer::get_DetCreditHrPUMT()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.BillToCustomer::get_DetCreditHrPUMT()
+DA:60,0
+FN:60,System.Nullable`1<System.Int32> Domain.Entities.BillToCustomer::get_DetCreditHrREMT()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.BillToCustomer::get_DetCreditHrREMT()
+DA:61,0
+FN:62,System.Nullable`1<System.Boolean> Domain.Entities.BillToCustomer::get_AutoDetentionChg()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.BillToCustomer::get_AutoDetentionChg()
+DA:63,0
+FN:63,System.Nullable`1<System.Int32> Domain.Entities.BillToCustomer::get_MinChaDays()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.BillToCustomer::get_MinChaDays()
+DA:64,0
+FN:64,System.String Domain.Entities.BillToCustomer::get_Notes()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_Notes()
+DA:65,0
+FN:65,System.String Domain.Entities.BillToCustomer::get_Source()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_Source()
+DA:66,0
+FN:66,System.String Domain.Entities.BillToCustomer::get_OtherNotes()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_OtherNotes()
+DA:67,0
+FN:68,System.Nullable`1<System.Int32> Domain.Entities.BillToCustomer::get_CommercialManagerId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.BillToCustomer::get_CommercialManagerId()
+DA:69,0
+FN:69,System.String Domain.Entities.BillToCustomer::get_BillToGlobelCode()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_BillToGlobelCode()
+DA:70,0
+FN:70,System.Nullable`1<System.Int32> Domain.Entities.BillToCustomer::get_KeySequence()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.BillToCustomer::get_KeySequence()
+DA:71,0
+FN:71,System.Nullable`1<System.Boolean> Domain.Entities.BillToCustomer::get_RateDet()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.BillToCustomer::get_RateDet()
+DA:72,0
+FN:72,System.String Domain.Entities.BillToCustomer::get_APContactEmail()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_APContactEmail()
+DA:73,0
+FN:74,System.String Domain.Entities.BillToCustomer::get_APContactPhone()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_APContactPhone()
+DA:75,0
+FN:75,System.String Domain.Entities.BillToCustomer::get_InvoiceEmail()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_InvoiceEmail()
+DA:76,0
+FN:76,System.String Domain.Entities.BillToCustomer::get_RateContactPhone()
+FNDA:0,System.String Domain.Entities.BillToCustomer::get_RateContactPhone()
+DA:77,0
+LF:59
+LH:0
+BRF:0
+BRH:0
+FNF:59
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Entities/Driver.cs
+FN:6,System.Int32 Domain.Entities.Driver::get_DriverId()
+FNDA:4,System.Int32 Domain.Entities.Driver::get_DriverId()
+DA:7,4
+FN:7,System.String Domain.Entities.Driver::get_CompanyId()
+FNDA:3,System.String Domain.Entities.Driver::get_CompanyId()
+DA:8,3
+FN:8,System.String Domain.Entities.Driver::get_DriverCodeId()
+FNDA:0,System.String Domain.Entities.Driver::get_DriverCodeId()
+DA:9,0
+FN:9,System.String Domain.Entities.Driver::get_PayrollId()
+FNDA:0,System.String Domain.Entities.Driver::get_PayrollId()
+DA:10,0
+FN:10,System.String Domain.Entities.Driver::get_DriverType()
+FNDA:0,System.String Domain.Entities.Driver::get_DriverType()
+DA:11,0
+FN:11,System.Nullable`1<System.Int32> Domain.Entities.Driver::get_DriverCompanyId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.Driver::get_DriverCompanyId()
+DA:12,0
+FN:12,System.String Domain.Entities.Driver::get_FirstName()
+FNDA:2,System.String Domain.Entities.Driver::get_FirstName()
+DA:13,2
+FN:13,System.String Domain.Entities.Driver::get_MiddleName()
+FNDA:1,System.String Domain.Entities.Driver::get_MiddleName()
+DA:14,1
+FN:14,System.String Domain.Entities.Driver::get_LastName()
+FNDA:1,System.String Domain.Entities.Driver::get_LastName()
+DA:15,1
+FN:15,System.Nullable`1<System.Int32> Domain.Entities.Driver::get_AddressId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.Driver::get_AddressId()
+DA:16,0
+FN:16,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_BirthDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_BirthDate()
+DA:17,0
+FN:17,System.String Domain.Entities.Driver::get_SsnNo()
+FNDA:0,System.String Domain.Entities.Driver::get_SsnNo()
+DA:18,0
+FN:18,System.String Domain.Entities.Driver::get_FederalId()
+FNDA:0,System.String Domain.Entities.Driver::get_FederalId()
+DA:19,0
+FN:19,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_HireDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_HireDate()
+DA:20,0
+FN:20,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_TerDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_TerDate()
+DA:21,0
+FN:21,System.String Domain.Entities.Driver::get_LicNo()
+FNDA:0,System.String Domain.Entities.Driver::get_LicNo()
+DA:22,0
+FN:22,System.String Domain.Entities.Driver::get_LicState()
+FNDA:0,System.String Domain.Entities.Driver::get_LicState()
+DA:23,0
+FN:23,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_LicExpDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_LicExpDate()
+DA:24,0
+FN:24,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_NextExamDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_NextExamDate()
+DA:25,0
+FN:25,System.String Domain.Entities.Driver::get_AuthorStates()
+FNDA:0,System.String Domain.Entities.Driver::get_AuthorStates()
+DA:26,0
+FN:26,System.String Domain.Entities.Driver::get_InsCompanyName()
+FNDA:0,System.String Domain.Entities.Driver::get_InsCompanyName()
+DA:27,0
+FN:27,System.String Domain.Entities.Driver::get_InsId()
+FNDA:0,System.String Domain.Entities.Driver::get_InsId()
+DA:28,0
+FN:28,System.String Domain.Entities.Driver::get_InsType()
+FNDA:0,System.String Domain.Entities.Driver::get_InsType()
+DA:29,0
+FN:29,System.String Domain.Entities.Driver::get_Status()
+FNDA:0,System.String Domain.Entities.Driver::get_Status()
+DA:30,0
+FN:30,System.String Domain.Entities.Driver::get_Note()
+FNDA:0,System.String Domain.Entities.Driver::get_Note()
+DA:31,0
+FN:31,System.Nullable`1<System.Int32> Domain.Entities.Driver::get_TruckId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.Driver::get_TruckId()
+DA:32,0
+FN:32,System.String Domain.Entities.Driver::get_Type()
+FNDA:0,System.String Domain.Entities.Driver::get_Type()
+DA:33,0
+FN:33,System.String Domain.Entities.Driver::get_LicPlate()
+FNDA:0,System.String Domain.Entities.Driver::get_LicPlate()
+DA:34,0
+FN:34,System.Nullable`1<System.Double> Domain.Entities.Driver::get_Uniform()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.Driver::get_Uniform()
+DA:35,0
+FN:35,System.Nullable`1<System.Double> Domain.Entities.Driver::get_WComp()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.Driver::get_WComp()
+DA:36,0
+FN:36,System.Nullable`1<System.Double> Domain.Entities.Driver::get_LoanRepyt()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.Driver::get_LoanRepyt()
+DA:37,0
+FN:37,System.Nullable`1<System.Double> Domain.Entities.Driver::get_EarningsAdj()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.Driver::get_EarningsAdj()
+DA:38,0
+FN:38,System.Nullable`1<System.Boolean> Domain.Entities.Driver::get_PayExclude()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.Driver::get_PayExclude()
+DA:39,0
+FN:39,System.String Domain.Entities.Driver::get_DriverBelong()
+FNDA:0,System.String Domain.Entities.Driver::get_DriverBelong()
+DA:40,0
+FN:40,System.Nullable`1<System.Int32> Domain.Entities.Driver::get_DriverHwId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.Driver::get_DriverHwId()
+DA:41,0
+FN:41,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_OoInspDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_OoInspDate()
+DA:42,0
+FN:42,System.String Domain.Entities.Driver::get_UserId()
+FNDA:2,System.String Domain.Entities.Driver::get_UserId()
+DA:43,2
+FN:43,System.String Domain.Entities.Driver::get_Password()
+FNDA:0,System.String Domain.Entities.Driver::get_Password()
+DA:44,0
+FN:44,System.String Domain.Entities.Driver::get_Password2()
+FNDA:0,System.String Domain.Entities.Driver::get_Password2()
+DA:45,0
+FN:45,System.Nullable`1<System.Boolean> Domain.Entities.Driver::get_IsPaperless()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.Driver::get_IsPaperless()
+DA:46,0
+FN:46,System.Nullable`1<System.Int32> Domain.Entities.Driver::get_FmsDriverId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.Driver::get_FmsDriverId()
+DA:47,0
+FN:47,Domain.Entities.Address Domain.Entities.Driver::get_Address()
+FNDA:0,Domain.Entities.Address Domain.Entities.Driver::get_Address()
+DA:48,0
+FN:48,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_CreationDateTime()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_CreationDateTime()
+DA:49,0
+FN:49,System.String Domain.Entities.Driver::get_CreationUserId()
+FNDA:1,System.String Domain.Entities.Driver::get_CreationUserId()
+DA:50,1
+FN:50,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_LastUpdateDatetime()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_LastUpdateDatetime()
+DA:51,0
+FN:51,System.String Domain.Entities.Driver::get_LastUpdateUserId()
+FNDA:0,System.String Domain.Entities.Driver::get_LastUpdateUserId()
+DA:52,0
+FN:52,System.String Domain.Entities.Driver::get_DayNight()
+FNDA:0,System.String Domain.Entities.Driver::get_DayNight()
+DA:53,0
+FN:53,System.Nullable`1<System.Double> Domain.Entities.Driver::get_Insurance()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.Driver::get_Insurance()
+DA:54,0
+FN:54,System.Nullable`1<System.Double> Domain.Entities.Driver::get_DirectDep()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.Driver::get_DirectDep()
+DA:55,0
+FN:55,System.Nullable`1<System.Double> Domain.Entities.Driver::get_InsurOccAcc()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.Driver::get_InsurOccAcc()
+DA:56,0
+FN:56,System.Nullable`1<System.Double> Domain.Entities.Driver::get_EldSecDeposit()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.Driver::get_EldSecDeposit()
+DA:57,0
+FN:57,System.Nullable`1<System.Double> Domain.Entities.Driver::get_EldUsageFee()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.Driver::get_EldUsageFee()
+DA:58,0
+FN:58,System.Nullable`1<System.Double> Domain.Entities.Driver::get_NTLInsur()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.Driver::get_NTLInsur()
+DA:59,0
+FN:59,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_BobTailsAndDue()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_BobTailsAndDue()
+DA:60,0
+FN:60,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_RegDue()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_RegDue()
+DA:61,0
+FN:61,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_LiabilityInsDue()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.Driver::get_LiabilityInsDue()
+DA:62,0
+FN:66,System.String Domain.Entities.DriverPassword::get_Password()
+FNDA:0,System.String Domain.Entities.DriverPassword::get_Password()
+DA:67,0
+FN:67,System.String Domain.Entities.DriverPassword::get_Password2()
+FNDA:0,System.String Domain.Entities.DriverPassword::get_Password2()
+DA:68,0
+FN:68,System.Int32 Domain.Entities.DriverPassword::get_DriverId()
+FNDA:0,System.Int32 Domain.Entities.DriverPassword::get_DriverId()
+DA:69,0
+FN:73,System.Int32 Domain.Entities.DriverSearch::get_DriverId()
+FNDA:0,System.Int32 Domain.Entities.DriverSearch::get_DriverId()
+DA:74,0
+FN:74,System.String Domain.Entities.DriverSearch::get_CompanyId()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_CompanyId()
+DA:75,0
+FN:75,System.String Domain.Entities.DriverSearch::get_DriverCodeId()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_DriverCodeId()
+DA:76,0
+FN:76,System.String Domain.Entities.DriverSearch::get_PayrollId()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_PayrollId()
+DA:77,0
+FN:77,System.String Domain.Entities.DriverSearch::get_DriverType()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_DriverType()
+DA:78,0
+FN:78,System.Nullable`1<System.Int32> Domain.Entities.DriverSearch::get_DriverCompanyId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.DriverSearch::get_DriverCompanyId()
+DA:79,0
+FN:79,System.String Domain.Entities.DriverSearch::get_FirstName()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_FirstName()
+DA:80,0
+FN:80,System.String Domain.Entities.DriverSearch::get_MiddleName()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_MiddleName()
+DA:81,0
+FN:81,System.String Domain.Entities.DriverSearch::get_LastName()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_LastName()
+DA:82,0
+FN:82,System.Nullable`1<System.Int32> Domain.Entities.DriverSearch::get_AddressId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.DriverSearch::get_AddressId()
+DA:83,0
+FN:83,System.Nullable`1<System.DateTime> Domain.Entities.DriverSearch::get_BirthDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.DriverSearch::get_BirthDate()
+DA:84,0
+FN:84,System.String Domain.Entities.DriverSearch::get_SsnNo()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_SsnNo()
+DA:85,0
+FN:85,System.String Domain.Entities.DriverSearch::get_FederalId()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_FederalId()
+DA:86,0
+FN:86,System.Nullable`1<System.DateTime> Domain.Entities.DriverSearch::get_HireDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.DriverSearch::get_HireDate()
+DA:87,0
+FN:87,System.Nullable`1<System.DateTime> Domain.Entities.DriverSearch::get_TerDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.DriverSearch::get_TerDate()
+DA:88,0
+FN:88,System.String Domain.Entities.DriverSearch::get_LicNo()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_LicNo()
+DA:89,0
+FN:89,System.String Domain.Entities.DriverSearch::get_LicState()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_LicState()
+DA:90,0
+FN:90,System.Nullable`1<System.DateTime> Domain.Entities.DriverSearch::get_LicExpDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.DriverSearch::get_LicExpDate()
+DA:91,0
+FN:91,System.Nullable`1<System.DateTime> Domain.Entities.DriverSearch::get_NextExamDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.DriverSearch::get_NextExamDate()
+DA:92,0
+FN:92,System.String Domain.Entities.DriverSearch::get_AuthorStates()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_AuthorStates()
+DA:93,0
+FN:93,System.String Domain.Entities.DriverSearch::get_InsCompanyName()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_InsCompanyName()
+DA:94,0
+FN:94,System.String Domain.Entities.DriverSearch::get_InsId()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_InsId()
+DA:95,0
+FN:95,System.String Domain.Entities.DriverSearch::get_InsType()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_InsType()
+DA:96,0
+FN:96,System.String Domain.Entities.DriverSearch::get_Status()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_Status()
+DA:97,0
+FN:97,System.String Domain.Entities.DriverSearch::get_Note()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_Note()
+DA:98,0
+FN:98,System.Nullable`1<System.Int32> Domain.Entities.DriverSearch::get_TruckId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.DriverSearch::get_TruckId()
+DA:99,0
+FN:99,System.String Domain.Entities.DriverSearch::get_Type()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_Type()
+DA:100,0
+FN:100,System.String Domain.Entities.DriverSearch::get_LicPlate()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_LicPlate()
+DA:101,0
+FN:101,System.Nullable`1<System.Double> Domain.Entities.DriverSearch::get_Uniform()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.DriverSearch::get_Uniform()
+DA:102,0
+FN:102,System.Nullable`1<System.Double> Domain.Entities.DriverSearch::get_WComp()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.DriverSearch::get_WComp()
+DA:103,0
+FN:103,System.Nullable`1<System.Double> Domain.Entities.DriverSearch::get_LoanRepyt()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.DriverSearch::get_LoanRepyt()
+DA:104,0
+FN:104,System.Nullable`1<System.Double> Domain.Entities.DriverSearch::get_EarningsAdj()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.DriverSearch::get_EarningsAdj()
+DA:105,0
+FN:105,System.Nullable`1<System.Boolean> Domain.Entities.DriverSearch::get_PayExclude()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.DriverSearch::get_PayExclude()
+DA:106,0
+FN:106,System.String Domain.Entities.DriverSearch::get_DriverBelong()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_DriverBelong()
+DA:107,0
+FN:107,System.Nullable`1<System.Int32> Domain.Entities.DriverSearch::get_DriverHwId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.DriverSearch::get_DriverHwId()
+DA:108,0
+FN:108,System.Nullable`1<System.DateTime> Domain.Entities.DriverSearch::get_OoInspDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.DriverSearch::get_OoInspDate()
+DA:109,0
+FN:109,System.String Domain.Entities.DriverSearch::get_UserId()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_UserId()
+DA:110,0
+FN:110,System.String Domain.Entities.DriverSearch::get_Password()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_Password()
+DA:111,0
+FN:111,System.String Domain.Entities.DriverSearch::get_Password2()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_Password2()
+DA:112,0
+FN:112,System.Nullable`1<System.Boolean> Domain.Entities.DriverSearch::get_IsPaperless()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.DriverSearch::get_IsPaperless()
+DA:113,0
+FN:113,System.Nullable`1<System.Int32> Domain.Entities.DriverSearch::get_FmsDriverId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.DriverSearch::get_FmsDriverId()
+DA:114,0
+FN:114,Domain.Entities.Address Domain.Entities.DriverSearch::get_Address()
+FNDA:0,Domain.Entities.Address Domain.Entities.DriverSearch::get_Address()
+DA:115,0
+FN:115,System.Nullable`1<System.DateTime> Domain.Entities.DriverSearch::get_CreationDateTime()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.DriverSearch::get_CreationDateTime()
+DA:116,0
+FN:116,System.String Domain.Entities.DriverSearch::get_CreationUserId()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_CreationUserId()
+DA:117,0
+FN:117,System.Nullable`1<System.DateTime> Domain.Entities.DriverSearch::get_LastUpdateDatetime()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.DriverSearch::get_LastUpdateDatetime()
+DA:118,0
+FN:118,System.String Domain.Entities.DriverSearch::get_LastUpdateUserId()
+FNDA:0,System.String Domain.Entities.DriverSearch::get_LastUpdateUserId()
+DA:119,0
+FN:119,System.Nullable`1<System.Double> Domain.Entities.DriverSearch::get_TruckEquWeight()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.DriverSearch::get_TruckEquWeight()
+DA:120,0
+LF:106
+LH:7
+BRF:0
+BRH:0
+FNF:106
+FNH:7
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Entities/DriverDocumentNotifications.cs
+FN:8,System.Int32 Domain.Entities.DocumentNotifications::get_Id()
+FNDA:14,System.Int32 Domain.Entities.DocumentNotifications::get_Id()
+DA:9,14
+FN:9,System.Int32 Domain.Entities.DocumentNotifications::get_DriverId()
+FNDA:10,System.Int32 Domain.Entities.DocumentNotifications::get_DriverId()
+DA:10,10
+FN:10,System.Int32 Domain.Entities.DocumentNotifications::get_ProNumber()
+FNDA:10,System.Int32 Domain.Entities.DocumentNotifications::get_ProNumber()
+DA:11,10
+FN:11,System.String Domain.Entities.DocumentNotifications::get_Title()
+FNDA:10,System.String Domain.Entities.DocumentNotifications::get_Title()
+DA:12,10
+FN:12,System.String Domain.Entities.DocumentNotifications::get_Details()
+FNDA:10,System.String Domain.Entities.DocumentNotifications::get_Details()
+DA:13,10
+FN:13,System.Nullable`1<System.DateTime> Domain.Entities.DocumentNotifications::get_SeenOn()
+FNDA:5,System.Nullable`1<System.DateTime> Domain.Entities.DocumentNotifications::get_SeenOn()
+DA:14,5
+FN:14,System.Nullable`1<System.Int32> Domain.Entities.DocumentNotifications::get_NotificationTypeId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.DocumentNotifications::get_NotificationTypeId()
+DA:15,0
+FN:15,System.DateTime Domain.Entities.DocumentNotifications::get_CreatedOn()
+FNDA:4,System.DateTime Domain.Entities.DocumentNotifications::get_CreatedOn()
+DA:16,4
+LF:8
+LH:7
+BRF:0
+BRH:0
+FNF:8
+FNH:7
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Entities/DriverDocuments.cs
+FN:7,System.Int32 Domain.Entities.DriverDocuments::get_Id()
+FNDA:1,System.Int32 Domain.Entities.DriverDocuments::get_Id()
+DA:8,1
+FN:8,System.Nullable`1<System.Int32> Domain.Entities.DriverDocuments::get_ContainerCode()
+FNDA:8,System.Nullable`1<System.Int32> Domain.Entities.DriverDocuments::get_ContainerCode()
+DA:9,8
+FN:9,System.Nullable`1<System.Int32> Domain.Entities.DriverDocuments::get_CompanyId()
+FNDA:8,System.Nullable`1<System.Int32> Domain.Entities.DriverDocuments::get_CompanyId()
+DA:10,8
+FN:10,System.Nullable`1<System.Int32> Domain.Entities.DriverDocuments::get_ProNumber()
+FNDA:10,System.Nullable`1<System.Int32> Domain.Entities.DriverDocuments::get_ProNumber()
+DA:11,10
+FN:11,System.String Domain.Entities.DriverDocuments::get_LegType()
+FNDA:10,System.String Domain.Entities.DriverDocuments::get_LegType()
+DA:12,10
+FN:12,System.Nullable`1<System.Int32> Domain.Entities.DriverDocuments::get_DocumentId()
+FNDA:8,System.Nullable`1<System.Int32> Domain.Entities.DriverDocuments::get_DocumentId()
+DA:13,8
+FN:13,System.String Domain.Entities.DriverDocuments::get_PhysicalFilename()
+FNDA:2,System.String Domain.Entities.DriverDocuments::get_PhysicalFilename()
+DA:14,2
+FN:14,System.Nullable`1<System.Boolean> Domain.Entities.DriverDocuments::get_IsRejected()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.DriverDocuments::get_IsRejected()
+DA:15,0
+FN:15,System.String Domain.Entities.DriverDocuments::get_ReceivedBy()
+FNDA:2,System.String Domain.Entities.DriverDocuments::get_ReceivedBy()
+DA:16,2
+FN:16,System.Nullable`1<System.DateTime> Domain.Entities.DriverDocuments::get_ReceiveDate()
+FNDA:2,System.Nullable`1<System.DateTime> Domain.Entities.DriverDocuments::get_ReceiveDate()
+DA:17,2
+FN:17,System.Nullable`1<System.Int32> Domain.Entities.DriverDocuments::get_InTime()
+FNDA:2,System.Nullable`1<System.Int32> Domain.Entities.DriverDocuments::get_InTime()
+DA:18,2
+FN:18,System.Nullable`1<System.Int32> Domain.Entities.DriverDocuments::get_OutTime()
+FNDA:2,System.Nullable`1<System.Int32> Domain.Entities.DriverDocuments::get_OutTime()
+DA:19,2
+FN:19,System.String Domain.Entities.DriverDocuments::get_MiscellaneousNote()
+FNDA:2,System.String Domain.Entities.DriverDocuments::get_MiscellaneousNote()
+DA:20,2
+FN:20,System.String Domain.Entities.DriverDocuments::get_RejectedReason()
+FNDA:0,System.String Domain.Entities.DriverDocuments::get_RejectedReason()
+DA:21,0
+FN:21,System.String Domain.Entities.DriverDocuments::get_Remarks()
+FNDA:0,System.String Domain.Entities.DriverDocuments::get_Remarks()
+DA:22,0
+FN:22,System.Nullable`1<System.Boolean> Domain.Entities.DriverDocuments::get_IsPaperlessTerminal()
+FNDA:2,System.Nullable`1<System.Boolean> Domain.Entities.DriverDocuments::get_IsPaperlessTerminal()
+DA:23,2
+FN:23,System.Nullable`1<System.Boolean> Domain.Entities.DriverDocuments::get_IsActive()
+FNDA:3,System.Nullable`1<System.Boolean> Domain.Entities.DriverDocuments::get_IsActive()
+DA:24,3
+FN:24,System.Nullable`1<System.Int32> Domain.Entities.DriverDocuments::get_CreatedById()
+FNDA:2,System.Nullable`1<System.Int32> Domain.Entities.DriverDocuments::get_CreatedById()
+DA:25,2
+FN:25,System.Nullable`1<System.DateTime> Domain.Entities.DriverDocuments::get_CreatedOn()
+FNDA:10,System.Nullable`1<System.DateTime> Domain.Entities.DriverDocuments::get_CreatedOn()
+DA:26,10
+FN:26,System.String Domain.Entities.DriverDocuments::get_UpdatedById()
+FNDA:0,System.String Domain.Entities.DriverDocuments::get_UpdatedById()
+DA:27,0
+FN:27,System.Nullable`1<System.DateTime> Domain.Entities.DriverDocuments::get_UpdatedOn()
+FNDA:1,System.Nullable`1<System.DateTime> Domain.Entities.DriverDocuments::get_UpdatedOn()
+DA:28,1
+LF:21
+LH:17
+BRF:0
+BRH:0
+FNF:21
+FNH:17
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Entities/DriverMove.cs
+FN:8,System.Nullable`1<System.Int32> Domain.Entities.DriverMoves::get_ID()
+FNDA:4,System.Nullable`1<System.Int32> Domain.Entities.DriverMoves::get_ID()
+DA:9,4
+FN:10,System.String Domain.Entities.DriverMoves::get_CompanyID()
+FNDA:8,System.String Domain.Entities.DriverMoves::get_CompanyID()
+DA:11,8
+FN:11,System.Nullable`1<System.Int32> Domain.Entities.DriverMoves::get_ProNumber()
+FNDA:6,System.Nullable`1<System.Int32> Domain.Entities.DriverMoves::get_ProNumber()
+DA:12,6
+FN:12,System.Nullable`1<System.Int32> Domain.Entities.DriverMoves::get_DriverID()
+FNDA:7,System.Nullable`1<System.Int32> Domain.Entities.DriverMoves::get_DriverID()
+DA:13,7
+FN:13,System.String Domain.Entities.DriverMoves::get_LegType()
+FNDA:9,System.String Domain.Entities.DriverMoves::get_LegType()
+DA:14,9
+FN:14,System.Nullable`1<System.DateTime> Domain.Entities.DriverMoves::get_ViewMovedOn()
+FNDA:5,System.Nullable`1<System.DateTime> Domain.Entities.DriverMoves::get_ViewMovedOn()
+DA:15,5
+FN:16,System.Nullable`1<System.DateTime> Domain.Entities.DriverMoves::get_BeginMovedOn()
+FNDA:5,System.Nullable`1<System.DateTime> Domain.Entities.DriverMoves::get_BeginMovedOn()
+DA:17,5
+FN:17,System.Nullable`1<System.Boolean> Domain.Entities.DriverMoves::get_IsEmailSent()
+FNDA:5,System.Nullable`1<System.Boolean> Domain.Entities.DriverMoves::get_IsEmailSent()
+DA:18,5
+FN:18,System.Nullable`1<System.DateTime> Domain.Entities.DriverMoves::get_MoveCompletedOn()
+FNDA:4,System.Nullable`1<System.DateTime> Domain.Entities.DriverMoves::get_MoveCompletedOn()
+DA:19,4
+FN:19,System.Nullable`1<System.DateTime> Domain.Entities.DriverMoves::get_CreatedOn()
+FNDA:1,System.Nullable`1<System.DateTime> Domain.Entities.DriverMoves::get_CreatedOn()
+DA:20,1
+LF:10
+LH:10
+BRF:0
+BRH:0
+FNF:10
+FNH:10
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Entities/GlobalSetup.cs
+FN:6,System.Nullable`1<System.Int32> Domain.Entities.GlobalSetup::get_GlobalSetupId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.GlobalSetup::get_GlobalSetupId()
+DA:7,0
+FN:8,System.String Domain.Entities.GlobalSetup::get_CompanyId()
+FNDA:5,System.String Domain.Entities.GlobalSetup::get_CompanyId()
+DA:9,5
+FN:9,System.String Domain.Entities.GlobalSetup::get_CompanyName()
+FNDA:5,System.String Domain.Entities.GlobalSetup::get_CompanyName()
+DA:10,5
+FN:10,System.String Domain.Entities.GlobalSetup::get_CompanyAddress()
+FNDA:0,System.String Domain.Entities.GlobalSetup::get_CompanyAddress()
+DA:11,0
+FN:11,System.String Domain.Entities.GlobalSetup::get_CompanyPhone()
+FNDA:0,System.String Domain.Entities.GlobalSetup::get_CompanyPhone()
+DA:12,0
+FN:12,System.String Domain.Entities.GlobalSetup::get_CompanyFax()
+FNDA:0,System.String Domain.Entities.GlobalSetup::get_CompanyFax()
+DA:13,0
+FN:14,System.String Domain.Entities.GlobalSetup::get_ScannedDocPath()
+FNDA:7,System.String Domain.Entities.GlobalSetup::get_ScannedDocPath()
+DA:15,7
+FN:15,System.String Domain.Entities.GlobalSetup::get_ProgramTitle()
+FNDA:0,System.String Domain.Entities.GlobalSetup::get_ProgramTitle()
+DA:16,0
+FN:16,System.String Domain.Entities.GlobalSetup::get_CompanyCode()
+FNDA:0,System.String Domain.Entities.GlobalSetup::get_CompanyCode()
+DA:17,0
+FN:17,System.String Domain.Entities.GlobalSetup::get_Street()
+FNDA:0,System.String Domain.Entities.GlobalSetup::get_Street()
+DA:18,0
+FN:18,System.String Domain.Entities.GlobalSetup::get_City()
+FNDA:0,System.String Domain.Entities.GlobalSetup::get_City()
+DA:19,0
+FN:20,System.String Domain.Entities.GlobalSetup::get_State()
+FNDA:7,System.String Domain.Entities.GlobalSetup::get_State()
+DA:21,7
+FN:21,System.String Domain.Entities.GlobalSetup::get_ZipCode()
+FNDA:0,System.String Domain.Entities.GlobalSetup::get_ZipCode()
+DA:22,0
+FN:22,System.String Domain.Entities.GlobalSetup::get_LocalScannedDocPath()
+FNDA:0,System.String Domain.Entities.GlobalSetup::get_LocalScannedDocPath()
+DA:23,0
+LF:14
+LH:4
+BRF:0
+BRH:0
+FNF:14
+FNH:4
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Entities/OrderLog.cs
+FN:5,System.Int32 Domain.Entities.OrderLog::get_OrderLogId()
+FNDA:0,System.Int32 Domain.Entities.OrderLog::get_OrderLogId()
+DA:6,0
+FN:6,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_CreationDateTime()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_CreationDateTime()
+DA:7,0
+FN:7,System.String Domain.Entities.OrderLog::get_CreationUserId()
+FNDA:0,System.String Domain.Entities.OrderLog::get_CreationUserId()
+DA:8,0
+FN:8,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_LastUpdateDateTime()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_LastUpdateDateTime()
+DA:9,0
+FN:9,System.String Domain.Entities.OrderLog::get_LastUpdateUserId()
+FNDA:0,System.String Domain.Entities.OrderLog::get_LastUpdateUserId()
+DA:10,0
+FN:10,System.String Domain.Entities.OrderLog::get_CompanyId()
+FNDA:0,System.String Domain.Entities.OrderLog::get_CompanyId()
+DA:11,0
+FN:11,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_DeliveryOrderReceivedOn()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_DeliveryOrderReceivedOn()
+DA:12,0
+FN:12,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_CarrierId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_CarrierId()
+DA:13,0
+FN:13,System.String Domain.Entities.OrderLog::get_ContainerCode()
+FNDA:0,System.String Domain.Entities.OrderLog::get_ContainerCode()
+DA:14,0
+FN:14,System.String Domain.Entities.OrderLog::get_TrailerNo()
+FNDA:0,System.String Domain.Entities.OrderLog::get_TrailerNo()
+DA:15,0
+FN:15,System.String Domain.Entities.OrderLog::get_ContainerType()
+FNDA:0,System.String Domain.Entities.OrderLog::get_ContainerType()
+DA:16,0
+FN:16,System.String Domain.Entities.OrderLog::get_ContainerSize()
+FNDA:0,System.String Domain.Entities.OrderLog::get_ContainerSize()
+DA:17,0
+FN:17,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_PickedUpDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_PickedUpDate()
+DA:18,0
+FN:18,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_DeliveryDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_DeliveryDate()
+DA:19,0
+FN:19,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_ReturnDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_ReturnDate()
+DA:20,0
+FN:20,System.String Domain.Entities.OrderLog::get_SealNumber()
+FNDA:0,System.String Domain.Entities.OrderLog::get_SealNumber()
+DA:21,0
+FN:21,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_BillToCustomerId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_BillToCustomerId()
+DA:22,0
+FN:22,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_VesselId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_VesselId()
+DA:23,0
+FN:23,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_ExpectedTimeOfArrival()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_ExpectedTimeOfArrival()
+DA:24,0
+FN:24,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_Quantity()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_Quantity()
+DA:25,0
+FN:25,System.String Domain.Entities.OrderLog::get_Commodity()
+FNDA:0,System.String Domain.Entities.OrderLog::get_Commodity()
+DA:26,0
+FN:26,System.String Domain.Entities.OrderLog::get_CommodityCategory()
+FNDA:0,System.String Domain.Entities.OrderLog::get_CommodityCategory()
+DA:27,0
+FN:27,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_ConsigneeId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_ConsigneeId()
+DA:28,0
+FN:28,System.String Domain.Entities.OrderLog::get_PurchaseOrder()
+FNDA:0,System.String Domain.Entities.OrderLog::get_PurchaseOrder()
+DA:29,0
+FN:29,System.String Domain.Entities.OrderLog::get_LoadType()
+FNDA:0,System.String Domain.Entities.OrderLog::get_LoadType()
+DA:30,0
+FN:30,System.String Domain.Entities.OrderLog::get_DeliveryOrderFlagged()
+FNDA:0,System.String Domain.Entities.OrderLog::get_DeliveryOrderFlagged()
+DA:31,0
+FN:31,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_TerminalId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_TerminalId()
+DA:32,0
+FN:32,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_Dat()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_Dat()
+DA:33,0
+FN:33,System.String Domain.Entities.OrderLog::get_Billed()
+FNDA:0,System.String Domain.Entities.OrderLog::get_Billed()
+DA:34,0
+FN:34,System.String Domain.Entities.OrderLog::get_BillOfLading()
+FNDA:0,System.String Domain.Entities.OrderLog::get_BillOfLading()
+DA:35,0
+FN:35,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_ScheduledDateTime()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_ScheduledDateTime()
+DA:36,0
+FN:36,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_WarehouseId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_WarehouseId()
+DA:37,0
+FN:37,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_Weight()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_Weight()
+DA:38,0
+FN:38,System.String Domain.Entities.OrderLog::get_WeightUnit()
+FNDA:0,System.String Domain.Entities.OrderLog::get_WeightUnit()
+DA:39,0
+FN:39,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_EquWeight()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_EquWeight()
+DA:40,0
+FN:40,System.String Domain.Entities.OrderLog::get_DestinationCity()
+FNDA:0,System.String Domain.Entities.OrderLog::get_DestinationCity()
+DA:41,0
+FN:41,System.String Domain.Entities.OrderLog::get_DestinationState()
+FNDA:0,System.String Domain.Entities.OrderLog::get_DestinationState()
+DA:42,0
+FN:42,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_FreeTime()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_FreeTime()
+DA:43,0
+FN:43,System.String Domain.Entities.OrderLog::get_ApptTtm9()
+FNDA:0,System.String Domain.Entities.OrderLog::get_ApptTtm9()
+DA:44,0
+FN:44,System.String Domain.Entities.OrderLog::get_c_t()
+FNDA:0,System.String Domain.Entities.OrderLog::get_c_t()
+DA:45,0
+FN:45,System.String Domain.Entities.OrderLog::get_ana_s_note()
+FNDA:0,System.String Domain.Entities.OrderLog::get_ana_s_note()
+DA:46,0
+FN:46,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_DateNotified()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_DateNotified()
+DA:47,0
+FN:47,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_InvoiceAmount()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_InvoiceAmount()
+DA:48,0
+FN:48,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_InvoiceDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_InvoiceDate()
+DA:49,0
+FN:49,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_RateAmount()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_RateAmount()
+DA:50,0
+FN:50,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_Fs()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_Fs()
+DA:51,0
+FN:51,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_TotalAmount()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_TotalAmount()
+DA:52,0
+FN:52,System.String Domain.Entities.OrderLog::get_Done()
+FNDA:0,System.String Domain.Entities.OrderLog::get_Done()
+DA:53,0
+FN:53,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_Overweight()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_Overweight()
+DA:54,0
+FN:54,System.String Domain.Entities.OrderLog::get_NjOwPermit()
+FNDA:0,System.String Domain.Entities.OrderLog::get_NjOwPermit()
+DA:55,0
+FN:55,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_Detention()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_Detention()
+DA:56,0
+FN:56,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_RateId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_RateId()
+DA:57,0
+FN:57,System.String Domain.Entities.OrderLog::get_LineChassis()
+FNDA:0,System.String Domain.Entities.OrderLog::get_LineChassis()
+DA:58,0
+FN:58,System.String Domain.Entities.OrderLog::get_RoundTrip()
+FNDA:0,System.String Domain.Entities.OrderLog::get_RoundTrip()
+DA:59,0
+FN:59,System.String Domain.Entities.OrderLog::get_OtherRef()
+FNDA:0,System.String Domain.Entities.OrderLog::get_OtherRef()
+DA:60,0
+FN:60,System.String Domain.Entities.OrderLog::get_EntryNumber()
+FNDA:0,System.String Domain.Entities.OrderLog::get_EntryNumber()
+DA:61,0
+FN:61,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_CustomsBrokerId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_CustomsBrokerId()
+DA:62,0
+FN:62,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_DateArrivedOn()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_DateArrivedOn()
+DA:63,0
+FN:63,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_ShipperId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_ShipperId()
+DA:64,0
+FN:64,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_ChassisWeight()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_ChassisWeight()
+DA:65,0
+FN:65,System.String Domain.Entities.OrderLog::get_PuNumber()
+FNDA:0,System.String Domain.Entities.OrderLog::get_PuNumber()
+DA:66,0
+FN:66,System.String Domain.Entities.OrderLog::get_Dispatcher()
+FNDA:0,System.String Domain.Entities.OrderLog::get_Dispatcher()
+DA:67,0
+FN:67,System.String Domain.Entities.OrderLog::get_FullMt()
+FNDA:0,System.String Domain.Entities.OrderLog::get_FullMt()
+DA:68,0
+FN:68,System.String Domain.Entities.OrderLog::get_ActualArrivalTime()
+FNDA:0,System.String Domain.Entities.OrderLog::get_ActualArrivalTime()
+DA:69,0
+FN:69,System.String Domain.Entities.OrderLog::get_BLnote()
+FNDA:0,System.String Domain.Entities.OrderLog::get_BLnote()
+DA:70,0
+FN:70,System.String Domain.Entities.OrderLog::get_YD()
+FNDA:0,System.String Domain.Entities.OrderLog::get_YD()
+DA:71,0
+FN:71,System.String Domain.Entities.OrderLog::get_PD()
+FNDA:0,System.String Domain.Entities.OrderLog::get_PD()
+DA:72,0
+FN:72,System.String Domain.Entities.OrderLog::get_M1()
+FNDA:0,System.String Domain.Entities.OrderLog::get_M1()
+DA:73,0
+FN:73,System.String Domain.Entities.OrderLog::get_M2()
+FNDA:0,System.String Domain.Entities.OrderLog::get_M2()
+DA:74,0
+FN:74,System.String Domain.Entities.OrderLog::get_CC()
+FNDA:0,System.String Domain.Entities.OrderLog::get_CC()
+DA:75,0
+FN:75,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_ChaChg()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_ChaChg()
+DA:76,0
+FN:76,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_Pdimes()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_Pdimes()
+DA:77,0
+FN:77,System.String Domain.Entities.OrderLog::get_ProCheck()
+FNDA:0,System.String Domain.Entities.OrderLog::get_ProCheck()
+DA:78,0
+FN:78,System.String Domain.Entities.OrderLog::get_RatedUserId()
+FNDA:0,System.String Domain.Entities.OrderLog::get_RatedUserId()
+DA:79,0
+FN:79,System.Boolean Domain.Entities.OrderLog::get_IsLocked()
+FNDA:0,System.Boolean Domain.Entities.OrderLog::get_IsLocked()
+DA:80,0
+FN:80,System.String Domain.Entities.OrderLog::get_PdiemNo()
+FNDA:0,System.String Domain.Entities.OrderLog::get_PdiemNo()
+DA:81,0
+FN:81,System.String Domain.Entities.OrderLog::get_MultiPRO()
+FNDA:0,System.String Domain.Entities.OrderLog::get_MultiPRO()
+DA:82,0
+FN:82,System.String Domain.Entities.OrderLog::get_FwPriority()
+FNDA:0,System.String Domain.Entities.OrderLog::get_FwPriority()
+DA:83,0
+FN:83,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_FwDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_FwDate()
+DA:84,0
+FN:84,System.String Domain.Entities.OrderLog::get_OldSeal()
+FNDA:0,System.String Domain.Entities.OrderLog::get_OldSeal()
+DA:85,0
+FN:85,System.Boolean Domain.Entities.OrderLog::get_IsAgentComPosted()
+FNDA:0,System.Boolean Domain.Entities.OrderLog::get_IsAgentComPosted()
+DA:86,0
+FN:86,System.Boolean Domain.Entities.OrderLog::get_IsNoSpLocChg()
+FNDA:0,System.Boolean Domain.Entities.OrderLog::get_IsNoSpLocChg()
+DA:87,0
+FN:87,System.Boolean Domain.Entities.OrderLog::get_IsBroker()
+FNDA:0,System.Boolean Domain.Entities.OrderLog::get_IsBroker()
+DA:88,0
+FN:88,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_DoorId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_DoorId()
+DA:89,0
+FN:89,System.String Domain.Entities.OrderLog::get_FuelChgType()
+FNDA:0,System.String Domain.Entities.OrderLog::get_FuelChgType()
+DA:90,0
+FN:90,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_FsFlatAmt()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_FsFlatAmt()
+DA:91,0
+FN:91,System.Int32 Domain.Entities.OrderLog::get_HwtiPro()
+FNDA:0,System.Int32 Domain.Entities.OrderLog::get_HwtiPro()
+DA:92,0
+FN:92,System.Int32 Domain.Entities.OrderLog::get_HwtiProRev()
+FNDA:0,System.Int32 Domain.Entities.OrderLog::get_HwtiProRev()
+DA:93,0
+FN:93,System.Boolean Domain.Entities.OrderLog::get_IsBonded()
+FNDA:0,System.Boolean Domain.Entities.OrderLog::get_IsBonded()
+DA:94,0
+FN:94,System.Boolean Domain.Entities.OrderLog::get_IsHot()
+FNDA:0,System.Boolean Domain.Entities.OrderLog::get_IsHot()
+DA:95,0
+FN:95,System.Boolean Domain.Entities.OrderLog::get_IsOWCorridor()
+FNDA:0,System.Boolean Domain.Entities.OrderLog::get_IsOWCorridor()
+DA:96,0
+FN:96,System.String Domain.Entities.OrderLog::get_Tariff()
+FNDA:0,System.String Domain.Entities.OrderLog::get_Tariff()
+DA:97,0
+FN:97,System.Boolean Domain.Entities.OrderLog::get_IsChaChg()
+FNDA:0,System.Boolean Domain.Entities.OrderLog::get_IsChaChg()
+DA:98,0
+FN:98,System.Boolean Domain.Entities.OrderLog::get_IsMultipleRate()
+FNDA:0,System.Boolean Domain.Entities.OrderLog::get_IsMultipleRate()
+DA:99,0
+FN:99,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_MultiRateCnt()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLog::get_MultiRateCnt()
+DA:100,0
+FN:100,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_FwQty()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.OrderLog::get_FwQty()
+DA:101,0
+FN:101,System.Boolean Domain.Entities.OrderLog::get_IsCrossdock()
+FNDA:0,System.Boolean Domain.Entities.OrderLog::get_IsCrossdock()
+DA:102,0
+FN:102,System.Boolean Domain.Entities.OrderLog::get_IsPDiemIgnore()
+FNDA:0,System.Boolean Domain.Entities.OrderLog::get_IsPDiemIgnore()
+DA:103,0
+FN:103,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_ActualMtDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_ActualMtDate()
+DA:104,0
+FN:104,Domain.Entities.OrderLogFreightCustoms Domain.Entities.OrderLog::get_OrderLogLogFreightCustoms()
+FNDA:0,Domain.Entities.OrderLogFreightCustoms Domain.Entities.OrderLog::get_OrderLogLogFreightCustoms()
+DA:105,0
+FN:105,Domain.Entities.OrderLogDelivery Domain.Entities.OrderLog::get_OrderLogDelivery()
+FNDA:0,Domain.Entities.OrderLogDelivery Domain.Entities.OrderLog::get_OrderLogDelivery()
+DA:106,0
+FN:106,Domain.Entities.OrderLogPickUp Domain.Entities.OrderLog::get_OrderLogPickUp()
+FNDA:0,Domain.Entities.OrderLogPickUp Domain.Entities.OrderLog::get_OrderLogPickUp()
+DA:107,0
+FN:107,Domain.Entities.OrderLogPickupMT Domain.Entities.OrderLog::get_OrderLogPickupMT()
+FNDA:0,Domain.Entities.OrderLogPickupMT Domain.Entities.OrderLog::get_OrderLogPickupMT()
+DA:108,0
+FN:108,Domain.Entities.OrderLogReturnMT Domain.Entities.OrderLog::get_OrderLogReturnMT()
+FNDA:0,Domain.Entities.OrderLogReturnMT Domain.Entities.OrderLog::get_OrderLogReturnMT()
+DA:109,0
+FN:109,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_VesselCutoffDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLog::get_VesselCutoffDate()
+DA:110,0
+FN:110,System.String Domain.Entities.OrderLog::get_PodPoL()
+FNDA:0,System.String Domain.Entities.OrderLog::get_PodPoL()
+DA:111,0
+FN:114,System.Int32 Domain.Entities.ChassisStatusModel::get_ChassisId()
+FNDA:0,System.Int32 Domain.Entities.ChassisStatusModel::get_ChassisId()
+DA:115,0
+FN:115,System.Nullable`1<System.Int32> Domain.Entities.ChassisStatusModel::get_ChassisLocation()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.ChassisStatusModel::get_ChassisLocation()
+DA:116,0
+FN:120,System.Int32 Domain.Entities.OrderGatePass::get_OrderLogId()
+FNDA:0,System.Int32 Domain.Entities.OrderGatePass::get_OrderLogId()
+DA:121,0
+FN:121,System.String Domain.Entities.OrderGatePass::get_OrderGateType()
+FNDA:0,System.String Domain.Entities.OrderGatePass::get_OrderGateType()
+DA:122,0
+FN:122,System.Nullable`1<System.DateTime> Domain.Entities.OrderGatePass::get_LastUpdateDateTime()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderGatePass::get_LastUpdateDateTime()
+DA:123,0
+FN:123,System.String Domain.Entities.OrderGatePass::get_LastUpdateUserId()
+FNDA:0,System.String Domain.Entities.OrderGatePass::get_LastUpdateUserId()
+DA:124,0
+FN:124,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderGatePass::get_TimeGateLoad()
+FNDA:0,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderGatePass::get_TimeGateLoad()
+DA:125,0
+FN:125,System.Nullable`1<System.DateTime> Domain.Entities.OrderGatePass::get_DateGateLoad()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderGatePass::get_DateGateLoad()
+DA:126,0
+FN:130,System.Int32 Domain.Entities.OrderDispConf::get_OrderLogId()
+FNDA:0,System.Int32 Domain.Entities.OrderDispConf::get_OrderLogId()
+DA:131,0
+FN:131,System.String Domain.Entities.OrderDispConf::get_OrderGateType()
+FNDA:0,System.String Domain.Entities.OrderDispConf::get_OrderGateType()
+DA:132,0
+FN:132,System.Nullable`1<System.DateTime> Domain.Entities.OrderDispConf::get_LastUpdateDateTime()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderDispConf::get_LastUpdateDateTime()
+DA:133,0
+FN:133,System.String Domain.Entities.OrderDispConf::get_LastUpdateUserId()
+FNDA:0,System.String Domain.Entities.OrderDispConf::get_LastUpdateUserId()
+DA:134,0
+FN:134,System.Nullable`1<System.DateTime> Domain.Entities.OrderDispConf::get_DispConfDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderDispConf::get_DispConfDate()
+DA:135,0
+FN:135,System.Nullable`1<System.DateTime> Domain.Entities.OrderDispConf::get_ActualMtDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderDispConf::get_ActualMtDate()
+DA:136,0
+FN:139,System.Nullable`1<System.DateTime> Domain.Entities.PdiemDate::get_FromDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.PdiemDate::get_FromDate()
+DA:140,0
+FN:140,System.Nullable`1<System.DateTime> Domain.Entities.PdiemDate::get_ToDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.PdiemDate::get_ToDate()
+DA:141,0
+LF:122
+LH:0
+BRF:0
+BRH:0
+FNF:122
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Entities/OrderLogDelivery.cs
+FN:5,System.Int32 Domain.Entities.OrderLogDelivery::get_OrderLogDeliveryId()
+FNDA:0,System.Int32 Domain.Entities.OrderLogDelivery::get_OrderLogDeliveryId()
+DA:6,0
+FN:6,System.Int32 Domain.Entities.OrderLogDelivery::get_OrderLogId()
+FNDA:0,System.Int32 Domain.Entities.OrderLogDelivery::get_OrderLogId()
+DA:7,0
+FN:7,System.Nullable`1<System.Int32> Domain.Entities.OrderLogDelivery::get_DeliveryDriverId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLogDelivery::get_DeliveryDriverId()
+DA:8,0
+FN:8,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogDelivery::get_ScheduledDeliveryDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogDelivery::get_ScheduledDeliveryDate()
+DA:9,0
+FN:9,System.String Domain.Entities.OrderLogDelivery::get_DropOnDelivery()
+FNDA:0,System.String Domain.Entities.OrderLogDelivery::get_DropOnDelivery()
+DA:10,0
+FN:10,System.Nullable`1<System.Double> Domain.Entities.OrderLogDelivery::get_TotalWeightDelivery()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.OrderLogDelivery::get_TotalWeightDelivery()
+DA:11,0
+FN:11,System.String Domain.Entities.OrderLogDelivery::get_TruckNoDelivery()
+FNDA:0,System.String Domain.Entities.OrderLogDelivery::get_TruckNoDelivery()
+DA:12,0
+FN:12,System.Nullable`1<System.Boolean> Domain.Entities.OrderLogDelivery::get_IsAttemptedDel()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.OrderLogDelivery::get_IsAttemptedDel()
+DA:13,0
+FN:13,System.Nullable`1<System.Boolean> Domain.Entities.OrderLogDelivery::get_IsNightDel()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.OrderLogDelivery::get_IsNightDel()
+DA:14,0
+FN:14,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogDelivery::get_WorkDelDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogDelivery::get_WorkDelDate()
+DA:15,0
+FN:15,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogDelivery::get_WorkDelTime()
+FNDA:0,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogDelivery::get_WorkDelTime()
+DA:16,0
+FN:16,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogDelivery::get_ScheduledDelApptTime()
+FNDA:0,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogDelivery::get_ScheduledDelApptTime()
+DA:17,0
+FN:17,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogDelivery::get_LastUpdateDateTime()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogDelivery::get_LastUpdateDateTime()
+DA:18,0
+FN:18,System.String Domain.Entities.OrderLogDelivery::get_LastUpdateUserId()
+FNDA:0,System.String Domain.Entities.OrderLogDelivery::get_LastUpdateUserId()
+DA:19,0
+FN:19,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogDelivery::get_TimeGateLoad()
+FNDA:0,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogDelivery::get_TimeGateLoad()
+DA:20,0
+FN:20,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogDelivery::get_DateGateLoad()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogDelivery::get_DateGateLoad()
+DA:21,0
+FN:21,System.Nullable`1<System.Char> Domain.Entities.OrderLogDelivery::get_PayDueScaleDel()
+FNDA:0,System.Nullable`1<System.Char> Domain.Entities.OrderLogDelivery::get_PayDueScaleDel()
+DA:22,0
+FN:22,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogDelivery::get_PWorkDelDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogDelivery::get_PWorkDelDate()
+DA:23,0
+LF:18
+LH:0
+BRF:0
+BRH:0
+FNF:18
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Entities/OrderLogDoc.cs
+FN:5,System.Nullable`1<System.Int32> Domain.Entities.OrderLogDoc::get_OrderLogDocId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLogDoc::get_OrderLogDocId()
+DA:6,0
+FN:7,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogDoc::get_CreationDateTime()
+FNDA:5,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogDoc::get_CreationDateTime()
+DA:8,5
+FN:8,System.String Domain.Entities.OrderLogDoc::get_CreationUserId()
+FNDA:5,System.String Domain.Entities.OrderLogDoc::get_CreationUserId()
+DA:9,5
+FN:9,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogDoc::get_LastUpdateDateTime()
+FNDA:5,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogDoc::get_LastUpdateDateTime()
+DA:10,5
+FN:10,System.String Domain.Entities.OrderLogDoc::get_LastUpdateUserId()
+FNDA:5,System.String Domain.Entities.OrderLogDoc::get_LastUpdateUserId()
+DA:11,5
+FN:11,System.String Domain.Entities.OrderLogDoc::get_CompanyId()
+FNDA:5,System.String Domain.Entities.OrderLogDoc::get_CompanyId()
+DA:12,5
+FN:13,System.Nullable`1<System.Int32> Domain.Entities.OrderLogDoc::get_DocId()
+FNDA:5,System.Nullable`1<System.Int32> Domain.Entities.OrderLogDoc::get_DocId()
+DA:14,5
+FN:14,System.String Domain.Entities.OrderLogDoc::get_DocNamePro()
+FNDA:6,System.String Domain.Entities.OrderLogDoc::get_DocNamePro()
+DA:15,6
+FN:15,System.Nullable`1<System.Int32> Domain.Entities.OrderLogDoc::get_OrderLogId()
+FNDA:5,System.Nullable`1<System.Int32> Domain.Entities.OrderLogDoc::get_OrderLogId()
+DA:16,5
+FN:16,System.String Domain.Entities.OrderLogDoc::get_SubFolder()
+FNDA:6,System.String Domain.Entities.OrderLogDoc::get_SubFolder()
+DA:17,6
+FN:17,System.Nullable`1<System.Int32> Domain.Entities.OrderLogDoc::get_KeySequence()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLogDoc::get_KeySequence()
+DA:18,0
+LF:11
+LH:9
+BRF:0
+BRH:0
+FNF:11
+FNH:9
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Entities/OrderLogFreightCustoms.cs
+FN:5,System.Int32 Domain.Entities.OrderLogFreightCustoms::get_OrderLogFreightCustomsId()
+FNDA:0,System.Int32 Domain.Entities.OrderLogFreightCustoms::get_OrderLogFreightCustomsId()
+DA:6,0
+FN:6,System.Int32 Domain.Entities.OrderLogFreightCustoms::get_OrderLogId()
+FNDA:0,System.Int32 Domain.Entities.OrderLogFreightCustoms::get_OrderLogId()
+DA:7,0
+FN:7,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoFreightDate1()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoFreightDate1()
+DA:8,0
+FN:8,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoFreightDate2()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoFreightDate2()
+DA:9,0
+FN:9,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoFreightDate3()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoFreightDate3()
+DA:10,0
+FN:10,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoFreightDate4()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoFreightDate4()
+DA:11,0
+FN:11,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoFreightDate5()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoFreightDate5()
+DA:12,0
+FN:12,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoFreightDate6()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoFreightDate6()
+DA:13,0
+FN:13,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoCustoms1()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoCustoms1()
+DA:14,0
+FN:14,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoCustoms2()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoCustoms2()
+DA:15,0
+FN:15,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoCustoms3()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoCustoms3()
+DA:16,0
+FN:16,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoCustoms4()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoCustoms4()
+DA:17,0
+FN:17,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoCustoms5()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoCustoms5()
+DA:18,0
+FN:18,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoCustoms6()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_NoCustoms6()
+DA:19,0
+FN:19,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_FreeTimeDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_FreeTimeDate()
+DA:20,0
+FN:20,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_ArrivalDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_ArrivalDate()
+DA:21,0
+FN:21,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_AvailableDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_AvailableDate()
+DA:22,0
+FN:22,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_HeldForExamDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_HeldForExamDate()
+DA:23,0
+FN:23,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_StopOffDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogFreightCustoms::get_StopOffDate()
+DA:24,0
+FN:24,System.Nullable`1<System.Int32> Domain.Entities.OrderLogFreightCustoms::get_PinIn()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLogFreightCustoms::get_PinIn()
+DA:25,0
+FN:25,System.Nullable`1<System.Int32> Domain.Entities.OrderLogFreightCustoms::get_PinOut()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLogFreightCustoms::get_PinOut()
+DA:26,0
+LF:21
+LH:0
+BRF:0
+BRH:0
+FNF:21
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Entities/OrderLogPickUp.cs
+FN:5,System.Int32 Domain.Entities.OrderLogPickUp::get_OrderLogPickUpId()
+FNDA:0,System.Int32 Domain.Entities.OrderLogPickUp::get_OrderLogPickUpId()
+DA:6,0
+FN:6,System.Int32 Domain.Entities.OrderLogPickUp::get_OrderLogId()
+FNDA:0,System.Int32 Domain.Entities.OrderLogPickUp::get_OrderLogId()
+DA:7,0
+FN:7,System.String Domain.Entities.OrderLogPickUp::get_ChassisN()
+FNDA:0,System.String Domain.Entities.OrderLogPickUp::get_ChassisN()
+DA:8,0
+FN:8,System.Nullable`1<System.Int32> Domain.Entities.OrderLogPickUp::get_ChassisId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLogPickUp::get_ChassisId()
+DA:9,0
+FN:9,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickUp::get_WorkDatePU()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickUp::get_WorkDatePU()
+DA:10,0
+FN:10,System.Nullable`1<System.Int32> Domain.Entities.OrderLogPickUp::get_PickUpDriverId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLogPickUp::get_PickUpDriverId()
+DA:11,0
+FN:11,System.String Domain.Entities.OrderLogPickUp::get_DropOnPickUp()
+FNDA:0,System.String Domain.Entities.OrderLogPickUp::get_DropOnPickUp()
+DA:12,0
+FN:12,System.Nullable`1<System.Double> Domain.Entities.OrderLogPickUp::get_TotalWeightPickUp()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.OrderLogPickUp::get_TotalWeightPickUp()
+DA:13,0
+FN:13,System.String Domain.Entities.OrderLogPickUp::get_TruckNoPickedUp()
+FNDA:0,System.String Domain.Entities.OrderLogPickUp::get_TruckNoPickedUp()
+DA:14,0
+FN:14,System.Nullable`1<System.Boolean> Domain.Entities.OrderLogPickUp::get_IsAttemptedPU()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.OrderLogPickUp::get_IsAttemptedPU()
+DA:15,0
+FN:15,System.Nullable`1<System.Boolean> Domain.Entities.OrderLogPickUp::get_IsNightPu()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.OrderLogPickUp::get_IsNightPu()
+DA:16,0
+FN:16,System.Nullable`1<System.Boolean> Domain.Entities.OrderLogPickUp::get_IsPrinted()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.OrderLogPickUp::get_IsPrinted()
+DA:17,0
+FN:17,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickUp::get_ScheduledPickUpDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickUp::get_ScheduledPickUpDate()
+DA:18,0
+FN:18,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogPickUp::get_ScheduledPickUpTime()
+FNDA:0,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogPickUp::get_ScheduledPickUpTime()
+DA:19,0
+FN:19,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogPickUp::get_TimePU()
+FNDA:0,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogPickUp::get_TimePU()
+DA:20,0
+FN:20,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickUp::get_LastUpdateDateTime()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickUp::get_LastUpdateDateTime()
+DA:21,0
+FN:21,System.String Domain.Entities.OrderLogPickUp::get_LastUpdateUserId()
+FNDA:0,System.String Domain.Entities.OrderLogPickUp::get_LastUpdateUserId()
+DA:22,0
+FN:22,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogPickUp::get_TimeGateEquipment()
+FNDA:0,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogPickUp::get_TimeGateEquipment()
+DA:23,0
+FN:23,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickUp::get_DateGateEquipment()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickUp::get_DateGateEquipment()
+DA:24,0
+FN:24,System.Nullable`1<System.Char> Domain.Entities.OrderLogPickUp::get_PayDueScalePU()
+FNDA:0,System.Nullable`1<System.Char> Domain.Entities.OrderLogPickUp::get_PayDueScalePU()
+DA:25,0
+FN:25,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickUp::get_PWorkDatePU()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickUp::get_PWorkDatePU()
+DA:26,0
+LF:21
+LH:0
+BRF:0
+BRH:0
+FNF:21
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Entities/OrderLogPickupMT.cs
+FN:5,System.Int32 Domain.Entities.OrderLogPickupMT::get_OrderLogPickUpMTId()
+FNDA:0,System.Int32 Domain.Entities.OrderLogPickupMT::get_OrderLogPickUpMTId()
+DA:6,0
+FN:6,System.Int32 Domain.Entities.OrderLogPickupMT::get_OrderLogId()
+FNDA:0,System.Int32 Domain.Entities.OrderLogPickupMT::get_OrderLogId()
+DA:7,0
+FN:7,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickupMT::get_PickUpDateMT()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickupMT::get_PickUpDateMT()
+DA:8,0
+FN:8,System.Nullable`1<System.Int32> Domain.Entities.OrderLogPickupMT::get_DriverMtId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLogPickupMT::get_DriverMtId()
+DA:9,0
+FN:9,System.String Domain.Entities.OrderLogPickupMT::get_TruckNoMt()
+FNDA:0,System.String Domain.Entities.OrderLogPickupMT::get_TruckNoMt()
+DA:10,0
+FN:10,System.String Domain.Entities.OrderLogPickupMT::get_DropOnReturn()
+FNDA:0,System.String Domain.Entities.OrderLogPickupMT::get_DropOnReturn()
+DA:11,0
+FN:11,System.Nullable`1<System.Double> Domain.Entities.OrderLogPickupMT::get_TotalWeightMt()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.OrderLogPickupMT::get_TotalWeightMt()
+DA:12,0
+FN:12,System.Nullable`1<System.Boolean> Domain.Entities.OrderLogPickupMT::get_IsNightPuMt()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.OrderLogPickupMT::get_IsNightPuMt()
+DA:13,0
+FN:13,System.Nullable`1<System.Boolean> Domain.Entities.OrderLogPickupMT::get_IsAttemptedMt()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.OrderLogPickupMT::get_IsAttemptedMt()
+DA:14,0
+FN:14,System.Nullable`1<System.Boolean> Domain.Entities.OrderLogPickupMT::get_IsEmpty()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.OrderLogPickupMT::get_IsEmpty()
+DA:15,0
+FN:15,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogPickupMT::get_PuMtTime()
+FNDA:0,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogPickupMT::get_PuMtTime()
+DA:16,0
+FN:16,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickupMT::get_WorkDateMt()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickupMT::get_WorkDateMt()
+DA:17,0
+FN:17,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickupMT::get_ScheduledPickUpdate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickupMT::get_ScheduledPickUpdate()
+DA:18,0
+FN:18,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogPickupMT::get_ScheduledPickUpTime()
+FNDA:0,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogPickupMT::get_ScheduledPickUpTime()
+DA:19,0
+FN:19,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickupMT::get_LastUpdateDateTime()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickupMT::get_LastUpdateDateTime()
+DA:20,0
+FN:20,System.String Domain.Entities.OrderLogPickupMT::get_LastUpdateUserId()
+FNDA:0,System.String Domain.Entities.OrderLogPickupMT::get_LastUpdateUserId()
+DA:21,0
+FN:21,System.Nullable`1<System.Int32> Domain.Entities.OrderLogPickupMT::get_PdiemNo()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLogPickupMT::get_PdiemNo()
+DA:22,0
+FN:22,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickupMT::get_NotifyDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickupMT::get_NotifyDate()
+DA:23,0
+FN:23,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogPickupMT::get_NotifyTime()
+FNDA:0,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogPickupMT::get_NotifyTime()
+DA:24,0
+FN:24,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogPickupMT::get_TimeGateMt()
+FNDA:0,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogPickupMT::get_TimeGateMt()
+DA:25,0
+FN:25,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickupMT::get_DateGateMt()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickupMT::get_DateGateMt()
+DA:26,0
+FN:26,System.Nullable`1<System.Char> Domain.Entities.OrderLogPickupMT::get_PayDueScaleMT()
+FNDA:0,System.Nullable`1<System.Char> Domain.Entities.OrderLogPickupMT::get_PayDueScaleMT()
+DA:27,0
+FN:27,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickupMT::get_PWorkMtDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogPickupMT::get_PWorkMtDate()
+DA:28,0
+LF:23
+LH:0
+BRF:0
+BRH:0
+FNF:23
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Entities/OrderLogReturnMT.cs
+FN:5,System.Int32 Domain.Entities.OrderLogReturnMT::get_OrderLogReturnMTId()
+FNDA:0,System.Int32 Domain.Entities.OrderLogReturnMT::get_OrderLogReturnMTId()
+DA:6,0
+FN:6,System.Int32 Domain.Entities.OrderLogReturnMT::get_OrderLogId()
+FNDA:0,System.Int32 Domain.Entities.OrderLogReturnMT::get_OrderLogId()
+DA:7,0
+FN:7,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogReturnMT::get_WorkDateReturn()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogReturnMT::get_WorkDateReturn()
+DA:8,0
+FN:8,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogReturnMT::get_PdiemDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogReturnMT::get_PdiemDate()
+DA:9,0
+FN:9,System.Nullable`1<System.Int32> Domain.Entities.OrderLogReturnMT::get_ReturnDriverId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLogReturnMT::get_ReturnDriverId()
+DA:10,0
+FN:10,System.String Domain.Entities.OrderLogReturnMT::get_ChassisReturned()
+FNDA:0,System.String Domain.Entities.OrderLogReturnMT::get_ChassisReturned()
+DA:11,0
+FN:11,System.Nullable`1<System.Int32> Domain.Entities.OrderLogReturnMT::get_TerminalRetLocId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.OrderLogReturnMT::get_TerminalRetLocId()
+DA:12,0
+FN:12,System.Nullable`1<System.Double> Domain.Entities.OrderLogReturnMT::get_TotalWeightReturn()
+FNDA:0,System.Nullable`1<System.Double> Domain.Entities.OrderLogReturnMT::get_TotalWeightReturn()
+DA:13,0
+FN:13,System.String Domain.Entities.OrderLogReturnMT::get_TruckNoReturn()
+FNDA:0,System.String Domain.Entities.OrderLogReturnMT::get_TruckNoReturn()
+DA:14,0
+FN:14,System.Nullable`1<System.Boolean> Domain.Entities.OrderLogReturnMT::get_IsAttemptedRet()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.OrderLogReturnMT::get_IsAttemptedRet()
+DA:15,0
+FN:15,System.Nullable`1<System.Boolean> Domain.Entities.OrderLogReturnMT::get_IsNightRetMt()
+FNDA:0,System.Nullable`1<System.Boolean> Domain.Entities.OrderLogReturnMT::get_IsNightRetMt()
+DA:16,0
+FN:16,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogReturnMT::get_ReturnTime()
+FNDA:0,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogReturnMT::get_ReturnTime()
+DA:17,0
+FN:17,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogReturnMT::get_ScheduledReturnDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogReturnMT::get_ScheduledReturnDate()
+DA:18,0
+FN:18,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogReturnMT::get_ScheduledReturnTime()
+FNDA:0,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogReturnMT::get_ScheduledReturnTime()
+DA:19,0
+FN:19,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogReturnMT::get_LastUpdateDateTime()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogReturnMT::get_LastUpdateDateTime()
+DA:20,0
+FN:20,System.String Domain.Entities.OrderLogReturnMT::get_LastUpdateUserId()
+FNDA:0,System.String Domain.Entities.OrderLogReturnMT::get_LastUpdateUserId()
+DA:21,0
+FN:21,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogReturnMT::get_TimeGateEmpty()
+FNDA:0,System.Nullable`1<System.TimeSpan> Domain.Entities.OrderLogReturnMT::get_TimeGateEmpty()
+DA:22,0
+FN:22,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogReturnMT::get_DateGateEmpty()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogReturnMT::get_DateGateEmpty()
+DA:23,0
+FN:23,System.Nullable`1<System.Char> Domain.Entities.OrderLogReturnMT::get_PayDueScaleRet()
+FNDA:0,System.Nullable`1<System.Char> Domain.Entities.OrderLogReturnMT::get_PayDueScaleRet()
+DA:24,0
+FN:24,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogReturnMT::get_PWorkReturnDate()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.OrderLogReturnMT::get_PWorkReturnDate()
+DA:25,0
+LF:20
+LH:0
+BRF:0
+BRH:0
+FNF:20
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Entities/PurchaseOrder.cs
+FN:5,System.Nullable`1<System.Int32> Domain.Entities.PurchaseOrder::get_PurchaseOrderId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.PurchaseOrder::get_PurchaseOrderId()
+DA:6,0
+FN:7,System.Nullable`1<System.DateTime> Domain.Entities.PurchaseOrder::get_CreationDateTime()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.PurchaseOrder::get_CreationDateTime()
+DA:8,0
+FN:8,System.String Domain.Entities.PurchaseOrder::get_CreationUserId()
+FNDA:0,System.String Domain.Entities.PurchaseOrder::get_CreationUserId()
+DA:9,0
+FN:9,System.Nullable`1<System.DateTime> Domain.Entities.PurchaseOrder::get_LastUpdateDateTime()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.PurchaseOrder::get_LastUpdateDateTime()
+DA:10,0
+FN:10,System.String Domain.Entities.PurchaseOrder::get_LastUpdateUserId()
+FNDA:0,System.String Domain.Entities.PurchaseOrder::get_LastUpdateUserId()
+DA:11,0
+FN:11,System.String Domain.Entities.PurchaseOrder::get_PurchaseOrderNo()
+FNDA:0,System.String Domain.Entities.PurchaseOrder::get_PurchaseOrderNo()
+DA:12,0
+FN:13,System.Nullable`1<System.Int32> Domain.Entities.PurchaseOrder::get_OrderLogId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.PurchaseOrder::get_OrderLogId()
+DA:14,0
+FN:14,System.String Domain.Entities.PurchaseOrder::get_Type()
+FNDA:0,System.String Domain.Entities.PurchaseOrder::get_Type()
+DA:15,0
+FN:15,System.Nullable`1<System.Int32> Domain.Entities.PurchaseOrder::get_KeySequence()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.PurchaseOrder::get_KeySequence()
+DA:16,0
+FN:16,System.String Domain.Entities.PurchaseOrder::get_companyid()
+FNDA:0,System.String Domain.Entities.PurchaseOrder::get_companyid()
+DA:17,0
+LF:10
+LH:0
+BRF:0
+BRH:0
+FNF:10
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Entities/ZipCodes.cs
+FN:5,System.Nullable`1<System.Int32> Domain.Entities.ZipCode::get_ZipCodeId()
+FNDA:0,System.Nullable`1<System.Int32> Domain.Entities.ZipCode::get_ZipCodeId()
+DA:6,0
+FN:6,System.String Domain.Entities.ZipCode::get_Code()
+FNDA:0,System.String Domain.Entities.ZipCode::get_Code()
+DA:7,0
+FN:7,System.String Domain.Entities.ZipCode::get_City()
+FNDA:0,System.String Domain.Entities.ZipCode::get_City()
+DA:8,0
+FN:8,System.String Domain.Entities.ZipCode::get_State()
+FNDA:0,System.String Domain.Entities.ZipCode::get_State()
+DA:9,0
+FN:9,System.String Domain.Entities.ZipCode::get_AreaCode()
+FNDA:0,System.String Domain.Entities.ZipCode::get_AreaCode()
+DA:10,0
+FN:10,System.String Domain.Entities.ZipCode::get_County()
+FNDA:0,System.String Domain.Entities.ZipCode::get_County()
+DA:11,0
+FN:11,System.String Domain.Entities.ZipCode::get_CompanyId()
+FNDA:0,System.String Domain.Entities.ZipCode::get_CompanyId()
+DA:12,0
+FN:12,System.Nullable`1<System.DateTime> Domain.Entities.ZipCode::get_CreationDateTime()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.ZipCode::get_CreationDateTime()
+DA:13,0
+FN:13,System.String Domain.Entities.ZipCode::get_CreationUserId()
+FNDA:0,System.String Domain.Entities.ZipCode::get_CreationUserId()
+DA:14,0
+FN:14,System.Nullable`1<System.DateTime> Domain.Entities.ZipCode::get_LastUpdateDateTime()
+FNDA:0,System.Nullable`1<System.DateTime> Domain.Entities.ZipCode::get_LastUpdateDateTime()
+DA:15,0
+FN:15,System.String Domain.Entities.ZipCode::get_LastUpdateUserId()
+FNDA:0,System.String Domain.Entities.ZipCode::get_LastUpdateUserId()
+DA:16,0
+LF:11
+LH:0
+BRF:0
+BRH:0
+FNF:11
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/Domain/Constants/DocumentID.cs
+FN:3,System.Void Domain.Constants.DocumentIDs::.cctor()
+FNDA:1,System.Void Domain.Constants.DocumentIDs::.cctor()
+DA:4,1
+DA:5,1
+DA:6,1
+DA:7,1
+LF:4
+LH:4
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/SharedServices/DeserializeService.cs
+FN:5,Domain.Shared.Result`1<T> UseCases.UseCases.SharedServices.DeserializeService::Get(System.String)
+FNDA:3,Domain.Shared.Result`1<T> UseCases.UseCases.SharedServices.DeserializeService::Get(System.String)
+DA:6,3
+DA:7,4
+DA:9,2
+DA:10,1
+DA:11,1
+DA:12,2
+BRDA:7,9,0,1
+BRDA:7,9,1,2
+BRDA:10,43,0,0
+BRDA:10,43,1,1
+LF:6
+LH:6
+BRF:4
+BRH:3
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/SharedServices/BaseService.cs
+FN:14,Domain.Shared.Result`1<UseCases.Dtos.SessionUserDto> UseCases.SharedServices.BaseService::GetSessionUser()
+FNDA:0,Domain.Shared.Result`1<UseCases.Dtos.SessionUserDto> UseCases.SharedServices.BaseService::GetSessionUser()
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:21,0
+DA:22,0
+DA:24,0
+FN:8,System.Void UseCases.SharedServices.BaseService::.ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor)
+FNDA:0,System.Void UseCases.SharedServices.BaseService::.ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor)
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+LF:12
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/SharedServices/BeginMoveEmailService.cs
+FN:11,System.Void UseCases.SharedServices.BeginMoveEmailService::.ctor(UseCases.Contracts.Persistance.Query.IContainerRepository,UseCases.Contracts.Persistance.Command.IDriverRepository,Microsoft.Extensions.Configuration.IConfiguration,UseCases.SharedServices.IDirectoryService,UseCases.Contracts.Infrastructure.IHTMLReportService,UseCases.Contracts.Infrastructure.IEmailService)
+FNDA:2,System.Void UseCases.SharedServices.BeginMoveEmailService::.ctor(UseCases.Contracts.Persistance.Query.IContainerRepository,UseCases.Contracts.Persistance.Command.IDriverRepository,Microsoft.Extensions.Configuration.IConfiguration,UseCases.SharedServices.IDirectoryService,UseCases.Contracts.Infrastructure.IHTMLReportService,UseCases.Contracts.Infrastructure.IEmailService)
+DA:12,2
+DA:13,2
+DA:14,2
+DA:15,2
+DA:16,2
+DA:17,2
+DA:18,2
+DA:19,2
+DA:20,2
+DA:21,2
+DA:22,2
+DA:23,2
+DA:24,2
+DA:25,2
+DA:26,2
+DA:27,2
+FN:91,System.Void UseCases.SharedServices.BeginMoveEmailService/<SaveLoginToken>d__8::MoveNext()
+FNDA:1,System.Void UseCases.SharedServices.BeginMoveEmailService/<SaveLoginToken>d__8::MoveNext()
+DA:92,1
+DA:93,1
+DA:95,1
+DA:96,1
+DA:97,1
+DA:98,1
+DA:100,1
+DA:101,1
+FN:28,System.Void UseCases.SharedServices.BeginMoveEmailService/<SendBeginMoveEmail>d__7::MoveNext()
+FNDA:2,System.Void UseCases.SharedServices.BeginMoveEmailService/<SendBeginMoveEmail>d__7::MoveNext()
+DA:29,2
+DA:31,3
+DA:34,1
+DA:35,1
+DA:36,0
+DA:39,1
+DA:40,1
+DA:41,1
+DA:44,1
+DA:45,1
+DA:46,1
+DA:47,1
+DA:49,1
+DA:52,1
+DA:53,1
+DA:54,1
+DA:55,1
+DA:57,1
+DA:58,1
+DA:60,2
+DA:62,1
+DA:63,1
+DA:67,1
+DA:68,1
+DA:73,1
+DA:74,1
+DA:76,1
+DA:86,2
+DA:88,1
+DA:89,2
+BRDA:31,84,0,1
+BRDA:31,84,1,1
+BRDA:35,150,0,0
+BRDA:35,150,1,1
+BRDA:35,171,0,0
+BRDA:35,171,1,1
+BRDA:40,369,0,0
+BRDA:40,369,1,1
+BRDA:49,568,0,0
+BRDA:49,568,1,1
+BRDA:68,1034,0,0
+BRDA:68,1034,1,1
+BRDA:86,1368,0,1
+BRDA:86,1368,1,1
+LF:54
+LH:53
+BRF:14
+BRH:9
+FNF:3
+FNH:3
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/SharedServices/DirectoryService.cs
+FN:80,System.String UseCases.SharedServices.DirectoryService::GetPODTemplatePath(Domain.ValueObjects.LoadType)
+FNDA:3,System.String UseCases.SharedServices.DirectoryService::GetPODTemplatePath(Domain.ValueObjects.LoadType)
+DA:81,3
+DA:82,3
+DA:83,3
+DA:86,3
+DA:87,3
+DA:88,1
+DA:89,1
+DA:90,1
+DA:91,3
+DA:92,3
+BRDA:86,57,0,2
+BRDA:86,57,1,1
+BRDA:86,70,1,1
+BRDA:86,70,0,1
+FN:16,System.Void UseCases.SharedServices.DirectoryService::.ctor(Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.Extensions.Configuration.IConfiguration,UseCases.Contracts.Infrastructure.ICacheService,UseCases.Contracts.Persistance.Query.IContainerRepository)
+FNDA:7,System.Void UseCases.SharedServices.DirectoryService::.ctor(Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.Extensions.Configuration.IConfiguration,UseCases.Contracts.Infrastructure.ICacheService,UseCases.Contracts.Persistance.Query.IContainerRepository)
+DA:17,7
+DA:18,7
+DA:19,7
+DA:20,7
+DA:21,7
+DA:22,7
+DA:23,7
+DA:24,7
+DA:25,7
+DA:26,11
+DA:28,7
+BRDA:26,55,0,4
+BRDA:26,55,1,7
+FN:166,System.Void UseCases.SharedServices.DirectoryService/<GetBeginMoveEmailTemplatePath>d__12::MoveNext()
+FNDA:0,System.Void UseCases.SharedServices.DirectoryService/<GetBeginMoveEmailTemplatePath>d__12::MoveNext()
+DA:167,0
+DA:169,0
+DA:171,0
+DA:172,0
+DA:174,0
+DA:175,0
+FN:147,System.Void UseCases.SharedServices.DirectoryService/<GetBillofLadingTemplatePath>d__11::MoveNext()
+FNDA:0,System.Void UseCases.SharedServices.DirectoryService/<GetBillofLadingTemplatePath>d__11::MoveNext()
+DA:148,0
+DA:150,0
+DA:152,0
+DA:153,0
+DA:155,0
+DA:156,0
+DA:157,0
+DA:158,0
+DA:159,0
+DA:160,0
+DA:161,0
+DA:163,0
+DA:164,0
+BRDA:155,123,0,0
+BRDA:155,136,0,0
+BRDA:155,123,1,0
+BRDA:155,136,1,0
+BRDA:155,149,1,0
+BRDA:155,149,0,0
+FN:30,System.Void UseCases.SharedServices.DirectoryService/<GetCompany>d__6::MoveNext()
+FNDA:6,System.Void UseCases.SharedServices.DirectoryService/<GetCompany>d__6::MoveNext()
+DA:31,6
+DA:44,6
+DA:45,12
+DA:48,6
+DA:49,6
+BRDA:45,205,0,6
+BRDA:45,344,0,4
+BRDA:45,344,1,2
+BRDA:45,205,1,6
+FN:70,System.Void UseCases.SharedServices.DirectoryService/<GetDivisionFolderName>d__8::MoveNext()
+FNDA:4,System.Void UseCases.SharedServices.DirectoryService/<GetDivisionFolderName>d__8::MoveNext()
+DA:71,4
+DA:72,6
+DA:74,4
+DA:75,6
+DA:76,2
+DA:77,2
+DA:78,4
+BRDA:72,31,0,2
+BRDA:72,31,1,4
+BRDA:74,154,0,2
+BRDA:74,154,1,2
+BRDA:75,185,0,2
+BRDA:75,185,1,2
+FN:51,System.Void UseCases.SharedServices.DirectoryService/<GetDocsQueueDirectoryAndFilename>d__7::MoveNext()
+FNDA:2,System.Void UseCases.SharedServices.DirectoryService/<GetDocsQueueDirectoryAndFilename>d__7::MoveNext()
+DA:52,2
+DA:53,2
+DA:54,4
+DA:55,2
+DA:57,4
+DA:59,2
+DA:61,2
+DA:62,3
+DA:64,1
+DA:65,1
+DA:67,1
+DA:68,2
+BRDA:54,77,0,2
+BRDA:54,77,1,2
+BRDA:57,228,0,2
+BRDA:57,228,1,2
+BRDA:62,527,0,1
+BRDA:62,527,1,1
+BRDA:64,572,0,0
+BRDA:64,572,1,1
+FN:94,System.Void UseCases.SharedServices.DirectoryService/<GetPODDirectoryAndFilename>d__10::MoveNext()
+FNDA:2,System.Void UseCases.SharedServices.DirectoryService/<GetPODDirectoryAndFilename>d__10::MoveNext()
+DA:95,2
+DA:97,2
+DA:98,2
+DA:99,4
+DA:101,4
+DA:103,2
+DA:104,3
+DA:107,1
+DA:108,1
+DA:111,1
+DA:112,1
+DA:115,1
+DA:116,2
+BRDA:99,88,0,2
+BRDA:99,88,1,2
+BRDA:101,216,0,2
+BRDA:101,216,1,2
+BRDA:104,414,0,1
+BRDA:104,414,1,1
+LF:77
+LH:58
+BRF:36
+BRH:29
+FNF:8
+FNH:6
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/SharedServices/MoveStatusService.cs
+FN:6,Domain.Shared.Result`1<Domain.ValueObjects.MoveStatusID> UseCases.SharedServices.MoveStatusService::GetStatus(T)
+FNDA:4,Domain.Shared.Result`1<Domain.ValueObjects.MoveStatusID> UseCases.SharedServices.MoveStatusService::GetStatus(T)
+DA:7,4
+DA:8,4
+DA:9,4
+DA:10,4
+DA:12,6
+DA:13,3
+DA:14,1
+DA:16,4
+DA:17,4
+BRDA:12,33,0,2
+BRDA:12,33,1,2
+BRDA:13,40,0,2
+BRDA:13,40,1,0
+BRDA:13,53,0,1
+BRDA:13,53,1,1
+LF:9
+LH:9
+BRF:6
+BRH:5
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/SharedServices/ProofOfDeliveryService.cs
+FN:13,System.Void UseCases.SharedServices.ProofOfDeliveryService::.ctor(UseCases.Contracts.Persistance.Command.IDriverRepository,UseCases.Contracts.Infrastructure.IHTMLReportService,UseCases.Contracts.Infrastructure.IImageService,UseCases.SharedServices.IDirectoryService,UseCases.Contracts.Infrastructure.IPDFService,UseCases.Contracts.Infrastructure.IFileOperationService,UseCases.Contracts.Infrastructure.IEmailService)
+FNDA:3,System.Void UseCases.SharedServices.ProofOfDeliveryService::.ctor(UseCases.Contracts.Persistance.Command.IDriverRepository,UseCases.Contracts.Infrastructure.IHTMLReportService,UseCases.Contracts.Infrastructure.IImageService,UseCases.SharedServices.IDirectoryService,UseCases.Contracts.Infrastructure.IPDFService,UseCases.Contracts.Infrastructure.IFileOperationService,UseCases.Contracts.Infrastructure.IEmailService)
+DA:14,3
+DA:15,3
+DA:16,3
+DA:17,3
+DA:18,3
+DA:19,3
+DA:20,3
+DA:21,3
+DA:22,3
+DA:23,3
+DA:24,3
+DA:25,3
+DA:26,3
+DA:27,3
+DA:28,3
+DA:29,3
+DA:30,3
+FN:106,System.Void UseCases.SharedServices.ProofOfDeliveryService/<GetPODReportHTML>d__12::MoveNext()
+FNDA:1,System.Void UseCases.SharedServices.ProofOfDeliveryService/<GetPODReportHTML>d__12::MoveNext()
+DA:107,1
+DA:108,1
+DA:110,1
+DA:111,1
+DA:113,1
+DA:114,1
+DA:115,1
+DA:116,1
+DA:117,1
+DA:118,1
+DA:119,1
+DA:121,1
+DA:123,1
+DA:124,1
+DA:125,1
+DA:126,1
+DA:129,1
+DA:130,1
+DA:131,1
+DA:132,1
+DA:134,1
+DA:135,1
+DA:136,1
+DA:137,1
+DA:138,1
+DA:139,1
+DA:140,1
+DA:142,1
+DA:144,1
+DA:145,1
+DA:147,1
+DA:149,1
+DA:150,1
+BRDA:111,87,0,0
+BRDA:111,87,1,1
+BRDA:121,398,0,0
+BRDA:121,398,1,1
+BRDA:144,992,0,0
+BRDA:144,992,1,1
+FN:65,System.Void UseCases.SharedServices.ProofOfDeliveryService/<SaveProDocument>d__10::MoveNext()
+FNDA:1,System.Void UseCases.SharedServices.ProofOfDeliveryService/<SaveProDocument>d__10::MoveNext()
+DA:66,1
+DA:67,1
+DA:69,1
+DA:70,1
+DA:71,1
+DA:72,1
+DA:73,1
+DA:74,1
+DA:75,1
+DA:78,1
+DA:79,1
+DA:81,1
+DA:83,1
+DA:84,1
+FN:32,System.Void UseCases.SharedServices.ProofOfDeliveryService/<SaveProofOfDeliveryPDF>d__9::MoveNext()
+FNDA:1,System.Void UseCases.SharedServices.ProofOfDeliveryService/<SaveProofOfDeliveryPDF>d__9::MoveNext()
+DA:33,1
+DA:35,1
+DA:36,1
+DA:38,1
+DA:39,1
+DA:40,1
+DA:42,1
+DA:43,2
+DA:45,1
+DA:47,1
+DA:48,1
+DA:49,1
+DA:50,1
+DA:51,1
+DA:53,1
+DA:54,1
+DA:58,1
+DA:60,1
+DA:62,1
+DA:63,1
+BRDA:36,186,0,0
+BRDA:36,186,1,1
+BRDA:43,425,0,1
+BRDA:43,425,1,1
+FN:86,System.Void UseCases.SharedServices.ProofOfDeliveryService/<SendPODASEmail>d__11::MoveNext()
+FNDA:1,System.Void UseCases.SharedServices.ProofOfDeliveryService/<SendPODASEmail>d__11::MoveNext()
+DA:87,1
+DA:89,3
+DA:90,1
+DA:92,1
+DA:93,1
+DA:95,1
+DA:97,1
+DA:98,1
+DA:100,1
+DA:102,1
+DA:103,1
+DA:104,1
+BRDA:97,175,0,0
+BRDA:97,175,1,1
+BRDA:98,217,0,0
+BRDA:98,217,1,1
+LF:96
+LH:96
+BRF:14
+BRH:8
+FNF:5
+FNH:5
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/SharedServices/WorkQueueService.cs
+FN:6,System.Void UseCases.SharedServices.WorkQueueService::.ctor(UseCases.SharedServices.IMoveStatusService)
+FNDA:3,System.Void UseCases.SharedServices.WorkQueueService::.ctor(UseCases.SharedServices.IMoveStatusService)
+DA:7,3
+DA:8,3
+DA:9,3
+DA:10,3
+FN:24,System.Boolean UseCases.SharedServices.WorkQueueService/<>c::<Get>b__2_0(Domain.ModelsCustom.WorkQueueModel)
+FNDA:6,System.Boolean UseCases.SharedServices.WorkQueueService/<>c::<Get>b__2_0(Domain.ModelsCustom.WorkQueueModel)
+DA:25,6
+FN:31,System.Boolean UseCases.SharedServices.WorkQueueService/<>c::<Get>b__2_1(Domain.ModelsCustom.WorkQueueModel)
+FNDA:6,System.Boolean UseCases.SharedServices.WorkQueueService/<>c::<Get>b__2_1(Domain.ModelsCustom.WorkQueueModel)
+DA:32,6
+BRDA:32,14,0,2
+BRDA:32,14,1,1
+FN:38,System.Nullable`1<System.Int32> UseCases.SharedServices.WorkQueueService/<>c::<Get>b__2_2(Domain.ModelsCustom.WorkQueueModel)
+FNDA:3,System.Nullable`1<System.Int32> UseCases.SharedServices.WorkQueueService/<>c::<Get>b__2_2(Domain.ModelsCustom.WorkQueueModel)
+DA:39,3
+FN:28,System.Boolean UseCases.SharedServices.WorkQueueService/<>c__DisplayClass2_0::<Get>b__3(Domain.ModelsCustom.WorkQueueModel)
+FNDA:2,System.Boolean UseCases.SharedServices.WorkQueueService/<>c__DisplayClass2_0::<Get>b__3(Domain.ModelsCustom.WorkQueueModel)
+DA:29,2
+BRDA:29,52,0,1
+BRDA:29,52,1,0
+FN:35,System.Boolean UseCases.SharedServices.WorkQueueService/<>c__DisplayClass2_1::<Get>b__4(Domain.ModelsCustom.WorkQueueModel)
+FNDA:2,System.Boolean UseCases.SharedServices.WorkQueueService/<>c__DisplayClass2_1::<Get>b__4(Domain.ModelsCustom.WorkQueueModel)
+DA:36,2
+BRDA:36,52,0,1
+BRDA:36,68,0,1
+BRDA:36,52,1,0
+BRDA:36,68,1,0
+FN:12,System.Void UseCases.SharedServices.WorkQueueService/<Get>d__2::MoveNext()
+FNDA:3,System.Void UseCases.SharedServices.WorkQueueService/<Get>d__2::MoveNext()
+DA:13,3
+DA:14,3
+DA:16,15
+DA:17,3
+DA:18,3
+DA:19,6
+DA:20,3
+DA:22,3
+DA:27,11
+DA:28,1
+DA:30,1
+DA:34,11
+DA:35,1
+DA:37,1
+DA:40,3
+BRDA:16,165,1,3
+BRDA:19,104,0,3
+BRDA:19,104,1,3
+BRDA:16,165,0,3
+BRDA:27,377,1,1
+BRDA:27,377,0,3
+BRDA:34,578,1,1
+BRDA:34,578,0,3
+LF:24
+LH:24
+BRF:16
+BRH:13
+FNF:7
+FNH:7
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Responses/ResponseBase.cs
+FN:6,System.String UseCases.Responses.Response`1::get_Status()
+FNDA:44,System.String UseCases.Responses.Response`1::get_Status()
+DA:7,44
+FN:7,T UseCases.Responses.Response`1::get_Data()
+FNDA:31,T UseCases.Responses.Response`1::get_Data()
+DA:8,31
+FN:8,System.Collections.Generic.List`1<UseCases.Dtos.ErrorMessage> UseCases.Responses.Response`1::get_Errors()
+FNDA:167,System.Collections.Generic.List`1<UseCases.Dtos.ErrorMessage> UseCases.Responses.Response`1::get_Errors()
+DA:9,167
+FN:23,UseCases.Responses.Response`1<T> UseCases.Responses.Response`1::Error(FluentValidation.Results.ValidationResult)
+FNDA:3,UseCases.Responses.Response`1<T> UseCases.Responses.Response`1::Error(FluentValidation.Results.ValidationResult)
+DA:24,3
+DA:25,3
+DA:26,37
+DA:27,14
+DA:28,14
+DA:29,14
+DA:30,14
+DA:31,14
+DA:32,14
+DA:34,3
+DA:35,3
+BRDA:26,81,1,14
+BRDA:26,81,0,3
+FN:37,UseCases.Responses.Response`1<T> UseCases.Responses.Response`1::OK(T)
+FNDA:13,UseCases.Responses.Response`1<T> UseCases.Responses.Response`1::OK(T)
+DA:38,13
+DA:39,13
+DA:40,13
+FN:42,UseCases.Responses.Response`1<T> UseCases.Responses.Response`1::Error(System.Exception)
+FNDA:5,UseCases.Responses.Response`1<T> UseCases.Responses.Response`1::Error(System.Exception)
+DA:43,5
+DA:44,5
+DA:45,5
+DA:47,5
+DA:48,5
+FN:50,UseCases.Responses.Response`1<T> UseCases.Responses.Response`1::Error(Domain.Exceptions.Error`1<T>)
+FNDA:5,UseCases.Responses.Response`1<T> UseCases.Responses.Response`1::Error(Domain.Exceptions.Error`1<T>)
+DA:51,5
+DA:52,5
+DA:53,5
+DA:55,5
+DA:56,5
+FN:58,UseCases.Responses.Response`1<T> UseCases.Responses.Response`1::Error(System.String,System.String)
+FNDA:18,UseCases.Responses.Response`1<T> UseCases.Responses.Response`1::Error(System.String,System.String)
+DA:59,18
+DA:60,18
+DA:61,18
+DA:62,18
+DA:63,18
+FN:65,System.String UseCases.Responses.Response`1::GetErrorMessage(System.Exception)
+FNDA:5,System.String UseCases.Responses.Response`1::GetErrorMessage(System.Exception)
+DA:66,5
+DA:68,5
+DA:69,5
+DA:70,5
+DA:71,5
+DA:75,5
+DA:76,1
+DA:77,1
+DA:78,1
+DA:81,1
+DA:82,1
+DA:83,1
+DA:84,1
+DA:85,1
+DA:86,1
+DA:87,5
+DA:89,0
+DA:90,0
+DA:92,5
+BRDA:69,3,0,0
+BRDA:69,3,1,5
+BRDA:69,15,0,4
+BRDA:69,15,1,5
+BRDA:69,24,0,0
+BRDA:69,24,1,5
+BRDA:69,36,0,0
+BRDA:69,36,1,5
+BRDA:75,144,0,1
+BRDA:78,195,0,1
+BRDA:78,195,1,1
+BRDA:78,232,0,0
+BRDA:78,232,1,1
+BRDA:81,268,0,1
+BRDA:84,317,0,1
+BRDA:84,317,1,1
+BRDA:84,354,0,0
+BRDA:84,354,1,1
+BRDA:81,268,1,1
+BRDA:75,144,1,5
+FN:10,System.Void UseCases.Responses.Response`1::.ctor()
+FNDA:31,System.Void UseCases.Responses.Response`1::.ctor()
+DA:11,31
+DA:12,31
+DA:13,31
+DA:14,31
+DA:15,31
+FN:16,System.Void UseCases.Responses.Response`1::.ctor(T)
+FNDA:13,System.Void UseCases.Responses.Response`1::.ctor(T)
+DA:17,13
+DA:18,13
+DA:19,13
+DA:20,13
+DA:21,13
+LF:61
+LH:59
+BRF:22
+BRH:17
+FNF:11
+FNH:11
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/BeginMove/BeginMoveCommand.cs
+FN:2,System.Void UseCases.Features.BeginMoveCommand::.ctor(UseCases.Dtos.CommonRequestDto)
+FNDA:2,System.Void UseCases.Features.BeginMoveCommand::.ctor(UseCases.Dtos.CommonRequestDto)
+DA:3,2
+DA:5,2
+LF:2
+LH:2
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/BeginMove/BeginMoveCommandHandler.cs
+FN:13,System.Void UseCases.Features.BeginMoveCommandHandler::.ctor(UseCases.Contracts.Persistance.Query.IContainerRepository,UseCases.Contracts.Persistance.Command.IDriverRepository,UseCases.SharedServices.IBaseService,UseCases.SharedServices.IMoveStatusService,UseCases.SharedServices.IDeserializeService,UseCases.SharedServices.IBeginMoveEmailService)
+FNDA:2,System.Void UseCases.Features.BeginMoveCommandHandler::.ctor(UseCases.Contracts.Persistance.Query.IContainerRepository,UseCases.Contracts.Persistance.Command.IDriverRepository,UseCases.SharedServices.IBaseService,UseCases.SharedServices.IMoveStatusService,UseCases.SharedServices.IDeserializeService,UseCases.SharedServices.IBeginMoveEmailService)
+DA:14,2
+DA:15,2
+DA:16,2
+DA:17,2
+DA:18,2
+DA:19,2
+DA:20,2
+DA:21,2
+DA:22,2
+DA:23,2
+DA:24,2
+DA:25,2
+DA:26,2
+DA:27,2
+DA:28,2
+DA:29,2
+FN:77,System.Void UseCases.Features.BeginMoveCommandHandler/<GetPreviewInstruction>d__8::MoveNext()
+FNDA:1,System.Void UseCases.Features.BeginMoveCommandHandler/<GetPreviewInstruction>d__8::MoveNext()
+DA:78,1
+DA:79,1
+DA:80,1
+DA:82,1
+DA:83,1
+DA:84,1
+BRDA:80,208,0,0
+BRDA:80,208,1,1
+FN:31,System.Void UseCases.Features.BeginMoveCommandHandler/<Handle>d__7::MoveNext()
+FNDA:2,System.Void UseCases.Features.BeginMoveCommandHandler/<Handle>d__7::MoveNext()
+DA:32,2
+DA:33,2
+DA:34,2
+DA:36,1
+DA:37,1
+DA:38,1
+DA:39,1
+DA:40,1
+DA:43,1
+DA:45,1
+DA:47,1
+DA:49,1
+DA:50,1
+DA:51,1
+DA:52,1
+DA:53,1
+DA:58,1
+DA:61,1
+DA:65,1
+DA:66,1
+DA:67,1
+DA:68,1
+DA:69,1
+DA:70,1
+DA:71,1
+DA:72,0
+DA:74,1
+DA:75,1
+BRDA:34,103,0,0
+BRDA:34,103,1,1
+BRDA:45,390,0,0
+BRDA:45,390,1,1
+BRDA:66,959,0,1
+BRDA:66,959,1,0
+BRDA:66,991,0,1
+BRDA:69,1158,0,0
+BRDA:69,1158,1,1
+BRDA:66,991,1,1
+LF:50
+LH:49
+BRF:12
+BRH:7
+FNF:3
+FNH:3
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/Documents/BOL/GetBillOfLadingPDFQuery.cs
+FN:2,System.Void UseCases.Features.GetBillOfLadingPDFQuery::.ctor(UseCases.Dtos.ContainerRequestDto)
+FNDA:1,System.Void UseCases.Features.GetBillOfLadingPDFQuery::.ctor(UseCases.Dtos.ContainerRequestDto)
+DA:3,1
+DA:5,1
+LF:2
+LH:2
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/Documents/BOL/GetBillOfLadingPDFQueryHandler.cs
+FN:11,System.Void UseCases.Features.GetBillOfLadingPDFQueryHandler::.ctor(UseCases.Contracts.Persistance.Query.IContainerRepository,UseCases.Contracts.Infrastructure.IHTMLReportService,Microsoft.Extensions.Configuration.IConfiguration)
+FNDA:1,System.Void UseCases.Features.GetBillOfLadingPDFQueryHandler::.ctor(UseCases.Contracts.Persistance.Query.IContainerRepository,UseCases.Contracts.Infrastructure.IHTMLReportService,Microsoft.Extensions.Configuration.IConfiguration)
+DA:12,1
+DA:13,1
+DA:14,1
+DA:15,1
+DA:16,1
+DA:17,1
+DA:18,1
+DA:19,1
+DA:20,1
+FN:22,System.Void UseCases.Features.GetBillOfLadingPDFQueryHandler/<Handle>d__5::MoveNext()
+FNDA:1,System.Void UseCases.Features.GetBillOfLadingPDFQueryHandler/<Handle>d__5::MoveNext()
+DA:23,1
+DA:25,1
+DA:26,1
+DA:29,1
+DA:30,1
+DA:32,1
+DA:34,1
+DA:37,1
+DA:38,1
+DA:39,1
+BRDA:26,182,0,0
+BRDA:26,182,1,1
+BRDA:30,371,0,0
+BRDA:30,371,1,1
+LF:19
+LH:19
+BRF:4
+BRH:2
+FNF:2
+FNH:2
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/Documents/Notifications/Command/RequestedNotificationDto.cs
+FN:2,System.Int32 UseCases.Features.RequestedNotificationDto::get_NotificationID()
+FNDA:6,System.Int32 UseCases.Features.RequestedNotificationDto::get_NotificationID()
+DA:3,6
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/Documents/Notifications/Command/UpdateNotificationStatusCommand.cs
+FN:2,System.Void UseCases.Features.UpdateNotificationStatusCommand::.ctor(UseCases.Dtos.CommonRequestDto)
+FNDA:5,System.Void UseCases.Features.UpdateNotificationStatusCommand::.ctor(UseCases.Dtos.CommonRequestDto)
+DA:3,5
+DA:5,5
+LF:2
+LH:2
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/Documents/Notifications/Command/UpdateNotificationStatusCommandHandler.cs
+FN:9,System.Void UseCases.Features.UpdateNotificationStatusCommandHandler::.ctor(UseCases.Contracts.Persistance.Command.INotificationCommandRepository,UseCases.Contracts.Persistance.Query.IDocumentNotificationRepository,UseCases.SharedServices.IDeserializeService,UseCases.SharedServices.IBaseService)
+FNDA:5,System.Void UseCases.Features.UpdateNotificationStatusCommandHandler::.ctor(UseCases.Contracts.Persistance.Command.INotificationCommandRepository,UseCases.Contracts.Persistance.Query.IDocumentNotificationRepository,UseCases.SharedServices.IDeserializeService,UseCases.SharedServices.IBaseService)
+DA:10,5
+DA:11,5
+DA:12,5
+DA:13,5
+DA:14,5
+DA:15,5
+DA:16,5
+DA:17,5
+DA:18,5
+DA:19,5
+DA:20,5
+FN:22,System.Void UseCases.Features.UpdateNotificationStatusCommandHandler/<Handle>d__5::MoveNext()
+FNDA:5,System.Void UseCases.Features.UpdateNotificationStatusCommandHandler/<Handle>d__5::MoveNext()
+DA:23,5
+DA:25,5
+DA:26,7
+DA:30,3
+DA:31,4
+DA:35,2
+DA:36,3
+DA:38,1
+DA:39,5
+BRDA:26,80,0,2
+BRDA:26,80,1,3
+BRDA:31,265,0,1
+BRDA:31,265,1,2
+BRDA:36,455,0,1
+BRDA:36,455,1,1
+FN:41,System.Void UseCases.Features.UpdateNotificationStatusCommandHandler/<UpdateNotification>d__6::MoveNext()
+FNDA:3,System.Void UseCases.Features.UpdateNotificationStatusCommandHandler/<UpdateNotification>d__6::MoveNext()
+DA:42,3
+DA:44,3
+DA:45,4
+DA:48,2
+DA:49,2
+DA:50,2
+DA:51,2
+DA:52,3
+BRDA:45,182,0,1
+BRDA:45,182,1,2
+LF:28
+LH:28
+BRF:8
+BRH:8
+FNF:3
+FNH:3
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/Documents/Notifications/Queries/GetRecentNotificationQueryHandler.cs
+FN:7,System.Void UseCases.Features.GetRecentNotificationQueryHandler::.ctor(UseCases.Contracts.Persistance.Query.IDocumentNotificationRepository,UseCases.SharedServices.IBaseService)
+FNDA:2,System.Void UseCases.Features.GetRecentNotificationQueryHandler::.ctor(UseCases.Contracts.Persistance.Query.IDocumentNotificationRepository,UseCases.SharedServices.IBaseService)
+DA:8,2
+DA:9,2
+DA:10,2
+DA:11,2
+DA:12,2
+FN:20,System.DateTime UseCases.Features.GetRecentNotificationQueryHandler/<>c::<Handle>b__3_0(Domain.Entities.DocumentNotifications)
+FNDA:3,System.DateTime UseCases.Features.GetRecentNotificationQueryHandler/<>c::<Handle>b__3_0(Domain.Entities.DocumentNotifications)
+DA:21,3
+FN:14,System.Void UseCases.Features.GetRecentNotificationQueryHandler/<Handle>d__3::MoveNext()
+FNDA:2,System.Void UseCases.Features.GetRecentNotificationQueryHandler/<Handle>d__3::MoveNext()
+DA:15,2
+DA:16,2
+DA:17,3
+DA:19,1
+DA:22,1
+DA:23,2
+BRDA:17,181,0,1
+BRDA:17,181,1,1
+LF:12
+LH:12
+BRF:2
+BRH:2
+FNF:3
+FNH:3
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/Documents/Notifications/Queries/GetUnseenNotificationQueryHandler.cs
+FN:7,System.Void UseCases.Features.GetUnseenNotificationQueryHandler::.ctor(UseCases.Contracts.Persistance.Query.IDocumentNotificationRepository,UseCases.SharedServices.IBaseService)
+FNDA:2,System.Void UseCases.Features.GetUnseenNotificationQueryHandler::.ctor(UseCases.Contracts.Persistance.Query.IDocumentNotificationRepository,UseCases.SharedServices.IBaseService)
+DA:8,2
+DA:9,2
+DA:10,2
+DA:11,2
+DA:12,2
+FN:19,System.DateTime UseCases.Features.GetUnseenNotificationQueryHandler/<>c::<Handle>b__3_0(Domain.Entities.DocumentNotifications)
+FNDA:3,System.DateTime UseCases.Features.GetUnseenNotificationQueryHandler/<>c::<Handle>b__3_0(Domain.Entities.DocumentNotifications)
+DA:20,3
+FN:14,System.Void UseCases.Features.GetUnseenNotificationQueryHandler/<Handle>d__3::MoveNext()
+FNDA:2,System.Void UseCases.Features.GetUnseenNotificationQueryHandler/<Handle>d__3::MoveNext()
+DA:15,2
+DA:16,2
+DA:17,3
+DA:19,1
+DA:22,1
+DA:23,2
+BRDA:17,181,0,1
+BRDA:17,181,1,1
+LF:12
+LH:12
+BRF:2
+BRH:2
+FNF:3
+FNH:3
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/Documents/PDF/GetDocumentPDFQuery.cs
+FN:1,System.Void UseCases.Features.GetDocumentPDFQuery::.ctor(UseCases.Dtos.DocumentRequestDto)
+FNDA:2,System.Void UseCases.Features.GetDocumentPDFQuery::.ctor(UseCases.Dtos.DocumentRequestDto)
+DA:2,2
+DA:4,2
+LF:2
+LH:2
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/Documents/PDF/GetDocumentPDFQueryHandler.cs
+FN:10,System.Void UseCases.Features.GetDocumentPDFQueryHandler::.ctor(UseCases.Contracts.Persistance.Query.IContainerRepository,UseCases.SharedServices.IDirectoryService,Microsoft.Extensions.Configuration.IConfiguration,UseCases.SharedServices.IBaseService)
+FNDA:2,System.Void UseCases.Features.GetDocumentPDFQueryHandler::.ctor(UseCases.Contracts.Persistance.Query.IContainerRepository,UseCases.SharedServices.IDirectoryService,Microsoft.Extensions.Configuration.IConfiguration,UseCases.SharedServices.IBaseService)
+DA:11,2
+DA:12,2
+DA:13,2
+DA:14,2
+DA:15,2
+DA:16,2
+DA:17,2
+FN:41,System.Void UseCases.Features.GetDocumentPDFQueryHandler/<GetOrderLogDoc>d__6::MoveNext()
+FNDA:1,System.Void UseCases.Features.GetDocumentPDFQueryHandler/<GetOrderLogDoc>d__6::MoveNext()
+DA:42,1
+DA:43,1
+DA:44,1
+DA:45,1
+DA:46,2
+DA:47,1
+DA:48,1
+BRDA:45,54,0,1
+BRDA:45,54,1,0
+BRDA:45,70,0,0
+BRDA:45,70,1,1
+BRDA:46,88,0,1
+BRDA:46,88,1,0
+BRDA:46,105,0,1
+BRDA:46,105,1,1
+FN:19,System.Void UseCases.Features.GetDocumentPDFQueryHandler/<Handle>d__5::MoveNext()
+FNDA:2,System.Void UseCases.Features.GetDocumentPDFQueryHandler/<Handle>d__5::MoveNext()
+DA:20,2
+DA:21,2
+DA:22,3
+DA:25,1
+DA:26,1
+DA:28,2
+DA:29,1
+DA:32,1
+DA:34,1
+DA:35,1
+DA:36,1
+DA:37,1
+DA:38,1
+DA:39,2
+BRDA:22,192,0,1
+BRDA:22,192,1,1
+BRDA:25,259,0,0
+BRDA:25,259,1,1
+BRDA:29,472,0,0
+BRDA:29,472,1,1
+BRDA:32,534,0,0
+BRDA:32,534,1,1
+LF:28
+LH:28
+BRF:16
+BRH:10
+FNF:3
+FNH:3
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/DocumentSubmit/DocumentSubmitDeliveryCommand.cs
+FN:2,System.Void UseCases.Features.DocumentSubmitDeliveryCommand::.ctor(UseCases.Dtos.DocumentSubmitRequestDto)
+FNDA:7,System.Void UseCases.Features.DocumentSubmitDeliveryCommand::.ctor(UseCases.Dtos.DocumentSubmitRequestDto)
+DA:3,7
+DA:5,7
+LF:2
+LH:2
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/DocumentSubmit/DocumentSubmitDeliveryCommandHandler.cs
+FN:15,System.Void UseCases.Features.DocumentSubmitDeliveryCommandHandler::.ctor(UseCases.Contracts.Persistance.Command.IDriverRepository,UseCases.Contracts.Persistance.Query.IContainerRepository,UseCases.SharedServices.IBaseService,UseCases.SharedServices.IWorkQueueService,UseCases.SharedServices.IDirectoryService,UseCases.Contracts.Infrastructure.IImageService,UseCases.SharedServices.IProofOfDeliveryService)
+FNDA:7,System.Void UseCases.Features.DocumentSubmitDeliveryCommandHandler::.ctor(UseCases.Contracts.Persistance.Command.IDriverRepository,UseCases.Contracts.Persistance.Query.IContainerRepository,UseCases.SharedServices.IBaseService,UseCases.SharedServices.IWorkQueueService,UseCases.SharedServices.IDirectoryService,UseCases.Contracts.Infrastructure.IImageService,UseCases.SharedServices.IProofOfDeliveryService)
+DA:16,7
+DA:17,7
+DA:18,7
+DA:19,7
+DA:20,7
+DA:21,7
+DA:22,7
+DA:23,7
+DA:24,7
+DA:25,7
+DA:26,7
+DA:27,7
+DA:28,7
+DA:29,7
+DA:30,7
+DA:31,7
+FN:33,System.Void UseCases.Features.DocumentSubmitDeliveryCommandHandler/<Handle>d__8::MoveNext()
+FNDA:7,System.Void UseCases.Features.DocumentSubmitDeliveryCommandHandler/<Handle>d__8::MoveNext()
+DA:34,7
+DA:36,7
+DA:37,7
+DA:42,7
+DA:43,7
+DA:44,8
+DA:47,6
+DA:48,7
+DA:50,5
+DA:54,5
+DA:55,6
+DA:58,4
+DA:59,5
+DA:61,3
+DA:64,3
+DA:66,3
+DA:67,3
+DA:70,3
+DA:71,1
+DA:72,1
+DA:77,2
+DA:78,3
+DA:81,1
+DA:85,1
+DA:86,1
+DA:89,1
+DA:90,1
+DA:93,1
+DA:94,1
+DA:96,1
+DA:97,1
+DA:98,7
+BRDA:44,348,0,1
+BRDA:44,348,1,6
+BRDA:48,522,0,1
+BRDA:48,522,1,5
+BRDA:55,607,0,1
+BRDA:55,607,1,4
+BRDA:59,808,0,1
+BRDA:59,808,1,3
+BRDA:67,1027,0,0
+BRDA:67,1027,1,3
+BRDA:70,1077,0,3
+BRDA:70,1077,1,0
+BRDA:70,1148,0,1
+BRDA:70,1148,1,2
+BRDA:78,1455,0,1
+BRDA:78,1455,1,1
+BRDA:81,1498,0,0
+BRDA:81,1498,1,1
+BRDA:86,1684,0,0
+BRDA:86,1684,1,1
+BRDA:90,1891,0,0
+BRDA:90,1891,1,1
+BRDA:94,2100,0,0
+BRDA:94,2100,1,1
+FN:105,System.Void UseCases.Features.DocumentSubmitDeliveryCommandHandler/<UpdateContainerDelivery>d__9::MoveNext()
+FNDA:1,System.Void UseCases.Features.DocumentSubmitDeliveryCommandHandler/<UpdateContainerDelivery>d__9::MoveNext()
+DA:106,1
+DA:108,1
+DA:109,1
+DA:111,1
+DA:117,1
+DA:118,1
+DA:119,1
+DA:120,1
+DA:121,1
+DA:122,1
+DA:127,1
+DA:128,1
+DA:133,1
+DA:134,1
+DA:135,1
+DA:136,1
+DA:137,1
+DA:138,1
+DA:139,1
+DA:143,1
+DA:150,1
+DA:151,1
+BRDA:109,225,0,0
+BRDA:109,225,1,1
+BRDA:143,829,0,0
+BRDA:143,829,1,1
+LF:70
+LH:70
+BRF:28
+BRH:20
+FNF:3
+FNH:3
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/DocumentSubmit/DocumentSubmitPickupCommand.cs
+FN:2,System.Void UseCases.Features.DocumentSubmitPickupCommand::.ctor(UseCases.Dtos.DocumentSubmitRequestDto)
+FNDA:7,System.Void UseCases.Features.DocumentSubmitPickupCommand::.ctor(UseCases.Dtos.DocumentSubmitRequestDto)
+DA:3,7
+DA:5,7
+LF:2
+LH:2
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/DocumentSubmit/DocumentSubmitPickupCommandHandler.cs
+FN:145,Domain.Entities.DriverDocuments UseCases.Features.DocumentSubmitPickupCommandHandler::GetNewDocument(Domain.ModelsCustom.DriverContainerModel,UseCases.Dtos.DocumentSubmitRequestDto,System.Boolean,UseCases.Dtos.FileInfoDto,System.Int32,UseCases.Dtos.SessionUserDto)
+FNDA:2,Domain.Entities.DriverDocuments UseCases.Features.DocumentSubmitPickupCommandHandler::GetNewDocument(Domain.ModelsCustom.DriverContainerModel,UseCases.Dtos.DocumentSubmitRequestDto,System.Boolean,UseCases.Dtos.FileInfoDto,System.Int32,UseCases.Dtos.SessionUserDto)
+DA:146,2
+DA:148,2
+DA:149,2
+DA:150,2
+DA:151,2
+DA:152,2
+DA:153,2
+DA:154,2
+DA:156,2
+DA:157,2
+DA:158,2
+DA:160,2
+DA:161,2
+DA:162,2
+DA:163,2
+DA:164,2
+DA:165,2
+DA:167,2
+DA:168,2
+BRDA:163,194,0,1
+BRDA:163,194,1,1
+FN:17,System.Void UseCases.Features.DocumentSubmitPickupCommandHandler::.ctor(UseCases.Contracts.Persistance.Command.IDriverRepository,UseCases.Contracts.Persistance.Query.IContainerRepository,UseCases.SharedServices.IBaseService,UseCases.SharedServices.IWorkQueueService,UseCases.SharedServices.IDirectoryService,UseCases.SharedServices.IDeserializeService,UseCases.Contracts.Infrastructure.IImageService,UseCases.Contracts.Infrastructure.IPDFService,UseCases.Contracts.Infrastructure.IFileOperationService)
+FNDA:7,System.Void UseCases.Features.DocumentSubmitPickupCommandHandler::.ctor(UseCases.Contracts.Persistance.Command.IDriverRepository,UseCases.Contracts.Persistance.Query.IContainerRepository,UseCases.SharedServices.IBaseService,UseCases.SharedServices.IWorkQueueService,UseCases.SharedServices.IDirectoryService,UseCases.SharedServices.IDeserializeService,UseCases.Contracts.Infrastructure.IImageService,UseCases.Contracts.Infrastructure.IPDFService,UseCases.Contracts.Infrastructure.IFileOperationService)
+DA:18,7
+DA:19,7
+DA:20,7
+DA:21,7
+DA:22,7
+DA:23,7
+DA:24,7
+DA:25,7
+DA:26,7
+DA:27,7
+DA:28,7
+DA:29,7
+DA:30,7
+DA:31,7
+DA:32,7
+DA:33,7
+DA:34,7
+DA:35,7
+DA:36,7
+DA:37,7
+DA:38,7
+FN:40,System.Void UseCases.Features.DocumentSubmitPickupCommandHandler/<Handle>d__10::MoveNext()
+FNDA:7,System.Void UseCases.Features.DocumentSubmitPickupCommandHandler/<Handle>d__10::MoveNext()
+DA:41,7
+DA:44,7
+DA:45,7
+DA:48,7
+DA:49,7
+DA:50,8
+DA:53,6
+DA:54,7
+DA:56,5
+DA:59,5
+DA:60,6
+DA:63,4
+DA:64,5
+DA:66,3
+DA:69,3
+DA:72,3
+DA:73,3
+DA:74,3
+DA:77,3
+DA:78,4
+DA:82,2
+DA:85,2
+DA:86,2
+DA:88,2
+DA:89,2
+DA:90,7
+BRDA:50,339,0,1
+BRDA:50,339,1,6
+BRDA:54,513,0,1
+BRDA:54,513,1,5
+BRDA:60,598,0,1
+BRDA:60,598,1,4
+BRDA:64,799,0,1
+BRDA:64,799,1,3
+BRDA:73,1028,0,0
+BRDA:73,1028,1,3
+BRDA:78,1253,0,1
+BRDA:78,1253,1,2
+BRDA:86,1581,0,0
+BRDA:86,1581,1,2
+FN:99,System.Void UseCases.Features.DocumentSubmitPickupCommandHandler/<SubmitPickup>d__11::MoveNext()
+FNDA:3,System.Void UseCases.Features.DocumentSubmitPickupCommandHandler/<SubmitPickup>d__11::MoveNext()
+DA:100,3
+DA:101,3
+DA:103,3
+DA:104,3
+DA:107,3
+DA:108,1
+DA:109,1
+DA:116,2
+DA:119,2
+DA:120,1
+DA:121,1
+DA:122,1
+DA:123,1
+DA:124,1
+DA:128,2
+DA:131,3
+DA:133,2
+DA:134,3
+BRDA:104,277,0,0
+BRDA:104,277,1,3
+BRDA:107,322,0,3
+BRDA:107,322,1,0
+BRDA:107,393,0,1
+BRDA:107,393,1,2
+BRDA:119,640,0,1
+BRDA:119,640,1,1
+BRDA:119,658,0,1
+BRDA:119,658,1,2
+BRDA:131,988,0,2
+BRDA:131,988,1,0
+BRDA:131,1004,0,1
+BRDA:131,1004,1,2
+FN:136,System.Void UseCases.Features.DocumentSubmitPickupCommandHandler/<UpdateContainerStatus>d__12::MoveNext()
+FNDA:2,System.Void UseCases.Features.DocumentSubmitPickupCommandHandler/<UpdateContainerStatus>d__12::MoveNext()
+DA:137,2
+DA:138,2
+DA:139,2
+DA:140,2
+LF:88
+LH:88
+BRF:30
+BRH:25
+FNF:5
+FNH:5
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/DocumentSubmit/DocumentSubmitValidator.cs
+FN:25,Domain.Shared.Result`1<System.String> UseCases.Features.DocumentSubmitValidator::ValidateSignatureImage(UseCases.Dtos.DocumentSubmitRequestDto,Domain.ModelsCustom.DriverContainerModel)
+FNDA:5,Domain.Shared.Result`1<System.String> UseCases.Features.DocumentSubmitValidator::ValidateSignatureImage(UseCases.Dtos.DocumentSubmitRequestDto,Domain.ModelsCustom.DriverContainerModel)
+DA:26,5
+DA:28,5
+DA:29,5
+DA:30,5
+DA:31,1
+DA:32,1
+DA:35,8
+DA:36,4
+DA:37,5
+BRDA:28,17,0,5
+BRDA:28,40,0,5
+BRDA:28,17,1,0
+BRDA:28,40,1,0
+BRDA:28,58,0,1
+BRDA:28,58,1,4
+BRDA:35,100,0,4
+BRDA:35,100,1,4
+FN:38,Domain.Shared.Result`1<System.String> UseCases.Features.DocumentSubmitValidator::ValidateImage(UseCases.Dtos.DocumentSubmitRequestDto,Domain.ModelsCustom.DriverContainerModel)
+FNDA:5,Domain.Shared.Result`1<System.String> UseCases.Features.DocumentSubmitValidator::ValidateImage(UseCases.Dtos.DocumentSubmitRequestDto,Domain.ModelsCustom.DriverContainerModel)
+DA:39,5
+DA:41,5
+DA:42,5
+DA:43,1
+DA:44,1
+DA:47,8
+DA:48,4
+DA:49,5
+BRDA:41,22,0,5
+BRDA:41,22,1,0
+BRDA:41,40,0,1
+BRDA:41,40,1,4
+BRDA:47,82,0,4
+BRDA:47,82,1,4
+FN:4,System.Void UseCases.Features.DocumentSubmitValidator::.ctor()
+FNDA:14,System.Void UseCases.Features.DocumentSubmitValidator::.ctor()
+DA:5,14
+DA:6,14
+DA:7,14
+DA:8,14
+DA:10,14
+DA:11,14
+DA:12,14
+DA:14,14
+DA:15,14
+DA:17,14
+DA:18,14
+DA:20,14
+DA:21,14
+DA:24,14
+LF:31
+LH:31
+BRF:14
+BRH:11
+FNF:3
+FNH:3
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/PreviewInstructions/GetPreviewInstructionQuery.cs
+FN:2,System.Void UseCases.Features.GetPreviewInstructionQuery::.ctor(UseCases.Dtos.ContainerRequestDto)
+FNDA:2,System.Void UseCases.Features.GetPreviewInstructionQuery::.ctor(UseCases.Dtos.ContainerRequestDto)
+DA:3,2
+DA:5,2
+LF:2
+LH:2
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/PreviewInstructions/GetPreviewInstructionQueryHandler.cs
+FN:7,System.Void UseCases.Features.GetPreviewInstructionQueryHandler::.ctor(UseCases.Contracts.Persistance.Query.IContainerRepository,UseCases.SharedServices.IMoveStatusService)
+FNDA:2,System.Void UseCases.Features.GetPreviewInstructionQueryHandler::.ctor(UseCases.Contracts.Persistance.Query.IContainerRepository,UseCases.SharedServices.IMoveStatusService)
+DA:8,2
+DA:9,2
+DA:10,2
+DA:11,2
+DA:12,2
+FN:13,System.Void UseCases.Features.GetPreviewInstructionQueryHandler/<Handle>d__3::MoveNext()
+FNDA:2,System.Void UseCases.Features.GetPreviewInstructionQueryHandler/<Handle>d__3::MoveNext()
+DA:14,2
+DA:15,2
+DA:16,2
+DA:18,2
+DA:19,1
+DA:20,1
+BRDA:16,171,0,0
+BRDA:16,171,1,2
+LF:11
+LH:11
+BRF:2
+BRH:1
+FNF:2
+FNH:2
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/PurchaseOrders/Queries/GetPurchaseOrderQuery.cs
+FN:2,System.Void UseCases.Features.GetPurchaseOrderQuery::.ctor(UseCases.Dtos.ContainerRequestDto)
+FNDA:2,System.Void UseCases.Features.GetPurchaseOrderQuery::.ctor(UseCases.Dtos.ContainerRequestDto)
+DA:3,2
+DA:5,2
+LF:2
+LH:2
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/PurchaseOrders/Queries/GetPurchaseOrderQueryHandler.cs
+FN:6,System.Void UseCases.Features.GetPurchaseOrderQueryHandler::.ctor(UseCases.Contracts.Persistance.Query.IContainerRepository)
+FNDA:2,System.Void UseCases.Features.GetPurchaseOrderQueryHandler::.ctor(UseCases.Contracts.Persistance.Query.IContainerRepository)
+DA:7,2
+DA:8,2
+DA:9,2
+DA:10,2
+FN:12,System.Void UseCases.Features.GetPurchaseOrderQueryHandler/<Handle>d__2::MoveNext()
+FNDA:2,System.Void UseCases.Features.GetPurchaseOrderQueryHandler/<Handle>d__2::MoveNext()
+DA:13,2
+DA:14,2
+DA:15,2
+LF:7
+LH:7
+BRF:0
+BRH:0
+FNF:2
+FNH:2
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/User/Login/GetUserTokenQuery.cs
+FN:4,System.Void UseCases.Features.GetUserTokenQuery::.ctor(UseCases.Dtos.CommonRequestDto)
+FNDA:5,System.Void UseCases.Features.GetUserTokenQuery::.ctor(UseCases.Dtos.CommonRequestDto)
+DA:5,5
+DA:7,5
+LF:2
+LH:2
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/User/Login/GetUserTokenQueryHandler.cs
+FN:73,System.String UseCases.Features.GetUserTokenQueryHandler::GenerateToken(System.Security.Claims.Claim[])
+FNDA:1,System.String UseCases.Features.GetUserTokenQueryHandler::GenerateToken(System.Security.Claims.Claim[])
+DA:74,1
+DA:75,1
+DA:77,1
+DA:79,1
+DA:80,1
+DA:82,1
+DA:83,1
+DA:84,1
+DA:85,1
+DA:86,1
+DA:87,1
+DA:88,1
+DA:90,1
+DA:91,1
+BRDA:75,23,0,0
+BRDA:75,23,1,1
+BRDA:77,53,0,0
+BRDA:77,53,1,1
+FN:93,System.Security.Claims.Claim[] UseCases.Features.GetUserTokenQueryHandler::GetUserClaims(Domain.ModelsCustom.LoggedUserDetails)
+FNDA:1,System.Security.Claims.Claim[] UseCases.Features.GetUserTokenQueryHandler::GetUserClaims(Domain.ModelsCustom.LoggedUserDetails)
+DA:94,1
+DA:95,1
+DA:96,1
+DA:97,1
+DA:98,1
+DA:99,1
+FN:17,System.Void UseCases.Features.GetUserTokenQueryHandler::.ctor(UseCases.SharedServices.IDeserializeService,UseCases.Contracts.Persistance.Query.IUserRepository,Microsoft.Extensions.Configuration.IConfiguration,AutoMapper.IMapper)
+FNDA:5,System.Void UseCases.Features.GetUserTokenQueryHandler::.ctor(UseCases.SharedServices.IDeserializeService,UseCases.Contracts.Persistance.Query.IUserRepository,Microsoft.Extensions.Configuration.IConfiguration,AutoMapper.IMapper)
+DA:18,5
+DA:19,5
+DA:20,5
+DA:21,5
+DA:22,5
+DA:23,5
+DA:24,5
+FN:101,System.Void UseCases.Features.GetUserTokenQueryHandler/<GetUser>d__8::MoveNext()
+FNDA:2,System.Void UseCases.Features.GetUserTokenQueryHandler/<GetUser>d__8::MoveNext()
+DA:102,2
+DA:104,2
+DA:105,2
+FN:26,System.Void UseCases.Features.GetUserTokenQueryHandler/<Handle>d__5::MoveNext()
+FNDA:5,System.Void UseCases.Features.GetUserTokenQueryHandler/<Handle>d__5::MoveNext()
+DA:27,5
+DA:28,6
+DA:30,4
+DA:31,5
+DA:33,3
+DA:37,3
+DA:38,3
+DA:40,4
+DA:43,2
+DA:44,3
+DA:45,1
+DA:48,1
+DA:49,1
+DA:50,1
+DA:51,1
+DA:52,1
+DA:54,1
+DA:55,1
+DA:56,1
+DA:57,1
+DA:58,1
+DA:59,1
+DA:60,1
+DA:61,1
+DA:62,1
+DA:64,1
+DA:66,1
+DA:67,1
+DA:69,1
+DA:70,5
+BRDA:28,45,0,1
+BRDA:28,45,1,4
+BRDA:31,115,0,1
+BRDA:31,115,1,3
+BRDA:40,356,0,1
+BRDA:40,356,1,2
+BRDA:44,525,0,1
+BRDA:44,525,1,1
+BRDA:67,822,0,0
+BRDA:67,822,1,1
+LF:60
+LH:60
+BRF:14
+BRH:11
+FNF:5
+FNH:5
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/ViewMove/ViewMoveCommand.cs
+FN:2,System.Void UseCases.Features.ViewMoveCommand::.ctor(UseCases.Dtos.CommonRequestDto)
+FNDA:2,System.Void UseCases.Features.ViewMoveCommand::.ctor(UseCases.Dtos.CommonRequestDto)
+DA:3,2
+DA:5,2
+LF:2
+LH:2
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/ViewMove/ViewMoveCommandHandler.cs
+FN:10,System.Void UseCases.Features.ViewMoveCommandHandler::.ctor(UseCases.Contracts.Persistance.Query.IContainerRepository,UseCases.Contracts.Persistance.Command.IDriverRepository,UseCases.SharedServices.IMoveStatusService,UseCases.SharedServices.IBaseService,UseCases.SharedServices.IDeserializeService)
+FNDA:2,System.Void UseCases.Features.ViewMoveCommandHandler::.ctor(UseCases.Contracts.Persistance.Query.IContainerRepository,UseCases.Contracts.Persistance.Command.IDriverRepository,UseCases.SharedServices.IMoveStatusService,UseCases.SharedServices.IBaseService,UseCases.SharedServices.IDeserializeService)
+DA:11,2
+DA:12,2
+DA:13,2
+DA:14,2
+DA:15,2
+DA:16,2
+DA:17,2
+DA:18,2
+FN:50,System.Void UseCases.Features.ViewMoveCommandHandler/<GetPreviewInstruction>d__7::MoveNext()
+FNDA:1,System.Void UseCases.Features.ViewMoveCommandHandler/<GetPreviewInstruction>d__7::MoveNext()
+DA:51,1
+DA:52,1
+DA:53,1
+DA:55,1
+DA:57,1
+DA:58,1
+DA:59,1
+BRDA:53,208,0,0
+BRDA:53,208,1,1
+FN:20,System.Void UseCases.Features.ViewMoveCommandHandler/<Handle>d__6::MoveNext()
+FNDA:2,System.Void UseCases.Features.ViewMoveCommandHandler/<Handle>d__6::MoveNext()
+DA:21,2
+DA:24,2
+DA:25,2
+DA:27,1
+DA:28,1
+DA:29,1
+DA:30,1
+DA:31,1
+DA:33,1
+DA:34,1
+DA:35,1
+DA:36,1
+DA:37,1
+DA:38,1
+DA:39,1
+DA:40,1
+DA:42,1
+DA:44,1
+DA:45,1
+DA:47,1
+DA:48,1
+BRDA:25,80,0,0
+BRDA:25,80,1,1
+BRDA:42,377,0,0
+BRDA:42,435,0,0
+BRDA:42,435,1,0
+BRDA:42,377,1,1
+LF:36
+LH:36
+BRF:8
+BRH:3
+FNF:3
+FNH:3
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/WorkQueue/GetWorkQueueQueryHandler.cs
+FN:8,System.Void UseCases.Features.GetWorkQueueQueryHandler::.ctor(UseCases.Contracts.Persistance.Query.IContainerRepository,UseCases.SharedServices.IWorkQueueService,UseCases.SharedServices.IBaseService)
+FNDA:1,System.Void UseCases.Features.GetWorkQueueQueryHandler::.ctor(UseCases.Contracts.Persistance.Query.IContainerRepository,UseCases.SharedServices.IWorkQueueService,UseCases.SharedServices.IBaseService)
+DA:9,1
+DA:10,1
+DA:11,1
+DA:12,1
+DA:13,1
+DA:14,1
+FN:16,System.Void UseCases.Features.GetWorkQueueQueryHandler/<Handle>d__4::MoveNext()
+FNDA:1,System.Void UseCases.Features.GetWorkQueueQueryHandler/<Handle>d__4::MoveNext()
+DA:17,1
+DA:18,1
+DA:19,1
+DA:21,1
+DA:23,1
+DA:24,1
+BRDA:19,192,0,0
+BRDA:19,192,1,1
+LF:12
+LH:12
+BRF:2
+BRH:1
+FNF:2
+FNH:2
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Features/User/Login/GetUserTokenValidation.cs
+FN:4,System.Void UseCases.Features.Login.GetUserTokenValidation::.ctor()
+FNDA:3,System.Void UseCases.Features.Login.GetUserTokenValidation::.ctor()
+DA:5,3
+DA:6,3
+DA:7,3
+DA:8,3
+DA:9,3
+DA:10,3
+DA:11,3
+DA:13,3
+DA:14,3
+DA:15,3
+DA:16,3
+DA:17,3
+DA:18,3
+LF:13
+LH:13
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Extensions/PropertyAccessorExtensionMethods.cs
+FN:4,System.Object UseCases.Extensions.PropertyAccessorExtensionMethods::Get(T,System.String)
+FNDA:8,System.Object UseCases.Extensions.PropertyAccessorExtensionMethods::Get(T,System.String)
+DA:5,8
+BRDA:5,19,0,0
+BRDA:5,19,1,8
+FN:5,System.Nullable`1<System.Int32> UseCases.Extensions.PropertyAccessorExtensionMethods::GetInt(T,System.String)
+FNDA:0,System.Nullable`1<System.Int32> UseCases.Extensions.PropertyAccessorExtensionMethods::GetInt(T,System.String)
+DA:6,0
+BRDA:6,19,0,0
+BRDA:6,19,1,0
+FN:6,System.String UseCases.Extensions.PropertyAccessorExtensionMethods::GetString(T,System.String)
+FNDA:0,System.String UseCases.Extensions.PropertyAccessorExtensionMethods::GetString(T,System.String)
+DA:7,0
+BRDA:7,19,0,0
+BRDA:7,19,1,0
+FN:7,System.Nullable`1<System.Double> UseCases.Extensions.PropertyAccessorExtensionMethods::GetDouble(T,System.String)
+FNDA:0,System.Nullable`1<System.Double> UseCases.Extensions.PropertyAccessorExtensionMethods::GetDouble(T,System.String)
+DA:8,0
+BRDA:8,19,0,0
+BRDA:8,19,1,0
+FN:8,System.Nullable`1<System.Decimal> UseCases.Extensions.PropertyAccessorExtensionMethods::GetDecimal(T,System.String)
+FNDA:0,System.Nullable`1<System.Decimal> UseCases.Extensions.PropertyAccessorExtensionMethods::GetDecimal(T,System.String)
+DA:9,0
+BRDA:9,19,0,0
+BRDA:9,19,1,0
+FN:9,System.Nullable`1<System.Boolean> UseCases.Extensions.PropertyAccessorExtensionMethods::GetBool(T,System.String)
+FNDA:0,System.Nullable`1<System.Boolean> UseCases.Extensions.PropertyAccessorExtensionMethods::GetBool(T,System.String)
+DA:10,0
+BRDA:10,19,0,0
+BRDA:10,19,1,0
+FN:10,System.Nullable`1<System.DateTime> UseCases.Extensions.PropertyAccessorExtensionMethods::GetDate(T,System.String)
+FNDA:0,System.Nullable`1<System.DateTime> UseCases.Extensions.PropertyAccessorExtensionMethods::GetDate(T,System.String)
+DA:11,0
+BRDA:11,30,0,0
+BRDA:11,30,1,0
+FN:12,System.Void UseCases.Extensions.PropertyAccessorExtensionMethods::SetValue(T,System.String,System.Object)
+FNDA:0,System.Void UseCases.Extensions.PropertyAccessorExtensionMethods::SetValue(T,System.String,System.Object)
+DA:13,0
+LF:8
+LH:1
+BRF:14
+BRH:1
+FNF:8
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Extensions/StringExtensionMethods.cs
+FN:4,System.String UseCases.Extensions.StringExtensionMethods::ToUpper(System.Object)
+FNDA:0,System.String UseCases.Extensions.StringExtensionMethods::ToUpper(System.Object)
+DA:5,0
+BRDA:5,1,0,0
+BRDA:5,1,1,0
+FN:5,System.Boolean UseCases.Extensions.StringExtensionMethods::IsEmptyOrWhiteSpace(System.String)
+FNDA:2,System.Boolean UseCases.Extensions.StringExtensionMethods::IsEmptyOrWhiteSpace(System.String)
+DA:6,2
+BRDA:6,6,0,2
+BRDA:6,6,1,0
+LF:2
+LH:1
+BRF:4
+BRH:1
+FNF:2
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Configuration/DatabaseOptions.cs
+FN:4,System.String UseCases.Dtos.DatabaseOptions::get_ConnectionString()
+FNDA:0,System.String UseCases.Dtos.DatabaseOptions::get_ConnectionString()
+DA:5,0
+FN:5,System.Int32 UseCases.Dtos.DatabaseOptions::get_MaxRetryCount()
+FNDA:0,System.Int32 UseCases.Dtos.DatabaseOptions::get_MaxRetryCount()
+DA:6,0
+FN:6,System.Int32 UseCases.Dtos.DatabaseOptions::get_CommandTimeout()
+FNDA:0,System.Int32 UseCases.Dtos.DatabaseOptions::get_CommandTimeout()
+DA:7,0
+FN:7,System.Boolean UseCases.Dtos.DatabaseOptions::get_EnableDetailedErrors()
+FNDA:0,System.Boolean UseCases.Dtos.DatabaseOptions::get_EnableDetailedErrors()
+DA:8,0
+FN:8,System.Boolean UseCases.Dtos.DatabaseOptions::get_EnableSensitiveDataLoggin()
+FNDA:0,System.Boolean UseCases.Dtos.DatabaseOptions::get_EnableSensitiveDataLoggin()
+DA:9,0
+LF:5
+LH:0
+BRF:0
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Configuration/StaticFileDto.cs
+FN:2,System.String UseCases.Dtos.StaticFileDto::get_Directory()
+FNDA:10,System.String UseCases.Dtos.StaticFileDto::get_Directory()
+DA:3,10
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Common/CommonRequestDto.cs
+FN:2,System.String UseCases.Dtos.CommonRequestDto::get_Parameters()
+FNDA:37,System.String UseCases.Dtos.CommonRequestDto::get_Parameters()
+DA:3,37
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Common/ContainerRequestDto.cs
+FN:1,Domain.ValueObjects.DriverID UseCases.Dtos.ContainerRequestDto::get_driverID()
+FNDA:62,Domain.ValueObjects.DriverID UseCases.Dtos.ContainerRequestDto::get_driverID()
+DA:2,62
+FN:2,System.Int32 UseCases.Dtos.ContainerRequestOldDto::get_ProNumber()
+FNDA:14,System.Int32 UseCases.Dtos.ContainerRequestOldDto::get_ProNumber()
+DA:3,14
+FN:3,System.String UseCases.Dtos.ContainerRequestOld2Dto::get_ProNumber()
+FNDA:0,System.String UseCases.Dtos.ContainerRequestOld2Dto::get_ProNumber()
+DA:4,0
+LF:3
+LH:2
+BRF:0
+BRH:0
+FNF:3
+FNH:2
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Common/DirectoryDto.cs
+FN:3,System.String UseCases.Dtos.DirectoryDto::get_BOL()
+FNDA:0,System.String UseCases.Dtos.DirectoryDto::get_BOL()
+DA:4,0
+FN:4,System.String UseCases.Dtos.DirectoryDto::get_INVOICE()
+FNDA:0,System.String UseCases.Dtos.DirectoryDto::get_INVOICE()
+DA:5,0
+FN:5,System.String UseCases.Dtos.DirectoryDto::get_ATTACHMENT()
+FNDA:0,System.String UseCases.Dtos.DirectoryDto::get_ATTACHMENT()
+DA:6,0
+FN:2,System.Void UseCases.Dtos.DirectoryDto::.ctor(System.String,System.String,System.String)
+FNDA:0,System.Void UseCases.Dtos.DirectoryDto::.ctor(System.String,System.String,System.String)
+DA:3,0
+DA:7,0
+LF:5
+LH:0
+BRF:0
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Common/DocumentRequestDto.cs
+FN:2,Domain.ValueObjects.OrderLogID UseCases.Dtos.DocumentRequestDto::get_orderLogId()
+FNDA:12,Domain.ValueObjects.OrderLogID UseCases.Dtos.DocumentRequestDto::get_orderLogId()
+DA:3,12
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Common/DriverDetailsDto.cs
+FN:4,System.Nullable`1<System.Int32> UseCases.Dtos.DriverDetailsDto::get_KEYSEQUENCE()
+FNDA:1,System.Nullable`1<System.Int32> UseCases.Dtos.DriverDetailsDto::get_KEYSEQUENCE()
+DA:5,1
+FN:6,System.Nullable`1<System.DateTime> UseCases.Dtos.DriverDetailsDto::get_CREATIONDATETIME()
+FNDA:0,System.Nullable`1<System.DateTime> UseCases.Dtos.DriverDetailsDto::get_CREATIONDATETIME()
+DA:7,0
+FN:7,System.String UseCases.Dtos.DriverDetailsDto::get_CREATIONUSERID()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_CREATIONUSERID()
+DA:8,0
+FN:8,System.Nullable`1<System.DateTime> UseCases.Dtos.DriverDetailsDto::get_LASTUPDATEDATETIME()
+FNDA:0,System.Nullable`1<System.DateTime> UseCases.Dtos.DriverDetailsDto::get_LASTUPDATEDATETIME()
+DA:9,0
+FN:9,System.String UseCases.Dtos.DriverDetailsDto::get_LASTUPDATEUSERID()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_LASTUPDATEUSERID()
+DA:10,0
+FN:10,System.String UseCases.Dtos.DriverDetailsDto::get_COMPANYID()
+FNDA:1,System.String UseCases.Dtos.DriverDetailsDto::get_COMPANYID()
+DA:11,1
+FN:12,System.String UseCases.Dtos.DriverDetailsDto::get_DRIVER_ID()
+FNDA:1,System.String UseCases.Dtos.DriverDetailsDto::get_DRIVER_ID()
+DA:13,1
+FN:13,System.String UseCases.Dtos.DriverDetailsDto::get_PAYROLL_ID()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_PAYROLL_ID()
+DA:14,0
+FN:14,System.String UseCases.Dtos.DriverDetailsDto::get_DRIVER_TYPE()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_DRIVER_TYPE()
+DA:15,0
+FN:15,System.Nullable`1<System.Int32> UseCases.Dtos.DriverDetailsDto::get_P_DRIVERCOMPANY()
+FNDA:0,System.Nullable`1<System.Int32> UseCases.Dtos.DriverDetailsDto::get_P_DRIVERCOMPANY()
+DA:16,0
+FN:16,System.String UseCases.Dtos.DriverDetailsDto::get_FNAME()
+FNDA:1,System.String UseCases.Dtos.DriverDetailsDto::get_FNAME()
+DA:17,1
+FN:18,System.String UseCases.Dtos.DriverDetailsDto::get_MI()
+FNDA:1,System.String UseCases.Dtos.DriverDetailsDto::get_MI()
+DA:19,1
+FN:19,System.String UseCases.Dtos.DriverDetailsDto::get_LNAME()
+FNDA:1,System.String UseCases.Dtos.DriverDetailsDto::get_LNAME()
+DA:20,1
+FN:20,System.String UseCases.Dtos.DriverDetailsDto::get_ADDRESS()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_ADDRESS()
+DA:21,0
+FN:21,System.String UseCases.Dtos.DriverDetailsDto::get_City()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_City()
+DA:22,0
+FN:22,System.String UseCases.Dtos.DriverDetailsDto::get_STATE()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_STATE()
+DA:23,0
+FN:24,System.String UseCases.Dtos.DriverDetailsDto::get_ZIP()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_ZIP()
+DA:25,0
+FN:25,System.String UseCases.Dtos.DriverDetailsDto::get_PHONE1()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_PHONE1()
+DA:26,0
+FN:26,System.String UseCases.Dtos.DriverDetailsDto::get_PHONE2()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_PHONE2()
+DA:27,0
+FN:27,System.Nullable`1<System.DateTime> UseCases.Dtos.DriverDetailsDto::get_BIRTH_DATE()
+FNDA:0,System.Nullable`1<System.DateTime> UseCases.Dtos.DriverDetailsDto::get_BIRTH_DATE()
+DA:28,0
+FN:28,System.String UseCases.Dtos.DriverDetailsDto::get_SSNO()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_SSNO()
+DA:29,0
+FN:30,System.String UseCases.Dtos.DriverDetailsDto::get_FEDERAL_ID()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_FEDERAL_ID()
+DA:31,0
+FN:31,System.Nullable`1<System.DateTime> UseCases.Dtos.DriverDetailsDto::get_HIRE_DATE()
+FNDA:0,System.Nullable`1<System.DateTime> UseCases.Dtos.DriverDetailsDto::get_HIRE_DATE()
+DA:32,0
+FN:32,System.Nullable`1<System.DateTime> UseCases.Dtos.DriverDetailsDto::get_TER_DATE()
+FNDA:0,System.Nullable`1<System.DateTime> UseCases.Dtos.DriverDetailsDto::get_TER_DATE()
+DA:33,0
+FN:33,System.String UseCases.Dtos.DriverDetailsDto::get_LIC_NO()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_LIC_NO()
+DA:34,0
+FN:34,System.String UseCases.Dtos.DriverDetailsDto::get_LIC_STATE()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_LIC_STATE()
+DA:35,0
+FN:36,System.Nullable`1<System.DateTime> UseCases.Dtos.DriverDetailsDto::get_LIC_EXP_DATE()
+FNDA:0,System.Nullable`1<System.DateTime> UseCases.Dtos.DriverDetailsDto::get_LIC_EXP_DATE()
+DA:37,0
+FN:37,System.Nullable`1<System.DateTime> UseCases.Dtos.DriverDetailsDto::get_NEXTEXAM_DATE()
+FNDA:0,System.Nullable`1<System.DateTime> UseCases.Dtos.DriverDetailsDto::get_NEXTEXAM_DATE()
+DA:38,0
+FN:38,System.String UseCases.Dtos.DriverDetailsDto::get_AUTHOR_STATES()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_AUTHOR_STATES()
+DA:39,0
+FN:39,System.String UseCases.Dtos.DriverDetailsDto::get_INS_CO_NAME()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_INS_CO_NAME()
+DA:40,0
+FN:40,System.String UseCases.Dtos.DriverDetailsDto::get_INS_ID()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_INS_ID()
+DA:41,0
+FN:42,System.String UseCases.Dtos.DriverDetailsDto::get_INS_TYPE()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_INS_TYPE()
+DA:43,0
+FN:43,System.String UseCases.Dtos.DriverDetailsDto::get_STATUS()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_STATUS()
+DA:44,0
+FN:44,System.String UseCases.Dtos.DriverDetailsDto::get_NOTE()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_NOTE()
+DA:45,0
+FN:45,System.String UseCases.Dtos.DriverDetailsDto::get_TRUCK_MAKER()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_TRUCK_MAKER()
+DA:46,0
+FN:46,System.String UseCases.Dtos.DriverDetailsDto::get_TRUCK_MODEL()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_TRUCK_MODEL()
+DA:47,0
+FN:48,System.String UseCases.Dtos.DriverDetailsDto::get_TRUCK_VIN()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_TRUCK_VIN()
+DA:49,0
+FN:49,System.String UseCases.Dtos.DriverDetailsDto::get_TRUCK_WEIGHT()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_TRUCK_WEIGHT()
+DA:50,0
+FN:50,System.String UseCases.Dtos.DriverDetailsDto::get_TYPE()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_TYPE()
+DA:51,0
+FN:51,System.String UseCases.Dtos.DriverDetailsDto::get_LICPLATE()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_LICPLATE()
+DA:52,0
+FN:52,System.String UseCases.Dtos.DriverDetailsDto::get_UNIFORM()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_UNIFORM()
+DA:53,0
+FN:54,System.String UseCases.Dtos.DriverDetailsDto::get_W_COMP()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_W_COMP()
+DA:55,0
+FN:55,System.String UseCases.Dtos.DriverDetailsDto::get_LOAN_REPYT()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_LOAN_REPYT()
+DA:56,0
+FN:56,System.String UseCases.Dtos.DriverDetailsDto::get_EARNINGS_ADJ()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_EARNINGS_ADJ()
+DA:57,0
+FN:57,System.String UseCases.Dtos.DriverDetailsDto::get_INSURANCE()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_INSURANCE()
+DA:58,0
+FN:58,System.Nullable`1<System.Boolean> UseCases.Dtos.DriverDetailsDto::get_PayExclude()
+FNDA:0,System.Nullable`1<System.Boolean> UseCases.Dtos.DriverDetailsDto::get_PayExclude()
+DA:59,0
+FN:60,System.String UseCases.Dtos.DriverDetailsDto::get_DirectDep()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_DirectDep()
+DA:61,0
+FN:61,System.String UseCases.Dtos.DriverDetailsDto::get_INSUR_OCC_ACC()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_INSUR_OCC_ACC()
+DA:62,0
+FN:62,System.String UseCases.Dtos.DriverDetailsDto::get_ELD_SEC_DEPOSIT()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_ELD_SEC_DEPOSIT()
+DA:63,0
+FN:63,System.String UseCases.Dtos.DriverDetailsDto::get_ELD_USAGE_FEE()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_ELD_USAGE_FEE()
+DA:64,0
+FN:64,System.String UseCases.Dtos.DriverDetailsDto::get_NTLInsur()
+FNDA:0,System.String UseCases.Dtos.DriverDetailsDto::get_NTLInsur()
+DA:65,0
+FN:66,System.String UseCases.Dtos.DriverDetailsDto::get_UserID()
+FNDA:2,System.String UseCases.Dtos.DriverDetailsDto::get_UserID()
+DA:67,2
+LF:52
+LH:7
+BRF:0
+BRH:0
+FNF:52
+FNH:7
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Common/ErrorMessage.cs
+FN:4,System.String UseCases.Dtos.ErrorMessage::get_Code()
+FNDA:37,System.String UseCases.Dtos.ErrorMessage::get_Code()
+DA:5,37
+FN:5,System.String UseCases.Dtos.ErrorMessage::get_Title()
+FNDA:0,System.String UseCases.Dtos.ErrorMessage::get_Title()
+DA:6,0
+FN:6,System.String UseCases.Dtos.ErrorMessage::get_Details()
+FNDA:67,System.String UseCases.Dtos.ErrorMessage::get_Details()
+DA:7,67
+FN:7,System.String UseCases.Dtos.ErrorMessage::get_URL()
+FNDA:0,System.String UseCases.Dtos.ErrorMessage::get_URL()
+DA:8,0
+LF:4
+LH:2
+BRF:0
+BRH:0
+FNF:4
+FNH:2
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Common/FileInformationDto.cs
+FN:2,System.String UseCases.Dtos.FileInfoDto::get_FileParentFolder()
+FNDA:41,System.String UseCases.Dtos.FileInfoDto::get_FileParentFolder()
+DA:3,41
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Common/ImageSize.cs
+FN:4,System.Int32 UseCases.Dtos.ImageSize::get_Height()
+FNDA:0,System.Int32 UseCases.Dtos.ImageSize::get_Height()
+DA:5,0
+FN:5,System.Int32 UseCases.Dtos.ImageSize::get_Width()
+FNDA:0,System.Int32 UseCases.Dtos.ImageSize::get_Width()
+DA:6,0
+LF:2
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Common/TemplatePathsDto.cs
+FN:1,System.String UseCases.Dtos.TemplatePathsDto::get_BOL()
+FNDA:0,System.String UseCases.Dtos.TemplatePathsDto::get_BOL()
+DA:2,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Containers/BeginMoveEmailContentDto.cs
+FN:4,System.String UseCases.Dtos.BeginMoveEmailContentDto::get_WAREHOUSE()
+FNDA:2,System.String UseCases.Dtos.BeginMoveEmailContentDto::get_WAREHOUSE()
+DA:5,2
+FN:5,System.String UseCases.Dtos.BeginMoveEmailContentDto::get_CONSIGNEE()
+FNDA:2,System.String UseCases.Dtos.BeginMoveEmailContentDto::get_CONSIGNEE()
+DA:6,2
+LF:2
+LH:2
+BRF:0
+BRH:0
+FNF:2
+FNH:2
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Containers/ContainerDocumentDto.cs
+FN:2,Domain.ValueObjects.DocumentID UseCases.Dtos.ContainerDocumentDto::get_documentID()
+FNDA:0,Domain.ValueObjects.DocumentID UseCases.Dtos.ContainerDocumentDto::get_documentID()
+DA:3,0
+FN:3,System.Int32 UseCases.Dtos.DocumentResponseDto::get_DocumentID()
+FNDA:6,System.Int32 UseCases.Dtos.DocumentResponseDto::get_DocumentID()
+DA:4,6
+LF:2
+LH:1
+BRF:0
+BRH:0
+FNF:2
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Containers/DocumentDetailAndPODto.cs
+FN:1,Domain.ModelsCustom.DriverContainerModel UseCases.Dtos.DocumentDetailAndPODto::get_Instructions()
+FNDA:0,Domain.ModelsCustom.DriverContainerModel UseCases.Dtos.DocumentDetailAndPODto::get_Instructions()
+DA:2,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Containers/DocumentSubmitRequestDto.cs
+FN:2,System.Int32 UseCases.Dtos.DocumentSubmitRequestDto::get_ProNumber()
+FNDA:54,System.Int32 UseCases.Dtos.DocumentSubmitRequestDto::get_ProNumber()
+DA:3,54
+FN:3,System.Int32 UseCases.Dtos.DocumentSubmitRequestDto::get_DriverID()
+FNDA:3,System.Int32 UseCases.Dtos.DocumentSubmitRequestDto::get_DriverID()
+DA:4,3
+FN:4,System.String UseCases.Dtos.DocumentSubmitRequestDto::get_LegType()
+FNDA:47,System.String UseCases.Dtos.DocumentSubmitRequestDto::get_LegType()
+DA:5,47
+FN:5,System.String UseCases.Dtos.DocumentSubmitRequestDto::get_ReceivedBy()
+FNDA:17,System.String UseCases.Dtos.DocumentSubmitRequestDto::get_ReceivedBy()
+DA:6,17
+FN:6,System.Nullable`1<System.DateTime> UseCases.Dtos.DocumentSubmitRequestDto::get_ReceiveDate()
+FNDA:4,System.Nullable`1<System.DateTime> UseCases.Dtos.DocumentSubmitRequestDto::get_ReceiveDate()
+DA:7,4
+FN:7,System.String UseCases.Dtos.DocumentSubmitRequestDto::get_InTime()
+FNDA:15,System.String UseCases.Dtos.DocumentSubmitRequestDto::get_InTime()
+DA:8,15
+FN:8,System.String UseCases.Dtos.DocumentSubmitRequestDto::get_OutTime()
+FNDA:15,System.String UseCases.Dtos.DocumentSubmitRequestDto::get_OutTime()
+DA:9,15
+FN:9,System.String UseCases.Dtos.DocumentSubmitRequestDto::get_MiscellaneousNote()
+FNDA:3,System.String UseCases.Dtos.DocumentSubmitRequestDto::get_MiscellaneousNote()
+DA:10,3
+FN:10,System.String UseCases.Dtos.DocumentSubmitRequestDto::get_ImagesInBase64()
+FNDA:25,System.String UseCases.Dtos.DocumentSubmitRequestDto::get_ImagesInBase64()
+DA:11,25
+FN:1,System.Void UseCases.Dtos.DocumentSubmitRequestDto::.ctor(System.Int32,System.Int32,System.String,System.String,System.Nullable`1<System.DateTime>,System.String,System.String,System.String,System.String)
+FNDA:17,System.Void UseCases.Dtos.DocumentSubmitRequestDto::.ctor(System.Int32,System.Int32,System.String,System.String,System.Nullable`1<System.DateTime>,System.String,System.String,System.String,System.String)
+DA:2,17
+DA:12,17
+LF:11
+LH:11
+BRF:0
+BRH:0
+FNF:10
+FNH:10
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Containers/PODto.cs
+FN:1,System.String UseCases.Dtos.PODto::get_PONumber()
+FNDA:0,System.String UseCases.Dtos.PODto::get_PONumber()
+DA:2,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Security/CorsSettings.cs
+FN:8,System.String UseCases.Dtos.CorsSettings::get_AllowedOrigin()
+FNDA:0,System.String UseCases.Dtos.CorsSettings::get_AllowedOrigin()
+DA:9,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Security/EmailConfiguration.cs
+FN:3,System.String UseCases.Dtos.EmailConfiguration::get_Email()
+FNDA:0,System.String UseCases.Dtos.EmailConfiguration::get_Email()
+DA:4,0
+FN:4,System.String UseCases.Dtos.EmailConfiguration::get_Password()
+FNDA:0,System.String UseCases.Dtos.EmailConfiguration::get_Password()
+DA:5,0
+FN:5,System.String UseCases.Dtos.EmailConfiguration::get_SMTPServer()
+FNDA:0,System.String UseCases.Dtos.EmailConfiguration::get_SMTPServer()
+DA:6,0
+FN:6,System.String UseCases.Dtos.EmailConfiguration::get_EmailCC()
+FNDA:0,System.String UseCases.Dtos.EmailConfiguration::get_EmailCC()
+DA:7,0
+FN:7,System.String UseCases.Dtos.EmailConfiguration::get_EmailBCC()
+FNDA:0,System.String UseCases.Dtos.EmailConfiguration::get_EmailBCC()
+DA:8,0
+FN:8,System.String UseCases.Dtos.EmailConfiguration::get_POD_Email_Title()
+FNDA:0,System.String UseCases.Dtos.EmailConfiguration::get_POD_Email_Title()
+DA:9,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Security/EmailLoginTokenDto.cs
+FN:4,System.String UseCases.Dtos.EmailLoginTokenDto::get_container()
+FNDA:1,System.String UseCases.Dtos.EmailLoginTokenDto::get_container()
+DA:5,1
+FN:5,System.String UseCases.Dtos.EmailLoginTokenDto::get_state()
+FNDA:1,System.String UseCases.Dtos.EmailLoginTokenDto::get_state()
+DA:6,1
+FN:6,System.Int32 UseCases.Dtos.EmailLoginTokenDto::get_is_warehouse()
+FNDA:1,System.Int32 UseCases.Dtos.EmailLoginTokenDto::get_is_warehouse()
+DA:7,1
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Security/LoginRequestDto.cs
+FN:2,System.String UseCases.Dtos.LoginRequestDto::get_UserId()
+FNDA:11,System.String UseCases.Dtos.LoginRequestDto::get_UserId()
+DA:3,11
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Security/LoginResponseDto.cs
+FN:2,System.String UseCases.Dtos.LoginResponseDto::get_token()
+FNDA:4,System.String UseCases.Dtos.LoginResponseDto::get_token()
+DA:3,4
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Security/LogoutRequestDto.cs
+FN:2,System.String UseCases.Dtos.LogoutRequestDto::get_UserId()
+FNDA:0,System.String UseCases.Dtos.LogoutRequestDto::get_UserId()
+DA:3,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Security/SessionUserDto.cs
+FN:3,Domain.ValueObjects.UserID UseCases.Dtos.SessionUserDto::get_userID()
+FNDA:116,Domain.ValueObjects.UserID UseCases.Dtos.SessionUserDto::get_userID()
+DA:4,116
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/mehedimayall/PROJECTS/IMF/APP/DriverApp_API/src/UseCases/Dtos/Security/TokenManagementDto.cs
+FN:8,System.String UseCases.Dtos.TokenManagementDto::get_Secret()
+FNDA:3,System.String UseCases.Dtos.TokenManagementDto::get_Secret()
+DA:9,3
+FN:11,System.String UseCases.Dtos.TokenManagementDto::get_Issuer()
+FNDA:2,System.String UseCases.Dtos.TokenManagementDto::get_Issuer()
+DA:12,2
+FN:14,System.String UseCases.Dtos.TokenManagementDto::get_Audience()
+FNDA:2,System.String UseCases.Dtos.TokenManagementDto::get_Audience()
+DA:15,2
+FN:17,System.Int32 UseCases.Dtos.TokenManagementDto::get_AccessExpiration()
+FNDA:2,System.Int32 UseCases.Dtos.TokenManagementDto::get_AccessExpiration()
+DA:18,2
+FN:20,System.Int32 UseCases.Dtos.TokenManagementDto::get_RefreshExpiration()
+FNDA:1,System.Int32 UseCases.Dtos.TokenManagementDto::get_RefreshExpiration()
+DA:21,1
+LF:5
+LH:5
+BRF:0
+BRH:0
+FNF:5
+FNH:5
+end_of_record

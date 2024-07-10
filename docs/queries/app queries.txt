@@ -1,0 +1,13 @@
+SELECT PO.* FROM PurchaseOrder PO
+LEFT JOIN OrderLog O ON PO.OrderLogId = O.OrderLogId 
+WHERE O.Pro =27510
+
+SELECT  O.Pro AS ProNumber, OD.OrderLogId, OD.CompanyId, OD.DocId, OD.DocNamePro, OD.SubFolder 
+FROM OrderLogDoc OD
+LEFT JOIN OrderLog O ON OD.OrderLogId = O.OrderLogId 
+WHERE O.Pro = 27510 AND DocID = 10 AND OD.CompanyId = 19;
+
+
+SELECT o.Pro, PO.* FROM PurchaseOrder PO
+INNER JOIN OrderLog O ON PO.OrderLogId = O.OrderLogId 
+WHERE O.Pro IN (26036,26055,25445,25758,25754,26060,25728,26220,26238,26240,26236,26237,25938,26190,25745)

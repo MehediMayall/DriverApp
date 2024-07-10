@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PROOF OF DELIVERY</title>
+
+    <style>
+
+        #materials {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+            #materials td, #materials th {
+                border: 1px solid #1E1E1E;
+                padding: 8px;
+            }
+
+            #materials tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            #materials th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: center;
+                background-color: white;
+                color: black;
+                font-size: 14px;
+            }
+
+            #materials td {
+                font-size: 14px;
+            }
+
+        span.letterHead {
+            display: inline-block;
+            vertical-align: middle;
+            height: 100px;
+            padding: 5px;
+        }
+
+        .table{
+            border: 1px solid black;
+            padding: 15px;
+            width: 100%;
+        }
+
+        .table td.caption{
+            width:14%;
+            font-weight: bold;
+        }
+
+        .table td.value{
+            width:30%;
+        }
+
+        .box{border:1px solid black;padding: 10px;}
+        .mt-1{margin-top: 5px;}
+        .mt-2{margin-top: 10px;}
+        .mt-3{margin-top: 15px;}
+
+    </style>
+</head>
+
+<body>
+
+
+    <!-- HEADER  -->
+
+    <div style="max-width: 100%; border: 1px solid white;height: 80px;">
+        <div class="letterHead" style="text-align: center;">
+            <p style="font-size: 20pt; font-weight: bold; margin:0px;">STRAIGHT BILL OF LADING</p>
+            <span style="font-weight: bold;font-size: 14px;">Original - Not Negotiable</span>
+        </div>      
+        
+        <div style="position: fixed; top:10px;right:10px; width:200px;border:1px solid black;padding:10px; font-weight: bold;">
+            <div> PRO# <span style="font-size:18px;font-weight:bold;float:right;">282396</span> </div>
+            <div style="margin-top:5px"> LOAD TYPE: <span style="font-size:12px;font-weight:bold;float:right; ">Import</span> </div>
+        </div>
+    </div>
+
+
+    <div style="margin-top:10px;width: 100%;display: inline-block;">
+       <p style="width:150px;float:left;">Name of Carrier:</p>   
+       <p style="width:600px; float:left;padding-bottom: 5px; border-bottom: 1px solid black;">Heavy Weight Transport,Inc.</p>
+    </div>
+
+
+    <div style="width:100%">
+        RECEIVED, subject to individually determined rates or contracts that have been agreed upon in writing between the carrier and shipper, if applicable,
+otherwise to the terms and conditions of carriers bill of lading, rates, classifications and rules that have been established by the carrier and are
+available to the shipper, on request; All shipments are unless otherwise noted that the carrier observe the loading
+    </div>
+
+    <div style="margin-top:2px;width: 100%;display: inline-block;">
+        <p style="width:150px;float:left;">From / To Terminal:</p>   
+        <p style="width:600px; float:left;padding-bottom: 5px; border-bottom: 1px solid black;">MAHER B64</p>
+     </div>
+    <div style="margin-top:2px;width: 100%;display: inline-block;">
+        <p style="width:150px;float:left;">Steamshipline:</p>   
+        <p style="width:600px; float:left;padding-bottom: 5px; border-bottom: 1px solid black;">IMFI-Ocean Carrier</p>
+     </div>
+
+    
+     <div style="width:100%">
+the property described below, in apparent good order, except as noted (contents and condition of contents of packages unknown) marked, consigned,
+and destined as shown below, which said carrier agrees to carry to destination, if on its route, or otherwise to deliver to another carrier on the route to
+destination. Every service to be performed hereunder shall be subject to all the conditions not prohibited by law, whether printed or written, herein
+contained, including the conditions set forth in carrier's tariff, which are hereby agreed to by the shipper and accepted for himself and his assigns.
+     </div>
+
+
+     <div style="margin-top:2px;width: 100%;display: inline-block;">
+        <p style="width:150px;float:left;">Consignee/Warehouse:</p>   
+        <p style="width:600px; float:left;padding-bottom: 5px; border-bottom: 1px solid black;">IMFI-Consignee</p>
+     </div>
+ 
+
+     <table class="table">
+         <tr>
+             <td class="caption">CONTAINER# </td>
+             <td class="value">UETU-512557-4</td>
+             <td class="caption">CONT. SIZE/TYPE </td>
+             <td class="value">40 Hi-Cube</td>
+         </tr>
+         <tr>
+             <td class="caption">B/L# </td>
+             <td class="value">OOLU2639287500</td>
+             <td class="caption">WEIGHT</td>
+             <td class="value">15520 lbs</td>
+         </tr>
+         <tr>
+             <td class="caption">P.O.# </td>
+             <td class="value">5565</td>
+             <td class="caption">SEAL</td>
+             <td class="value">AD290489</td>
+         </tr>
+         <tr>
+             <td class="caption">P/U (RAIL/WAREHOUSE)# </td>
+             <td class="value"></td>
+             <td class="caption">OTHER REF.#</td>
+             <td class="value"></td>
+         </tr>
+
+         <tr>
+            <td class="caption">SCH. DELIVERY DATE: </td>
+            <td class="value"></td>
+            <td class="caption">APPOINTMENT TIME:</td>
+            <td class="value">140624</td>
+        </tr>
+
+         <tr>
+            <td class="caption">DRIVER PICKUP: </td>
+            <td class="value">Imfi </td>
+            <td class="caption">DRIVER DELIVERY</td>
+            <td class="value">Alfredo Guerra</td>
+        </tr>
+
+         <tr>
+            <td class="caption">CHASSIS# </td>
+            <td class="value"></td>
+            <td class="caption">VESSEL:</td>
+            <td class="value">IMFI-Vessel</td>
+        </tr>
+
+         <tr>
+            <td class="caption">COMMODITY: </td>
+            <td class="value">CONSTRUCTION ELEMENTS</td>
+            <td class="caption">ENTRY#</td>
+            <td class="value"></td>
+        </tr>
+     </table>
+
+     
+     <div class="box mt-2">
+         <span>B/L NOTE:</span>         
+     </div>
+     
+
+     <div class="mt-2" style="width:100%;display:inline-block">
+        <div style="width:60%;float: left;">
+            NOTE (1) Where the rate is dependent on value, shippers are required to state
+            specifically in writing the agreed or declared value of the property as follows:
+            "The agreed or declared value for the property is specifically stated by the shipper to
+            be not exceeding _______ per _______."
+            NOTE (2) Liability Limitation of or loss or damage on this shipment may be
+            applicable. See 49 U.S.C. 14706(c) (1) (A) and (B)
+            NOTE (3) Commodities requiring special or additional care or attention in handling or
+            stowing must be so marked and packages as to ensure safe transportation with
+            ordinary care. See Sec. 2 (e) of NMFC Item 360. 
+            
+        </div>
+        <div style="width:38%;float: left;margin-left:1%;">
+        
+            <div style="border:1px solid black">
+                <div style="border:1px solid black;margin:1px">
+                    Freight charges are PREPAID unless marked collect
+
+                    <p class="mt-1">CHECK BOX IF COLLECT [ ] </p>
+                    <p class="mt-1"> FOR FREIGHT COLLECT SHIPMENTS:</p>
+
+                    <p class="mt-3">If this shipment is to be delivered to the
+                        consignee, without recourse on the consignor,
+                        the consignor shall sign the following statement:</p>
+                </div>
+            </div>
+
+        </div>
+     </div>
+
+     <div class="mt-3" style="width:97%;display:inline-block; border:3px solid black;padding: 10px  15px;">
+        <span style="font-weight: bold;"> DRIVER MUST FILL IN THE TIMES BEFORE OBTAINING
+            - AUTHORIZED SIGNATURE OF RECEIVING/LOADING -
+        </span>
+     </div>
+
+
+     <!-- INFORMATION -->
+
+     <div class="mt-3" style="width:97%;display:inline-block; border:3px solid black;padding: 10px  15px;">
+        
+        <table>
+            <tr>
+                <td style="width: 150px;">Received by:</td>
+                <td style="width: 350px;">[RECEIVED_BY]</td>
+                <td style="width: 150px;">Received Date:</td>
+                <td style="width: 250px;">[RECEIVED_DATE]</td>
+            </tr>
+            <tr>
+                <td style="width: 150px;">In Time:</td>
+                <td style="width: 350px;">[IN_TIME]</td>
+                <td style="width: 150px;">Out Time:</td>
+                <td style="width: 250px;">[OUT_TIME]</td>
+            </tr>
+            <tr>
+                <td style="width: 150px;">Misc. Note</td>
+                <td colspan="3">[MISC_NOTE]</td>
+                
+            </tr>
+        </table>
+        
+     </div>
+
+<div class="mt-3" style="width:97%;display:inline-block; padding: 10px  15px;">
+	This authoritative straight bill of lading ("Bill of Lading") shall be held by the Carrier until the Carrier delivers the property described herein to the Consignee/Warehouse, at which time this Bill of Lading shall transfer to Consignee/Warehouse upon the Consignee/Warehouse's signature hereupon.  The Consignee/Warehouse shall then be in sole control of this Bill of Lading and all other versions shall be deemed copies.  Notwithstanding any of the foregoing, this Bill of Lading shall only be transferred upon a valid signature (including electronic signatures) made in accordance with U.C.C. Article 7, Section 101, et seq.
+</div>
+
+     <!-- SIGNATURE -->
+
+     <div class="mt-3" style="width:97%;display:inline-block; border:3px solid black;padding: 10px  15px;">
+        <h3>Signature:</h3>
+        <img src='data:image/png;base64,[SIGNATURE]' />         
+    </div>
+<div class="mt-3" style='margin-top:50px'>[IMAGES]</div>
+
+</body>
+</html>
